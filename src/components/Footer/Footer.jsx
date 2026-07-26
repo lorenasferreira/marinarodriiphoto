@@ -13,7 +13,20 @@ function Footer() {
             className="footer-logo"
           />
 
-          <span className="footer-copy">© {currentYear} Mari Rodrigues</span>
+          <div className="footer-text">
+            <span className="footer-copy">
+              © {currentYear} Mari Rodrigues. All rights reserved.
+            </span>
+
+            <a
+              href="https://lorenaferreira.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-credit"
+            >
+              Website designed &amp; developed by Lorena Ferreira
+            </a>
+          </div>
         </div>
 
         <div className="footer-right">
