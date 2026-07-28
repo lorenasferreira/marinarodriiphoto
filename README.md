@@ -1,12 +1,13 @@
-# Marina Rodrii Photo | Cinematic Photography
+<h1 align="center">
+  Marina Rodrii Photo | Cinematic Photography
+</h1>
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-
-![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
-
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript)
-
-![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" />
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript" />
+  <img src="https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel" />
+</p>
 
 Official website for photographer Marina Rodrigues, focused on cinematic photography, emotional storytelling, and a clean visual experience.
 
