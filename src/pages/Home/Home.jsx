@@ -4,12 +4,12 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 const desktopImages = [
-  "/assets/images/hero-desktop/hero-01.jpg",
+  "/assets/images/hero-desktop/hero-01.webp",
   "/assets/images/hero-desktop/hero-02.jpg",
   "/assets/images/hero-desktop/hero-03.jpg",
   "/assets/images/hero-desktop/hero-04.jpg",
   "/assets/images/hero-desktop/hero-05.jpg",
-  "/assets/images/hero-desktop/hero-06.jpg",
+  "/assets/images/hero-desktop/hero-06.webp",
 ];
 
 const mobileImages = [
