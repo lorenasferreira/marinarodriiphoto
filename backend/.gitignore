@@ -1,4 +1,10 @@
 HELP.md
+.vite/
+**/.vite/
+**/node_modules/
+**/target/
+.env
+**/.env
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
