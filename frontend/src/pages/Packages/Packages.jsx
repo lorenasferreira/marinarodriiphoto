@@ -2,35 +2,17 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "./Packages.css";
 
-const portfolioImages = import.meta.glob(
-  "../../assets/images/portfolio/**/*.{jpg,JPG,jpeg,JPEG,webp,WEBP,png,PNG}",
-  {
-    eager: true,
-    import: "default",
-  },
-);
-
-function findPortfolioImage(category, filename) {
-  const imageEntry = Object.entries(portfolioImages).find(([path]) =>
-    path.endsWith(`/portfolio/${category}/${filename}`),
-  );
-
-  return imageEntry?.[1] ?? "";
-}
-
 function Packages() {
   const { t } = useTranslation();
 
-  const publicityImage = findPortfolioImage("publicity", "publicity-01.webp");
+  const publicityImage = "/assets/images/portfolio/publicity/publicity-01.webp";
 
-  const btsImage = findPortfolioImage("events-bts", "bts-02.jpg");
+  const btsImage = "/assets/images/portfolio/events-bts/bts-02.jpg";
 
-  const portraitImage = findPortfolioImage("portraits", "portrait-01.jpg");
+  const portraitImage = "/assets/images/portfolio/portraits/portrait-01.jpg";
 
-  const editorialImage = findPortfolioImage(
-    "editorial-artistic",
-    "editorial-01.jpg",
-  );
+  const editorialImage =
+    "/assets/images/portfolio/editorial-artistic/editorial-01.jpg";
 
   return (
     <main className="page page--packages">

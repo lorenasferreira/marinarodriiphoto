@@ -10,46 +10,35 @@ const allowedTypes = [
   "portraits",
 ];
 
-/*
-  O Vite encontra todas as imagens do portfólio durante o build.
+function createImageList(prefix, extension, total) {
+  return Array.from({ length: total }, (_, index) => {
+    const number = String(index + 1).padStart(2, "0");
 
-  eager: true
-  = importa tudo imediatamente.
-
-  import: "default"
-  = retorna diretamente a URL final de cada imagem.
-*/
-const portfolioFiles = import.meta.glob(
-  "../../assets/images/portfolio/**/*.{jpg,JPG,jpeg,JPEG,webp,WEBP,png,PNG}",
-  {
-    eager: true,
-    import: "default",
-  },
-);
-
-function getFilename(path) {
-  return path.split("/").pop();
-}
-
-function getCategoryFromPath(path) {
-  const parts = path.split("/");
-  const portfolioIndex = parts.indexOf("portfolio");
-
-  return parts[portfolioIndex + 1];
-}
-
-function isHeroImage(path) {
-  const filename = getFilename(path).toLowerCase();
-
-  return ["hero.jpg", "hero.jpeg", "hero.webp", "hero.png"].includes(filename);
-}
-
-function sortImages([pathA], [pathB]) {
-  return pathA.localeCompare(pathB, undefined, {
-    numeric: true,
-    sensitivity: "base",
+    return `${prefix}-${number}.${extension}`;
   });
 }
+
+const categoryImages = {
+  publicity: {
+    hero: "hero.webp",
+    images: createImageList("publicity", "webp", 6),
+  },
+
+  "events-bts": {
+    hero: "hero.jpg",
+    images: createImageList("bts", "jpg", 6),
+  },
+
+  "editorial-artistic": {
+    hero: "hero.jpg",
+    images: createImageList("editorial", "jpg", 59),
+  },
+
+  portraits: {
+    hero: "hero.jpg",
+    images: createImageList("portrait", "jpg", 25),
+  },
+};
 
 function Category() {
   const { type } = useParams();
@@ -58,7 +47,9 @@ function Category() {
   const isValidType = allowedTypes.includes(type);
 
   useEffect(() => {
-    if (!isValidType) return;
+    if (!isValidType) {
+      return;
+    }
 
     document.title = `${t(`portfolio.${type}.title`)} — Mari Rodrigues`;
   }, [isValidType, t, type]);
@@ -77,21 +68,23 @@ function Category() {
   const previousType = allowedTypes[previousIndex];
   const nextType = allowedTypes[nextIndex];
 
-  const categoryFiles = Object.entries(portfolioFiles)
-    .filter(([path]) => getCategoryFromPath(path) === type)
-    .sort(sortImages);
+  const category = categoryImages[type];
 
-  const heroEntry = categoryFiles.find(([path]) => isHeroImage(path));
+  const basePath = `/assets/images/portfolio/${type}`;
 
-  const galleryImages = categoryFiles.filter(([path]) => !isHeroImage(path));
-
-  const heroSrc = heroEntry?.[1];
+  const heroSrc = `${basePath}/${category.hero}`;
 
   return (
     <main className="portfolio-category">
       <section className="category-hero">
         <div className="hero-image">
-          {heroSrc && <img src={heroSrc} alt={t(`portfolio.${type}.title`)} />}
+          <img
+            src={heroSrc}
+            alt={t(`portfolio.${type}.title`)}
+            onError={(event) => {
+              event.currentTarget.style.display = "none";
+            }}
+          />
         </div>
 
         <div className="hero-text">
@@ -106,9 +99,16 @@ function Category() {
       </section>
 
       <section className="category-gallery">
-        {galleryImages.map(([path, imageUrl]) => (
-          <figure className="gallery-item" key={path}>
-            <img src={imageUrl} alt="" loading="lazy" />
+        {category.images.map((filename) => (
+          <figure className="gallery-item" key={filename}>
+            <img
+              src={`${basePath}/${filename}`}
+              alt=""
+              loading="lazy"
+              onError={(event) => {
+                event.currentTarget.closest("figure").style.display = "none";
+              }}
+            />
           </figure>
         ))}
       </section>
