@@ -29,3 +29,7 @@ dist-ssr
 **/node_modules/
 .vite/
 **/.vite/
+.vercel
+.env*
+dist
+dist/
