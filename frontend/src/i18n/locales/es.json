@@ -6,12 +6,12 @@
   "nav.contact": "Contacto",
 
   "hero.script": "el arte del cine",
-  "hero.title": "Mari Rodrigues",
-  "hero.subtitle": "Fotografía Urbana Cinematográfica",
+  "hero.title": "Marina Rodrigues",
+  "hero.subtitle": "Cinematográfica · Editorial · Fotografía",
   "hero.description": "Mi trabajo nace de la luz, la atmósfera y la honestidad. Capturo momentos cinematográficos de la vida cotidiana — íntimos, emocionales y silenciosamente poderosos.",
-  "hero.cta": "Ver portafolio",
+  "hero.cta": "Explorar portfolio",
 
-  "about.meta.title": "Sobre mí — Mari Rodrigues Photography",
+  "about.meta.title": "Sobre mí — Marina Rodrigues Photography",
 
   "about.hero.greeting": "Hola,",
   "about.hero.name": "soy Marina.",
@@ -43,7 +43,7 @@
   "about.cta.text": "Si conectas con esta forma de ver y crear, me encantaría saber de ti. Dondequiera que estés, creemos algo significativo juntos.",
   "about.cta.button": "Hablemos",
 
-  "packages.meta.title": "Paquetes Fotográficos — Mari Rodrigues",
+  "packages.meta.title": "Paquetes Fotográficos — Marina Rodrigues",
 
   "packages.hero.title_line1": "Explora los",
   "packages.hero.title_line2": "Paquetes",
@@ -59,7 +59,7 @@
 
   "packages.editorial.title": "Editorial / Artístico",
   "packages.editorial.alt": "Sesiones fotográficas editoriales y artísticas",
-  "contact.meta.title": "Contacto — Mari Rodrigues",
+  "contact.meta.title": "Contacto — Marina Rodrigues",
 
   "contact.hero.title": "Conectemos",
   "contact.hero.lead": "Cuéntame un poco sobre ti y lo que tienes en mente.",
@@ -88,5 +88,11 @@
 
   "portfolio.portraits.title": "RETRATOS",
   "portfolio.portraits.subtitle": "Tu presencia, capturada con honestidad",
-  "portfolio.portraits.text": "Las sesiones de retrato son un espacio de expresión y autenticidad. Naturales o producidas, el enfoque siempre es quién eres — tu energía, tu historia, tu esencia."
+  "portfolio.portraits.text": "Las sesiones de retrato son un espacio de expresión y autenticidad. Naturales o producidas, el enfoque siempre es quién eres — tu energía, tu historia, tu esencia.",
+  "hero.location": "Barcelona — Todo el mundo",
+  "hero.frame": "Fotograma",
+  "hero.previous": "Foto anterior",
+  "hero.next": "Foto siguiente",
+  "hero.goToSlide": "Ir a la foto {{number}}",
+  "hero.imageAlt": "Fotografía cinematográfica — fotograma {{number}}"
 }

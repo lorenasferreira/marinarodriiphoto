@@ -9,13 +9,13 @@ function Footer() {
         <div className="footer-left">
           <img
             src="/assets/images/ui/logo.png"
-            alt="Mari Rodrigues Photography"
+            alt="Marina Rodrigues Photography"
             className="footer-logo"
           />
 
           <div className="footer-text">
             <span className="footer-copy">
-              © {currentYear} Mari Rodrigues. All rights reserved.
+              © {currentYear} Marina Rodrigues. All rights reserved.
             </span>
 
             <a

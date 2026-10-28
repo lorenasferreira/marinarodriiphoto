@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 import Header from "./components/Header/Header";
@@ -11,6 +13,18 @@ import Category from "./pages/Category/Category";
 
 function App() {
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    const titles = {
+      "/": "Marina Rodrigues Photography",
+      "/about": t("about.meta.title"),
+      "/contact": t("contact.meta.title"),
+      "/packages": t("packages.meta.title"),
+    };
+    if (titles[location.pathname]) document.title = titles[location.pathname];
+    document.documentElement.lang = i18n.resolvedLanguage || i18n.language;
+  }, [location.pathname, t, i18n, i18n.resolvedLanguage]);
 
   const showFooter = location.pathname !== "/";
 

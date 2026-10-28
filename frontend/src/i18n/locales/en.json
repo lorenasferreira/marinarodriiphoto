@@ -6,11 +6,11 @@
   "nav.contact": "Contact",
 
   "hero.script": "the art of cinema",
-  "hero.title": "Mari Rodrigues",
-  "hero.subtitle": "Cinematic Urban Photography",
+  "hero.title": "Marina Rodrigues",
+  "hero.subtitle": "Cinematic · Editorial · Photography",
   "hero.description": "My work is rooted in light, atmosphere, and honesty. I capture cinematic moments in everyday life — intimate, emotional, and quietly powerful.",
-  "hero.cta": "View Portfolio",
-  "about.meta.title": "About — Mari Rodrigues Photography",
+  "hero.cta": "Explore portfolio",
+  "about.meta.title": "About — Marina Rodrigues Photography",
 
   "about.hero.title": "I’m Marina.",
   "about.hero.subtitle": "I tell stories of people and places through cinematic photography.",
@@ -55,7 +55,7 @@
   "about.cta.text": "If you feel connected to this way of seeing and creating, I’d love to hear from you. Wherever you are, let’s create something meaningful together.",
   "about.cta.button": "Get in touch",
 
-  "packages.meta.title": "Photography Packages — Mari Rodrigues",
+  "packages.meta.title": "Photography Packages — Marina Rodrigues",
 
   "packages.hero.title_line1": "Explore the",
   "packages.hero.title_line2": "Packages",
@@ -72,7 +72,7 @@
   "packages.editorial.title": "Editorial / Artistic",
   "packages.editorial.alt": "Editorial and artistic photography sessions",
 
-  "contact.meta.title": "Contact — Mari Rodrigues",
+  "contact.meta.title": "Contact — Marina Rodrigues",
 
   "contact.hero.title": "Let’s connect",
   "contact.hero.lead": "Tell me a little about yourself and what you have in mind.",
@@ -105,5 +105,11 @@
 
   "portfolio.portraits.title": "PORTRAITS",
   "portfolio.portraits.subtitle": "Your presence, honestly captured",
-  "portfolio.portraits.text": "Portrait sessions are a space for self-expression and authenticity. Whether natural or styled, the focus is always on who you are — your energy, your story, your essence."
+  "portfolio.portraits.text": "Portrait sessions are a space for self-expression and authenticity. Whether natural or styled, the focus is always on who you are — your energy, your story, your essence.",
+  "hero.location": "Barcelona — Worldwide",
+  "hero.frame": "Frame",
+  "hero.previous": "Previous slide",
+  "hero.next": "Next slide",
+  "hero.goToSlide": "Go to slide {{number}}",
+  "hero.imageAlt": "Cinematic photography — frame {{number}}"
 }

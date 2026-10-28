@@ -6,12 +6,12 @@
   "nav.contact": "Contacte",
 
   "hero.script": "l’art del cinema",
-  "hero.title": "Mari Rodrigues",
-  "hero.subtitle": "Fotografia Urbana Cinematogràfica",
+  "hero.title": "Marina Rodrigues",
+  "hero.subtitle": "Cinematogràfica · Editorial · Fotografia",
   "hero.description": "El meu treball neix de la llum, l’atmosfera i l’honestedat. Capturo moments cinematogràfics de la vida quotidiana — íntims, emocionals i subtilment poderosos.",
-  "hero.cta": "Veure portafoli",
+  "hero.cta": "Explora el portafolis",
 
-  "about.meta.title": "Sobre mi — Mari Rodrigues Photography",
+  "about.meta.title": "Sobre mi — Marina Rodrigues Photography",
 
   "about.hero.greeting": "Hola,",
   "about.hero.name": "soc la Marina.",
@@ -43,7 +43,7 @@
   "about.cta.text": "Si connectes amb aquesta manera de veure i crear, m’encantarà saber de tu. Sigui on siguis, creem alguna cosa significativa plegats.",
   "about.cta.button": "Contacta",
 
-  "packages.meta.title": "Paquets Fotogràfics — Mari Rodrigues",
+  "packages.meta.title": "Paquets Fotogràfics — Marina Rodrigues",
 
   "packages.hero.title_line1": "Explora els",
   "packages.hero.title_line2": "Paquets",
@@ -59,7 +59,7 @@
 
   "packages.editorial.title": "Editorial / Artístic",
   "packages.editorial.alt": "Sessions fotogràfiques editorials i artístiques",
-  "contact.meta.title": "Contacte — Mari Rodrigues",
+  "contact.meta.title": "Contacte — Marina Rodrigues",
 
   "contact.hero.title": "Connectem",
   "contact.hero.lead": "Explica’m una mica sobre tu i què tens en ment.",
@@ -88,5 +88,11 @@
 
   "portfolio.portraits.title": "RETRATS",
   "portfolio.portraits.subtitle": "La teva presència, capturada amb veritat",
-  "portfolio.portraits.text": "Les sessions de retrat són un espai d’expressió i autenticitat. Naturals o produïdes, el focus sempre és qui ets — la teva energia, la teva història, la teva essència."
+  "portfolio.portraits.text": "Les sessions de retrat són un espai d’expressió i autenticitat. Naturals o produïdes, el focus sempre és qui ets — la teva energia, la teva història, la teva essència.",
+  "hero.location": "Barcelona — Arreu del món",
+  "hero.frame": "Fotograma",
+  "hero.previous": "Foto anterior",
+  "hero.next": "Foto següent",
+  "hero.goToSlide": "Ves a la foto {{number}}",
+  "hero.imageAlt": "Fotografia cinematogràfica — fotograma {{number}}"
 }

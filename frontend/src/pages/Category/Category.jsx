@@ -51,7 +51,7 @@ function Category() {
       return;
     }
 
-    document.title = `${t(`portfolio.${type}.title`)} — Mari Rodrigues`;
+    document.title = `${t(`portfolio.${type}.title`)} — Marina Rodrigues`;
   }, [isValidType, t, type]);
 
   if (!isValidType) {

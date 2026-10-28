@@ -5,9 +5,10 @@ import "./Header.css";
 
 const languages = ["en", "es", "ca", "pt"];
 
-function Header() {
+function HeaderContent() {
   const { t, i18n } = useTranslation();
   const location = useLocation();
+  const isHome = location.pathname === "/";
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
@@ -31,10 +32,6 @@ function Header() {
   }
 
   useEffect(() => {
-    closeMenu();
-  }, [location.pathname]);
-
-  useEffect(() => {
     function handleScroll() {
       setIsScrolled(window.scrollY > 20);
     }
@@ -49,8 +46,14 @@ function Header() {
   }, []);
 
   return (
-    <header className={`site-header ${isScrolled ? "is-scrolled" : ""}`}>
+    <header className={`site-header ${isHome ? "home-header" : ""} ${isScrolled ? "is-scrolled" : ""}`}>
       <nav className="nav">
+        {isHome && (
+          <Link to="/" className="header-brand" aria-label="Marina Rodrigues — Home" onClick={closeMenu}>
+            <img src="/assets/images/ui/logo-black.png" alt="" />
+            <span>Marina Rodrigues</span>
+          </Link>
+        )}
         <div className="nav-left">
           <button
             className="menu-toggle"
@@ -139,6 +142,11 @@ function Header() {
       </nav>
     </header>
   );
+}
+
+function Header() {
+  const { pathname } = useLocation();
+  return <HeaderContent key={pathname} />;
 }
 
 export default Header;

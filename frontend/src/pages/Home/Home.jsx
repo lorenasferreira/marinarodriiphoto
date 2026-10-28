@@ -9,7 +9,6 @@ const desktopImages = [
   "/assets/images/hero-desktop/hero-03.jpg",
   "/assets/images/hero-desktop/hero-04.jpg",
   "/assets/images/hero-desktop/hero-05.jpg",
-  "/assets/images/hero-desktop/hero-06.webp",
 ];
 
 const mobileImages = [
@@ -45,10 +44,14 @@ function Home() {
   }
 
   useEffect(() => {
+    let previousMobile = window.innerWidth <= 768;
     const handleResize = () => {
       const mobile = window.innerWidth <= 768;
-      setIsMobile(mobile);
-      setCurrentIndex(0);
+      if (previousMobile !== mobile) {
+        setIsMobile(mobile);
+        setCurrentIndex(0);
+        previousMobile = mobile;
+      }
     };
 
     window.addEventListener("resize", handleResize);
@@ -69,19 +72,26 @@ function Home() {
   }, [images.length]);
 
   return (
-    <main>
+    <main className="home-page">
       <section className="hero" id="home">
         <img
           className="hero-image"
           src={images[currentIndex]}
-          alt="Hero image"
+          alt={t("hero.imageAlt", { number: currentIndex + 1 })}
         />
+
+        <div className="hero-metadata">
+          <span>{t("hero.location")}</span>
+          <span className="hero-frame">
+            {t("hero.frame")} {String(currentIndex + 1).padStart(2, "0")} / {String(images.length).padStart(2, "0")}
+          </span>
+        </div>
 
         <div className="hero-controls">
           <button
             className="hero-arrow prev"
             type="button"
-            aria-label="Previous slide"
+            aria-label={t("hero.previous")}
             onClick={prevSlide}
           >
             ‹
@@ -90,7 +100,7 @@ function Home() {
           <button
             className="hero-arrow next"
             type="button"
-            aria-label="Next slide"
+            aria-label={t("hero.next")}
             onClick={nextSlide}
           >
             ›
@@ -103,7 +113,8 @@ function Home() {
               key={index}
               type="button"
               className={`hero-dot ${index === currentIndex ? "active" : ""}`}
-              aria-label={`Go to slide ${index + 1}`}
+              aria-label={t("hero.goToSlide", { number: index + 1 })}
+              aria-current={index === currentIndex ? "true" : undefined}
               onClick={() => goToSlide(index)}
             />
           ))}
@@ -118,14 +129,11 @@ function Home() {
 
           <div className="subtitle">{t("hero.subtitle")}</div>
 
-          <div className="divider">
-            <img src="/assets/images/ui/logo.png" alt="Mari Rodrigues Logo" />
-          </div>
-
-          <Link to="/packages" className="btn">
-            {t("hero.cta")}
-          </Link>
         </div>
+
+        <Link to="/packages" className="hero-cta">
+          {t("hero.cta")} <span aria-hidden="true">↗</span>
+        </Link>
       </section>
     </main>
   );

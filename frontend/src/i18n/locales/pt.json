@@ -6,12 +6,12 @@
   "nav.contact": "Contato",
 
   "hero.script": "a arte do cinema",
-  "hero.title": "Mari Rodrigues",
-  "hero.subtitle": "Fotografia Urbana Cinematográfica",
+  "hero.title": "Marina Rodrigues",
+  "hero.subtitle": "Cinematográfica · Editorial · Fotografia",
   "hero.description": "Meu trabalho nasce da luz, da atmosfera e da honestidade. Capturo momentos cinematográficos do cotidiano — íntimos, emocionais e silenciosamente poderosos.",
-  "hero.cta": "Ver Portfolio",
+  "hero.cta": "Explorar portfólio",
 
-  "about.meta.title": "Sobre mim — Mari Rodrigues Photography",
+  "about.meta.title": "Sobre mim — Marina Rodrigues Photography",
 
   "about.hero.greeting": "Oi,",
   "about.hero.name": "sou a Marina.",
@@ -39,7 +39,7 @@
   "about.cta.text": "Se você se conecta com essa forma de ver e criar, vou adorar ouvir você. Onde quer que esteja, vamos criar algo significativo juntos.",
   "about.cta.button": "Entrar em contato",
 
-  "packages.meta.title": "Pacotes Fotográficos — Mari Rodrigues",
+  "packages.meta.title": "Pacotes Fotográficos — Marina Rodrigues",
 
   "packages.hero.title_line1": "Explore os",
   "packages.hero.title_line2": "Pacotes",
@@ -55,7 +55,7 @@
 
   "packages.editorial.title": "Editorial / Artístico",
   "packages.editorial.alt": "Ensaios fotográficos editoriais e artísticos",
-  "contact.meta.title": "Contato — Mari Rodrigues",
+  "contact.meta.title": "Contato — Marina Rodrigues",
 
   "contact.hero.title": "Vamos nos conectar",
   "contact.hero.lead": "Conte um pouco sobre você e o que tem em mente.",
@@ -90,5 +90,11 @@
 
   "portfolio.portraits.title": "RETRATOS",
   "portfolio.portraits.subtitle": "Sua presença, capturada com verdade",
-  "portfolio.portraits.text": "Ensaios de retrato são um espaço de expressão e autenticidade. Naturais ou produzidos, o foco é sempre quem você é — sua energia, sua história, sua essência."
+  "portfolio.portraits.text": "Ensaios de retrato são um espaço de expressão e autenticidade. Naturais ou produzidos, o foco é sempre quem você é — sua energia, sua história, sua essência.",
+  "hero.location": "Barcelona — Mundo afora",
+  "hero.frame": "Frame",
+  "hero.previous": "Foto anterior",
+  "hero.next": "Próxima foto",
+  "hero.goToSlide": "Ir para a foto {{number}}",
+  "hero.imageAlt": "Fotografia cinematográfica — frame {{number}}"
 }
