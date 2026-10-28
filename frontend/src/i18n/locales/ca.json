@@ -94,5 +94,17 @@
   "hero.previous": "Foto anterior",
   "hero.next": "Foto següent",
   "hero.goToSlide": "Ves a la foto {{number}}",
-  "hero.imageAlt": "Fotografia cinematogràfica — fotograma {{number}}"
+  "hero.imageAlt": "Fotografia cinematogràfica — fotograma {{number}}",
+  "home.about.label": "La fotògrafa",
+  "home.about.title": "Darrere de l’objectiu",
+  "home.about.cta": "Més sobre la Marina",
+  "home.about.imageAlt": "Retrat de Marina Rodrigues",
+  "home.works.label": "Una selecció de fotografies",
+  "home.works.title": "Treballs seleccionats",
+  "home.works.category": "Categoria del portafolis",
+  "home.works.view": "Veure categoria",
+  "home.works.cta": "Explora el portafolis",
+  "home.contact.title": "Creem alguna cosa junts",
+  "home.contact.text": "Per a col·laboracions, projectes creatius i consultes de fotografia.",
+  "home.contact.cta": "Contacta amb mi"
 }

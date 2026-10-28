@@ -96,5 +96,17 @@
   "hero.previous": "Foto anterior",
   "hero.next": "Próxima foto",
   "hero.goToSlide": "Ir para a foto {{number}}",
-  "hero.imageAlt": "Fotografia cinematográfica — frame {{number}}"
+  "hero.imageAlt": "Fotografia cinematográfica — frame {{number}}",
+  "home.about.label": "A fotógrafa",
+  "home.about.title": "Por trás das lentes",
+  "home.about.cta": "Mais sobre Marina",
+  "home.about.imageAlt": "Retrato de Marina Rodrigues",
+  "home.works.label": "Uma seleção de fotografias",
+  "home.works.title": "Trabalhos selecionados",
+  "home.works.category": "Categoria do portfólio",
+  "home.works.view": "Ver categoria",
+  "home.works.cta": "Explore o portfólio",
+  "home.contact.title": "Vamos criar algo juntos",
+  "home.contact.text": "Para colaborações, projetos criativos e consultas sobre fotografia.",
+  "home.contact.cta": "Entre em contato"
 }

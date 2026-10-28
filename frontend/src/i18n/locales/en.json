@@ -111,5 +111,17 @@
   "hero.previous": "Previous slide",
   "hero.next": "Next slide",
   "hero.goToSlide": "Go to slide {{number}}",
-  "hero.imageAlt": "Cinematic photography — frame {{number}}"
+  "hero.imageAlt": "Cinematic photography — frame {{number}}",
+  "home.about.label": "The photographer",
+  "home.about.title": "Behind the Lens",
+  "home.about.cta": "More about Marina",
+  "home.about.imageAlt": "Portrait of Marina Rodrigues",
+  "home.works.label": "A curated selection",
+  "home.works.title": "Selected Works",
+  "home.works.category": "Portfolio category",
+  "home.works.view": "View category",
+  "home.works.cta": "Explore the portfolio",
+  "home.contact.title": "Let’s Create Something Together",
+  "home.contact.text": "For collaborations, creative projects and photography inquiries.",
+  "home.contact.cta": "Get in touch"
 }

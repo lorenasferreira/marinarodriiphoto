@@ -26,8 +26,6 @@ function App() {
     document.documentElement.lang = i18n.resolvedLanguage || i18n.language;
   }, [location.pathname, t, i18n, i18n.resolvedLanguage]);
 
-  const showFooter = location.pathname !== "/";
-
   return (
     <>
       <Header />
@@ -40,7 +38,7 @@ function App() {
         <Route path="/portfolio/:type" element={<Category />} />
       </Routes>
 
-      {showFooter && <Footer />}
+      <Footer />
     </>
   );
 }
