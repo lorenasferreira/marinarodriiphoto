@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import useScrollReveal from "../../hooks/useScrollReveal";
 import "./Home.css";
 import { Link } from "react-router-dom";
 
@@ -29,6 +30,8 @@ const mobileImages = [
 
 function Home() {
   const { t } = useTranslation();
+  const root = useRef(null);
+  useScrollReveal(root);
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -78,7 +81,7 @@ function Home() {
   }, [images.length]);
 
   return (
-    <main className="home-page">
+    <main className="home-page" ref={root}>
       <section className="hero" id="home">
         <img
           className="hero-image"
@@ -142,10 +145,10 @@ function Home() {
         </Link>
       </section>
       <section className="home-introduction" aria-labelledby="home-about-title">
-        <figure className="home-introduction-photo">
+        <figure className="home-introduction-photo photo-hover" data-reveal>
           <img src="/assets/images/about/portrait-client.webp" alt={t("home.about.imageAlt")} loading="lazy" decoding="async" />
         </figure>
-        <div className="home-introduction-copy">
+        <div className="home-introduction-copy" data-reveal style={{ "--reveal-delay": "80ms" }}>
           <p className="home-eyebrow">{t("home.about.label")}</p>
           <h2 id="home-about-title">{t("home.about.title")}</h2>
           <p className="home-body">{t("home.about.paragraph1")}</p>
@@ -157,21 +160,23 @@ function Home() {
       </section>
 
       <section className="home-selected" aria-labelledby="home-works-title">
-        <header className="home-selected-header">
+        <header className="home-selected-header" data-reveal>
           <p className="home-eyebrow">{t("home.works.label")}</p>
           <h2 id="home-works-title">{t("home.works.title")}</h2>
         </header>
         <div className="home-works-list">
           {selectedWorks.map((work, index) => (
             <article className="home-work" key={work.type} aria-labelledby={`home-work-${work.type}`}>
-              <figure className="home-work-photo">
-                <img src={`/assets/images/portfolio/${work.type}/${work.image}`} alt={t(`packages.${work.alt}.alt`)} loading="lazy" decoding="async" />
+              <figure className="home-work-photo" data-reveal>
+                <div className="photo-hover">
+                  <img src={`/assets/images/portfolio/${work.type}/${work.image}`} alt={t(`packages.${work.alt}.alt`)} loading="lazy" decoding="async" />
+                </div>
                 <figcaption>
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <span>{t(`portfolio.${work.type}.subtitle`)}</span>
                 </figcaption>
               </figure>
-              <div className="home-work-copy">
+              <div className="home-work-copy" data-reveal style={{ "--reveal-delay": "80ms" }}>
                 <p className="home-eyebrow">{t("home.works.category")}</p>
                 <h3 id={`home-work-${work.type}`}>{t(`packages.${work.alt}.title`)}</h3>
                 <p className="home-body">{t(`portfolio.${work.type}.text`)}</p>
@@ -182,7 +187,7 @@ function Home() {
             </article>
           ))}
         </div>
-        <div className="home-portfolio-cta">
+        <div className="home-portfolio-cta" data-reveal>
           <Link className="home-editorial-link" to="/packages">
             {t("home.works.cta")} <span aria-hidden="true">↗</span>
           </Link>
@@ -190,12 +195,14 @@ function Home() {
       </section>
 
       <section className="home-contact" aria-labelledby="home-contact-title">
-        <p className="home-eyebrow">{t("nav.contact")}</p>
-        <h2 id="home-contact-title">{t("home.contact.title")}</h2>
-        <p className="home-body">{t("home.contact.text")}</p>
-        <Link className="home-editorial-link" to="/contact">
-          {t("home.contact.cta")} <span aria-hidden="true">↗</span>
-        </Link>
+        <div data-reveal>
+          <p className="home-eyebrow">{t("nav.contact")}</p>
+          <h2 id="home-contact-title">{t("home.contact.title")}</h2>
+          <p className="home-body">{t("home.contact.text")}</p>
+          <Link className="home-editorial-link" to="/contact">
+            {t("home.contact.cta")} <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
       </section>
     </main>
   );

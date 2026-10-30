@@ -1,9 +1,13 @@
+import { useRef } from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "./Packages.css";
 
 function Packages() {
   const { t } = useTranslation();
+  const root = useRef(null);
+  useScrollReveal(root);
 
   const publicityImage = "/assets/images/portfolio/publicity/publicity-01.webp";
 
@@ -15,10 +19,10 @@ function Packages() {
     "/assets/images/portfolio/editorial-artistic/editorial-01.jpg";
 
   return (
-    <main className="page page--packages">
+    <main className="page page--packages" ref={root}>
       <section className="hero">
         <div className="hero-overlay">
-          <h1 className="hero-title">
+          <h1 className="hero-title" data-reveal>
             <span className="packages1">{t("packages.hero.title_line1")}</span>
 
             <br />
@@ -39,7 +43,7 @@ function Packages() {
           </button>
 
           <div className="packages-track">
-            <article className="package-card">
+            <article className="package-card" data-reveal>
               <Link to="/portfolio/publicity" className="package-link">
                 <img src={publicityImage} alt={t("packages.publicity.alt")} />
 
@@ -47,7 +51,7 @@ function Packages() {
               </Link>
             </article>
 
-            <article className="package-card">
+            <article className="package-card" data-reveal>
               <Link to="/portfolio/events-bts" className="package-link">
                 <img src={btsImage} alt={t("packages.bts.alt")} />
 
@@ -55,7 +59,7 @@ function Packages() {
               </Link>
             </article>
 
-            <article className="package-card">
+            <article className="package-card" data-reveal>
               <Link to="/portfolio/portraits" className="package-link">
                 <img src={portraitImage} alt={t("packages.portrait.alt")} />
 
@@ -63,7 +67,7 @@ function Packages() {
               </Link>
             </article>
 
-            <article className="package-card">
+            <article className="package-card" data-reveal>
               <Link to="/portfolio/editorial-artistic" className="package-link">
                 <img src={editorialImage} alt={t("packages.editorial.alt")} />
 

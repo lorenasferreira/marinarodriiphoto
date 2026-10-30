@@ -1,8 +1,12 @@
+import { useRef } from "react";
+import useScrollReveal from "../../hooks/useScrollReveal";
 import { useTranslation } from "react-i18next";
 import "./Contact.css";
 
 function Contact() {
   const { t } = useTranslation();
+  const root = useRef(null);
+  useScrollReveal(root);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -31,7 +35,7 @@ function Contact() {
   }
 
   return (
-    <main id="top" className="page page--contact">
+    <main id="top" className="page page--contact" ref={root}>
       <section className="contact-hero">
         <div className="contact-photo contact-photo--left">
           <img
@@ -48,9 +52,9 @@ function Contact() {
         </div>
 
         <div className="contact-form-wrapper">
-          <h1 className="script">{t("contact.hero.title")}</h1>
+          <h1 className="script" data-reveal>{t("contact.hero.title")}</h1>
 
-          <p className="lead">{t("contact.hero.lead")}</p>
+          <p className="lead" data-reveal>{t("contact.hero.lead")}</p>
 
           <form
             className="contact-form"
@@ -82,7 +86,7 @@ function Contact() {
             const imageNumber = String(index + 1).padStart(2, "0");
 
             return (
-              <figure className="gallery-item" key={imageNumber}>
+              <figure className="gallery-item photo-hover" key={imageNumber} data-reveal style={{ "--reveal-delay": `${(index % 3) * 60}ms` }}>
                 <img
                   src={`/assets/images/portfolio/portraits/portrait-${imageNumber}.jpg`}
                   alt={t("contact.gallery.imageAlt", {
