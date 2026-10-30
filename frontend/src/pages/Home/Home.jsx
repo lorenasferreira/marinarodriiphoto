@@ -143,7 +143,7 @@ function Home() {
       </section>
       <section className="home-introduction" aria-labelledby="home-about-title">
         <figure className="home-introduction-photo">
-          <img src="/assets/images/about/portrait.webp" alt={t("home.about.imageAlt")} loading="lazy" decoding="async" />
+          <img src="/assets/images/about/portrait-client.webp" alt={t("home.about.imageAlt")} loading="lazy" decoding="async" />
         </figure>
         <div className="home-introduction-copy">
           <p className="home-eyebrow">{t("home.about.label")}</p>
