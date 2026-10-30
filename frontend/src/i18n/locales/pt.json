@@ -5,7 +5,7 @@
   "nav.portfolio": "Portfólio",
   "nav.contact": "Contato",
 
-  "hero.script": "a arte do cinema",
+  "hero.script": "Histórias em imagens",
   "hero.title": "Marina Rodrigues",
   "hero.subtitle": "Cinematográfica · Editorial · Fotografia",
   "hero.description": "Meu trabalho nasce da luz, da atmosfera e da honestidade. Capturo momentos cinematográficos do cotidiano — íntimos, emocionais e silenciosamente poderosos.",
@@ -99,6 +99,8 @@
   "hero.imageAlt": "Fotografia cinematográfica — frame {{number}}",
   "home.about.label": "A fotógrafa",
   "home.about.title": "Por trás das lentes",
+  "home.about.paragraph1": "O meu trabalho vive entre a fotografia, o cinema e a narrativa visual. Conto histórias através de imagens, guiada por emoções honestas, beleza natural e momentos que acontecem sem encenação — gestos espontâneos, olhares sinceros e detalhes que tornam cada história única.",
+  "home.about.paragraph2": "Acredito na beleza das histórias reais e na força das imagens que nos fazem sentir, recordar e conectar.",
   "home.about.cta": "Mais sobre Marina",
   "home.about.imageAlt": "Retrato de Marina Rodrigues",
   "home.works.label": "Uma seleção de fotografias",

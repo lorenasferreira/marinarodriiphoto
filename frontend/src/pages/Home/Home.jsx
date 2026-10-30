@@ -148,8 +148,8 @@ function Home() {
         <div className="home-introduction-copy">
           <p className="home-eyebrow">{t("home.about.label")}</p>
           <h2 id="home-about-title">{t("home.about.title")}</h2>
-          <p className="home-body">{t("about.section.paragraph1")}</p>
-          <p className="home-body">{t("about.section.paragraph2")}</p>
+          <p className="home-body">{t("home.about.paragraph1")}</p>
+          <p className="home-body">{t("home.about.paragraph2")}</p>
           <Link className="home-editorial-link" to="/about">
             {t("home.about.cta")} <span aria-hidden="true">↗</span>
           </Link>
