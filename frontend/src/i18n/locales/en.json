@@ -5,7 +5,7 @@
   "nav.portfolio": "Portfolio",
   "nav.contact": "Contact",
 
-  "hero.script": "the art of cinema",
+  "hero.script": "Stories in Frames",
   "hero.title": "Marina Rodrigues",
   "hero.subtitle": "Cinematic · Editorial · Photography",
   "hero.description": "My work is rooted in light, atmosphere, and honesty. I capture cinematic moments in everyday life — intimate, emotional, and quietly powerful.",
@@ -111,5 +111,19 @@
   "hero.previous": "Previous slide",
   "hero.next": "Next slide",
   "hero.goToSlide": "Go to slide {{number}}",
-  "hero.imageAlt": "Cinematic photography — frame {{number}}"
+  "hero.imageAlt": "Cinematic photography — frame {{number}}",
+  "home.about.label": "The photographer",
+  "home.about.title": "Behind the Lens",
+  "home.about.paragraph1": "My work lives at the intersection of photography, cinema, and visual storytelling. I tell stories through images, guided by honest emotions, natural beauty, and moments that unfold without staging — spontaneous gestures, sincere glances, and details that make each story unique.",
+  "home.about.paragraph2": "I believe in the beauty of real stories and the power of images that make us feel, remember, and connect.",
+  "home.about.cta": "More about Marina",
+  "home.about.imageAlt": "Portrait of Marina Rodrigues",
+  "home.works.label": "A curated selection",
+  "home.works.title": "Selected Works",
+  "home.works.category": "Portfolio category",
+  "home.works.view": "View category",
+  "home.works.cta": "Explore the portfolio",
+  "home.contact.title": "Let’s Create Something Together",
+  "home.contact.text": "For collaborations, creative projects and photography inquiries.",
+  "home.contact.cta": "Get in touch"
 }

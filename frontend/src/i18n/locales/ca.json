@@ -5,7 +5,7 @@
   "nav.portfolio": "Portafoli",
   "nav.contact": "Contacte",
 
-  "hero.script": "l’art del cinema",
+  "hero.script": "Històries en imatges",
   "hero.title": "Marina Rodrigues",
   "hero.subtitle": "Cinematogràfica · Editorial · Fotografia",
   "hero.description": "El meu treball neix de la llum, l’atmosfera i l’honestedat. Capturo moments cinematogràfics de la vida quotidiana — íntims, emocionals i subtilment poderosos.",
@@ -94,5 +94,19 @@
   "hero.previous": "Foto anterior",
   "hero.next": "Foto següent",
   "hero.goToSlide": "Ves a la foto {{number}}",
-  "hero.imageAlt": "Fotografia cinematogràfica — fotograma {{number}}"
+  "hero.imageAlt": "Fotografia cinematogràfica — fotograma {{number}}",
+  "home.about.label": "La fotògrafa",
+  "home.about.title": "Darrere de l’objectiu",
+  "home.about.paragraph1": "La meva feina viu entre la fotografia, el cinema i la narrativa visual. Explico històries a través d’imatges, guiada per emocions honestes, la bellesa natural i els moments que sorgeixen sense posada en escena — gestos espontanis, mirades sinceres i detalls que fan única cada història.",
+  "home.about.paragraph2": "Crec en la bellesa de les històries reals i en la força de les imatges que ens fan sentir, recordar i connectar.",
+  "home.about.cta": "Més sobre la Marina",
+  "home.about.imageAlt": "Retrat de Marina Rodrigues",
+  "home.works.label": "Una selecció de fotografies",
+  "home.works.title": "Treballs seleccionats",
+  "home.works.category": "Categoria del portafolis",
+  "home.works.view": "Veure categoria",
+  "home.works.cta": "Explora el portafolis",
+  "home.contact.title": "Creem alguna cosa junts",
+  "home.contact.text": "Per a col·laboracions, projectes creatius i consultes de fotografia.",
+  "home.contact.cta": "Contacta amb mi"
 }

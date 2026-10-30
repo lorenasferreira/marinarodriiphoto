@@ -11,6 +11,12 @@ const desktopImages = [
   "/assets/images/hero-desktop/hero-05.jpg",
 ];
 
+const selectedWorks = [
+  { type: "editorial-artistic", image: "editorial-01.jpg", alt: "editorial" },
+  { type: "portraits", image: "portrait-01.jpg", alt: "portrait" },
+  { type: "publicity", image: "publicity-01.webp", alt: "publicity" },
+];
+
 const mobileImages = [
   "/assets/images/hero-mobile/hero-01.jpg",
   "/assets/images/hero-mobile/hero-02.jpg",
@@ -133,6 +139,62 @@ function Home() {
 
         <Link to="/packages" className="hero-cta">
           {t("hero.cta")} <span aria-hidden="true">↗</span>
+        </Link>
+      </section>
+      <section className="home-introduction" aria-labelledby="home-about-title">
+        <figure className="home-introduction-photo">
+          <img src="/assets/images/about/portrait.webp" alt={t("home.about.imageAlt")} loading="lazy" decoding="async" />
+        </figure>
+        <div className="home-introduction-copy">
+          <p className="home-eyebrow">{t("home.about.label")}</p>
+          <h2 id="home-about-title">{t("home.about.title")}</h2>
+          <p className="home-body">{t("home.about.paragraph1")}</p>
+          <p className="home-body">{t("home.about.paragraph2")}</p>
+          <Link className="home-editorial-link" to="/about">
+            {t("home.about.cta")} <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
+      </section>
+
+      <section className="home-selected" aria-labelledby="home-works-title">
+        <header className="home-selected-header">
+          <p className="home-eyebrow">{t("home.works.label")}</p>
+          <h2 id="home-works-title">{t("home.works.title")}</h2>
+        </header>
+        <div className="home-works-list">
+          {selectedWorks.map((work, index) => (
+            <article className="home-work" key={work.type} aria-labelledby={`home-work-${work.type}`}>
+              <figure className="home-work-photo">
+                <img src={`/assets/images/portfolio/${work.type}/${work.image}`} alt={t(`packages.${work.alt}.alt`)} loading="lazy" decoding="async" />
+                <figcaption>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <span>{t(`portfolio.${work.type}.subtitle`)}</span>
+                </figcaption>
+              </figure>
+              <div className="home-work-copy">
+                <p className="home-eyebrow">{t("home.works.category")}</p>
+                <h3 id={`home-work-${work.type}`}>{t(`packages.${work.alt}.title`)}</h3>
+                <p className="home-body">{t(`portfolio.${work.type}.text`)}</p>
+                <Link className="home-editorial-link" to={`/portfolio/${work.type}`}>
+                  {t("home.works.view")} <span className="home-sr-only">— {t(`packages.${work.alt}.title`)}</span><span aria-hidden="true">↗</span>
+                </Link>
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="home-portfolio-cta">
+          <Link className="home-editorial-link" to="/packages">
+            {t("home.works.cta")} <span aria-hidden="true">↗</span>
+          </Link>
+        </div>
+      </section>
+
+      <section className="home-contact" aria-labelledby="home-contact-title">
+        <p className="home-eyebrow">{t("nav.contact")}</p>
+        <h2 id="home-contact-title">{t("home.contact.title")}</h2>
+        <p className="home-body">{t("home.contact.text")}</p>
+        <Link className="home-editorial-link" to="/contact">
+          {t("home.contact.cta")} <span aria-hidden="true">↗</span>
         </Link>
       </section>
     </main>
