@@ -5,6 +5,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Header from "./components/Header/Header";
 import BackToTop from "./components/BackToTop/BackToTop";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Header />
 
       <Routes>

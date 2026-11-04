@@ -40,17 +40,11 @@ function About() {
           <p className="about-kicker" data-reveal>{t("about.editorial.philosophy")}</p>
           <h2 id="philosophy-heading" data-reveal>{t("about.section.paragraph1")}</h2>
           <div data-reveal>{[2, 3, 4].map((number) => <p className="about-prose" key={number}>{t(`about.section.paragraph${number}`)}</p>)}</div>
-          <dl className="about-statistics" data-reveal>
-            {aboutContent.statistics.map((stat) => (
-              <div key={stat.id}>
-                <dt>
-                  {stat.value ?? (import.meta.env.DEV ? stat.developmentPlaceholder : "…")}
-                  <span className="about-stat-plus" aria-hidden="true">+</span>
-                </dt>
-                <dd>
-                  {t(stat.labelKey)}
-                  {stat.value === null && <span className="about-stat-pending">{t("about.stats.pending")}</span>}
-                </dd>
+          <dl className="about-concepts" data-reveal>
+            {aboutContent.concepts.map((concept) => (
+              <div key={concept.id}>
+                <dt>{t(concept.headingKey)}</dt>
+                <dd>{t(concept.labelKey)}</dd>
               </div>
             ))}
           </dl>
