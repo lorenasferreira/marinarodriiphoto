@@ -154,5 +154,16 @@
   "reviews.previous": "Ressenya anterior",
   "reviews.next": "Ressenya següent",
   "reviews.navigation": "Triar una ressenya",
-  "reviews.goTo": "Anar a la ressenya {{number}} de {{name}}"
+  "reviews.goTo": "Anar a la ressenya {{number}} de {{name}}",
+  "gallery.title": "Treballs seleccionats",
+  "gallery.intro": "Persones, atmosferes i històries, vistes amb una mirada cinematogràfica.",
+  "gallery.all": "Tots",
+  "gallery.filters": "Filtrar fotografies",
+  "gallery.viewer": "Visor de fotografies",
+  "gallery.close": "Tancar fotografia",
+  "gallery.previous": "Fotografia anterior",
+  "gallery.next": "Fotografia següent",
+  "gallery.position": "{{current}} / {{total}}",
+  "gallery.open": "Obrir fotografia {{number}} de {{category}}",
+  "gallery.whatsapp.message": "Hola, Marina! He vist el teu portafolis de fotografia i m'agradaria saber més sobre com reservar una sessió."
 }

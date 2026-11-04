@@ -10,8 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
-import Packages from "./pages/Packages/Packages";
-import Category from "./pages/Category/Category";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   const location = useLocation();
@@ -22,7 +21,7 @@ function App() {
       "/": "Marina Rodrigues Photography",
       "/about": t("about.meta.title"),
       "/contact": t("contact.meta.title"),
-      "/packages": t("packages.meta.title"),
+      "/packages": `${t("gallery.title")} — Marina Rodrigues`,
     };
     if (titles[location.pathname]) document.title = titles[location.pathname];
     document.documentElement.lang = i18n.resolvedLanguage || i18n.language;
@@ -37,8 +36,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/packages" element={<Packages />} />
-        <Route path="/portfolio/:type" element={<Category />} />
+        <Route path="/packages" element={<Portfolio />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio/:type" element={<Portfolio />} />
       </Routes>
 
       <BackToTop />
