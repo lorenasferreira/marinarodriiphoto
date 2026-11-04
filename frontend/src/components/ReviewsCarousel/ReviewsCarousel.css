@@ -1,0 +1,41 @@
+.about-page .reviews-carousel { max-width: 920px; margin: 36px auto 0; }
+.about-page .reviews-summary { font-size: 12px; letter-spacing: .06em; color: #d0c9bd; margin-bottom: 28px; }
+.reviews-summary strong { font-weight: 400; color: #f5f2ec; }
+.about-page .testimonial-card { background: #faf8f4; color: #34302a; padding: clamp(28px, 5vw, 64px); min-height: 520px; box-shadow: 0 20px 50px #0003; text-align: left; }
+.testimonial-content { animation: review-entrance .45s ease both; }
+.reviewer { min-height: 82px; display: flex; align-items: center; gap: 18px; margin-bottom: 28px; }
+.review-avatar { width: 64px; height: 64px; flex-shrink: 0; border-radius: 50%; overflow: hidden; display: grid; place-items: center; background: #e9e1d5; color: #5b5145; font: 24px var(--font-display); }
+.review-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.about-page .reviewer h3 { font-size: clamp(23px, 2.4vw, 32px); letter-spacing: -.02em; }
+.review-stars { color: #8b6533; font-size: 15px; letter-spacing: .14em; margin-top: 8px; }
+.review-text { font-family: var(--font-ui); font-size: clamp(14px, 1.2vw, 17px); line-height: 1.85; white-space: pre-line; overflow-wrap: anywhere; min-height: 10.5em; }
+.testimonial-card.is-expanded .review-text { min-height: 10.5em; }
+.review-text-toggle, .review-language button { cursor: pointer; border: 0; background: none; font: inherit; text-underline-offset: 4px; text-decoration: underline; min-height: 44px; padding: 8px 0; color: inherit; }
+.review-text-toggle { font-size: 12px; }
+.review-language { display: flex; align-items: center; flex-wrap: wrap; gap: 0 18px; font-size: 11px; color: #746b5e; margin-top: 16px; min-height: 64px; }
+.review-translated { width: 100%; font-style: italic; }
+.review-attribution { border-top: 1px solid #ded6ca; padding-top: 20px; margin-top: 22px; font-size: 10px; letter-spacing: .18em; }
+.review-controls { display: flex; align-items: center; justify-content: center; gap: 22px; margin: 28px 0 4px; }
+.review-arrow { display: grid; place-items: center; border-radius: 50%; width: 46px; height: 46px; flex-shrink: 0; border: 1px solid #898174; color: #eee9df; background: transparent; font-size: 21px; cursor: pointer; transition: background .25s ease, color .25s ease; }
+.review-progress { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 2px; }
+.review-progress button { display: grid; place-items: center; background: none; padding: 0; border: 0; width: 24px; height: 44px; cursor: pointer; }
+.review-progress span { width: 18px; height: 2px; background: #757064; transition: background .25s ease, transform .25s ease; }
+.review-progress button[aria-current] span { background: #f3eade; transform: scaleY(2); }
+.review-arrow:hover, .review-arrow:focus-visible { color: #252420; background: #f3eade; }
+.reviews-carousel button:focus-visible { outline: 2px solid #a58b65; outline-offset: 4px; }
+@keyframes review-entrance { from { opacity: .25; translate: 0 7px; } to { opacity: 1; translate: 0 0; } }
+@media (max-width: 768px) {
+  .about-page .testimonial-card { padding: 28px 22px; min-height: 680px; }
+  .review-text { min-height: 18.5em; }
+  .review-controls { gap: 10px; }
+  .review-progress { max-width: 160px; }
+  .review-progress button { width: 26px; }
+  .review-progress span { width: 16px; }
+  .review-avatar { width: 52px; height: 52px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .testimonial-content { animation: none; }
+  .review-arrow, .review-progress span { transition: none; }
+}
+
+.review-text-action { min-height: 44px; }

@@ -1,0 +1,2 @@
+.back-to-top { position: fixed; z-index: 18; right: max(20px, env(safe-area-inset-right)); bottom: max(24px, env(safe-area-inset-bottom)); width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; padding: 0; line-height: 1; border: 1px solid #b6aea3; background: var(--fog); color: var(--ink); font-size: 22px; cursor: pointer; box-shadow: 0 4px 18px #0002; }
+.back-to-top:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 4px; }

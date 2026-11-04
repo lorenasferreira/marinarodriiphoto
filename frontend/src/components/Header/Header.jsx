@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
@@ -7,12 +7,12 @@ const languages = ["en", "es", "ca", "pt"];
 
 function HeaderContent() {
   const { t, i18n } = useTranslation();
-  const location = useLocation();
-  const isHome = location.pathname === "/";
+  const headerRef = useRef(null);
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [languageOpen, setLanguageOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
 
   const detectedLanguage = i18n.language?.split("-")[0];
 
@@ -32,33 +32,47 @@ function HeaderContent() {
   }
 
   useEffect(() => {
-    function handleScroll() {
-      setIsScrolled(window.scrollY > 20);
-    }
-
-    handleScroll();
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
+    let previous = window.scrollY;
+    let anchor = previous;
+    let direction = 0;
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const y = Math.max(0, window.scrollY);
+      const nextDirection = Math.sign(y - previous);
+      if (nextDirection && nextDirection !== direction) { anchor = previous; direction = nextDirection; }
+      setIsScrolled(y > 20);
+      if (y < 100 || menuOpen || languageOpen || headerRef.current?.contains(document.activeElement)) {
+        setHidden(false);
+        anchor = y;
+      } else if (Math.abs(y - anchor) > 14) {
+        setHidden(direction > 0);
+      }
+      previous = y;
     };
-  }, []);
+    const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => { window.removeEventListener("scroll", onScroll); cancelAnimationFrame(frame); };
+  }, [menuOpen, languageOpen]);
 
   return (
-    <header className={`site-header ${isHome ? "home-header" : ""} ${isScrolled ? "is-scrolled" : ""}`}>
+    <header ref={headerRef} onFocusCapture={() => setHidden(false)} onKeyDown={(event) => {
+      if (event.key === "Escape" && (menuOpen || languageOpen)) {
+        headerRef.current?.querySelector(languageOpen ? ".lang-current" : ".menu-toggle")?.focus();
+        closeMenu();
+      }
+    }} className={`site-header home-header ${isScrolled ? "is-scrolled" : ""} ${hidden && !menuOpen && !languageOpen ? "is-hidden" : ""}`}>
       <nav className="nav">
-        {isHome && (
-          <Link to="/" className="header-brand" aria-label="Marina Rodrigues — Home" onClick={closeMenu}>
+        <Link to="/" className="header-brand" aria-label={t("ui.homeLabel")} onClick={closeMenu}>
             <img src="/assets/images/ui/logo-black.png" alt="" />
             <span>Marina Rodrigues</span>
           </Link>
-        )}
         <div className="nav-left">
           <button
             className="menu-toggle"
             type="button"
-            aria-label="Open menu"
+            aria-label={t(menuOpen ? "ui.closeMenu" : "ui.openMenu")}
+            aria-controls="site-navigation"
             aria-expanded={menuOpen}
             onClick={() => {
               setLanguageOpen(false);
@@ -68,7 +82,7 @@ function HeaderContent() {
             ☰
           </button>
 
-          <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+          <ul id="site-navigation" className={`nav-links ${menuOpen ? "open" : ""}`}>
             <li>
               <Link to="/" onClick={closeMenu}>
                 {t("nav.home")}
@@ -113,7 +127,7 @@ function HeaderContent() {
             <button
               className="lang-current"
               type="button"
-              aria-label="Change language"
+              aria-label={t("ui.changeLanguage")}
               aria-expanded={languageOpen}
               onClick={() => {
                 setMenuOpen(false);

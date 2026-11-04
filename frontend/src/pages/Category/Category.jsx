@@ -1,6 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import useScrollReveal from "../../hooks/useScrollReveal";
 import "./Category.css";
 
 const allowedTypes = [
@@ -43,6 +44,8 @@ const categoryImages = {
 function Category() {
   const { type } = useParams();
   const { t } = useTranslation();
+  const root = useRef(null);
+  useScrollReveal(root, type);
 
   const isValidType = allowedTypes.includes(type);
 
@@ -75,9 +78,9 @@ function Category() {
   const heroSrc = `${basePath}/${category.hero}`;
 
   return (
-    <main className="portfolio-category">
+    <main className="portfolio-category" ref={root}>
       <section className="category-hero">
-        <div className="hero-image">
+        <div className="hero-image photo-hover" data-reveal>
           <img
             src={heroSrc}
             alt={t(`portfolio.${type}.title`)}
@@ -87,7 +90,7 @@ function Category() {
           />
         </div>
 
-        <div className="hero-text">
+        <div className="hero-text" data-reveal>
           <h1>{t(`portfolio.${type}.title`)}</h1>
 
           <p className="hero-description">{t(`portfolio.${type}.text`)}</p>
