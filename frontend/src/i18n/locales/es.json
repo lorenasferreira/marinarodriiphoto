@@ -154,5 +154,16 @@
   "reviews.previous": "Reseña anterior",
   "reviews.next": "Siguiente reseña",
   "reviews.navigation": "Elegir una reseña",
-  "reviews.goTo": "Ir a la reseña {{number}} de {{name}}"
+  "reviews.goTo": "Ir a la reseña {{number}} de {{name}}",
+  "gallery.title": "Trabajos seleccionados",
+  "gallery.intro": "Personas, atmósferas e historias, vistas con una mirada cinematográfica.",
+  "gallery.all": "Todos",
+  "gallery.filters": "Filtrar fotografías",
+  "gallery.viewer": "Visor de fotografías",
+  "gallery.close": "Cerrar fotografía",
+  "gallery.previous": "Fotografía anterior",
+  "gallery.next": "Fotografía siguiente",
+  "gallery.position": "{{current}} / {{total}}",
+  "gallery.open": "Abrir fotografía {{number}} de {{category}}",
+  "gallery.whatsapp.message": "¡Hola, Marina! Vi tu portafolio de fotografía y me gustaría saber más sobre cómo reservar una sesión."
 }

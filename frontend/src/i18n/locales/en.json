@@ -171,5 +171,16 @@
   "reviews.previous": "Previous review",
   "reviews.next": "Next review",
   "reviews.navigation": "Choose a review",
-  "reviews.goTo": "Go to review {{number}} by {{name}}"
+  "reviews.goTo": "Go to review {{number}} by {{name}}",
+  "gallery.title": "Selected Works",
+  "gallery.intro": "People, atmosphere and stories, seen through a cinematic lens.",
+  "gallery.all": "All works",
+  "gallery.filters": "Filter photographs",
+  "gallery.viewer": "Photograph viewer",
+  "gallery.close": "Close photograph",
+  "gallery.previous": "Previous photograph",
+  "gallery.next": "Next photograph",
+  "gallery.position": "{{current}} / {{total}}",
+  "gallery.open": "Open {{category}} photograph {{number}}",
+  "gallery.whatsapp.message": "Hi Marina! I saw your photography portfolio and would love to know more about booking a session."
 }

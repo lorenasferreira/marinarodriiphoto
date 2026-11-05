@@ -156,5 +156,16 @@
   "reviews.previous": "Avaliação anterior",
   "reviews.next": "Próxima avaliação",
   "reviews.navigation": "Escolher uma avaliação",
-  "reviews.goTo": "Ir para a avaliação {{number}} de {{name}}"
+  "reviews.goTo": "Ir para a avaliação {{number}} de {{name}}",
+  "gallery.title": "Trabalhos selecionados",
+  "gallery.intro": "Pessoas, atmosferas e histórias, vistas por um olhar cinematográfico.",
+  "gallery.all": "Todos",
+  "gallery.filters": "Filtrar fotografias",
+  "gallery.viewer": "Visualizador de fotografias",
+  "gallery.close": "Fechar fotografia",
+  "gallery.previous": "Fotografia anterior",
+  "gallery.next": "Próxima fotografia",
+  "gallery.position": "{{current}} / {{total}}",
+  "gallery.open": "Abrir fotografia {{number}} de {{category}}",
+  "gallery.whatsapp.message": "Oi, Marina! Vi seu portfólio de fotografia e gostaria de saber mais sobre como agendar um ensaio."
 }
