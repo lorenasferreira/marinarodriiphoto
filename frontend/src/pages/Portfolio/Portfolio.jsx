@@ -6,8 +6,7 @@ import useScrollReveal from "../../hooks/useScrollReveal";
 import { portfolioImages, portfolioTypes } from "../Category/portfolioData";
 import "./Portfolio.css";
 
-// Existing WhatsApp contact used by Contact.jsx and Footer.jsx.
-const whatsappNumber = "34654926645";
+import { whatsappUrl as getWhatsappUrl } from "../../data/contact";
 
 const imageAltKeys = { publicity: "publicity", "events-bts": "bts", "editorial-artistic": "editorial", portraits: "portrait" };
 
@@ -80,7 +79,7 @@ function Gallery({ initialCategory }) {
   const [active, setActive] = useState(initialCategory || "all");
   const [opened, setOpened] = useState(null);
   const root = useRef(null);
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t("gallery.whatsapp.message"))}`;
+  const whatsappUrl = getWhatsappUrl(t("gallery.whatsapp.message"));
   const images = active === "all" ? photos : photos.filter(image => image.category === active);
   useScrollReveal(root, active);
   useEffect(() => { document.title = `${t("gallery.title")} — Marina Rodrigues`; }, [t]);

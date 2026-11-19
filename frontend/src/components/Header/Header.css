@@ -231,3 +231,10 @@
 .site-header:focus-within { transform: translateY(0); }
 @media (max-width: 370px) { .home-header .header-brand span { max-width: 95px; white-space: normal; } }
 @media (prefers-reduced-motion: reduce) { .site-header.home-header { transition: none; } }
+
+.home-header .nav-links a[aria-current="page"] { text-decoration: underline; text-underline-offset: 6px; }
+@media (min-width: 769px) and (max-width: 1200px) {
+  .home-header .header-brand span { display: none; }
+  .home-header .nav-links { gap: 16px; }
+  .home-header .nav-links a { font-size: 9px; letter-spacing: .08em; }
+}

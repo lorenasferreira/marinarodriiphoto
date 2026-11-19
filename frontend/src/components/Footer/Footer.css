@@ -37,3 +37,6 @@ footer.site-footer {
   .site-footer .footer-bottom { flex-direction: column; gap: 14px; }
   .site-footer .footer-legal { text-align: left; }
 }
+
+.site-footer .footer-navigation { display: flex; flex-wrap: wrap; gap: 8px 28px; padding-bottom: 24px; font-size: 11px; }
+.site-footer .footer-navigation a { display: inline-flex; align-items: center; min-height: 44px; }

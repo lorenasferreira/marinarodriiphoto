@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 
@@ -83,29 +83,9 @@ function HeaderContent() {
           </button>
 
           <ul id="site-navigation" className={`nav-links ${menuOpen ? "open" : ""}`}>
-            <li>
-              <Link to="/" onClick={closeMenu}>
-                {t("nav.home")}
-              </Link>
-            </li>
-
-            <li>
-              <Link to="/packages" onClick={closeMenu}>
-                {t("nav.portfolio")}
-              </Link>
-            </li>
-
-            <li>
-              <Link to="/about" onClick={closeMenu}>
-                {t("nav.about")}
-              </Link>
-            </li>
-
-            <li>
-              <Link to="/contact" onClick={closeMenu}>
-                {t("nav.contact")}
-              </Link>
-            </li>
+            {[["/", "home"], ["/about", "about"], ["/portfolio", "portfolio"], ["/personal-projects", "personalProjects"], ["/contact", "contact"]].map(([path, key]) => (
+              <li key={path}><NavLink to={path} end={path === "/"} onClick={closeMenu}>{t(`nav.${key}`)}</NavLink></li>
+            ))}
           </ul>
         </div>
 

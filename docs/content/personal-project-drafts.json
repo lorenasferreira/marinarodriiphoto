@@ -1,0 +1,116 @@
+[
+  {
+    "id": "personal-rosalia",
+    "slug": "rosalia",
+    "title": "Rosalía — A dor que empodera o amor",
+    "category": "shortFilm",
+    "description": "No primeiro ato, inspirado em “Berghain”, de Rosalía, uma estética sombria e intensa explora o fim de uma relação, a dor do coração partido e as emoções da separação.\n\nNo segundo ato, inspirado em “La Perla”, a atmosfera fica mais leve e luminosa. Essa passagem representa a liberdade, o reencontro consigo mesma, o amor-próprio e o empoderamento feminino.\n\nDois momentos, duas atmosferas e uma transformação: da dor à liberdade, de um fim a um novo começo.",
+    "coverImage": null,
+    "galleryImages": [],
+    "videos": [],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 1,
+    "translations": {
+      "en": {
+        "description": "The first act, inspired by Rosalía’s “Berghain”, uses a dark, intense aesthetic to explore the end of a relationship, heartbreak and the emotions of separation.\n\nThe second act, inspired by “La Perla”, shifts to a lighter, brighter atmosphere, reflecting freedom, reconnection with oneself, self-love and female empowerment.\n\nTwo moments, two atmospheres and a transformation: from pain to freedom, from an ending to a new beginning."
+      },
+      "es": {
+        "description": "El primer acto, inspirado en «Berghain» de Rosalía, utiliza una estética oscura e intensa para explorar el final de una relación, el desamor y las emociones de la separación.\n\nEl segundo acto, inspirado en «La Perla», da paso a una atmósfera más ligera y luminosa que representa la libertad, el reencuentro con una misma, el amor propio y el empoderamiento femenino.\n\nDos momentos, dos atmósferas y una transformación: del dolor a la libertad, de un final a un nuevo comienzo."
+      },
+      "ca": {
+        "description": "El primer acte, inspirat en «Berghain» de Rosalía, utilitza una estètica fosca i intensa per explorar el final d’una relació, el desamor i les emocions de la separació.\n\nEl segon acte, inspirat en «La Perla», dona pas a una atmosfera més lleugera i lluminosa que representa la llibertat, el retrobament amb una mateixa, l’amor propi i l’empoderament femení.\n\nDos moments, dues atmosferes i una transformació: del dolor a la llibertat, d’un final a un nou començament."
+      }
+    }
+  },
+  {
+    "id": "personal-melanina",
+    "slug": "melanina",
+    "title": "Melanina: Mirrors of the Soul",
+    "category": "documentary",
+    "description": "Neste documentário, nove mulheres negras compartilham suas experiências, seus desafios e suas histórias pessoais. O projeto aborda identidade, autoestima, beleza, racismo, discriminação, autoaceitação, ancestralidade e orgulho de suas raízes. O filme destaca tanto as experiências em comum quanto a trajetória singular de cada participante.",
+    "coverImage": null,
+    "galleryImages": [],
+    "videos": [],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 2,
+    "translations": {
+      "en": {
+        "description": "In this documentary, nine Black women share their experiences, challenges and personal stories. The project explores identity, self-esteem, beauty, racism, discrimination, self-acceptance, ancestry and pride in one’s roots. It highlights both shared experiences and each participant’s individual journey."
+      },
+      "es": {
+        "description": "En este documental, nueve mujeres negras comparten sus experiencias, retos e historias personales. El proyecto aborda la identidad, la autoestima, la belleza, el racismo, la discriminación, la autoaceptación, la ancestralidad y el orgullo por las propias raíces. La película destaca tanto las experiencias compartidas como la trayectoria singular de cada participante."
+      },
+      "ca": {
+        "description": "En aquest documental, nou dones negres comparteixen les seves experiències, els reptes i les històries personals. El projecte aborda la identitat, l’autoestima, la bellesa, el racisme, la discriminació, l’autoacceptació, l’ancestralitat i l’orgull per les pròpies arrels. La pel·lícula posa en relleu tant les experiències compartides com el recorregut singular de cada participant."
+      }
+    }
+  },
+  {
+    "id": "personal-pure-colours",
+    "slug": "pure-colours",
+    "title": "Pure Colours",
+    "category": "fashion",
+    "description": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "videos": [],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 3,
+    "translations": {}
+  },
+  {
+    "id": "personal-whats-your-story",
+    "slug": "whats-your-story",
+    "title": "What's Your Story",
+    "category": "miniDocumentaries",
+    "description": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "videos": [],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 4,
+    "translations": {}
+  },
+  {
+    "id": "personal-ticiani",
+    "slug": "ticiani",
+    "title": "Ticiani — The Renaissance of a Pop Star",
+    "category": "miniDocumentaries",
+    "description": "Este projeto fotográfico deu origem a um documentário sobre Ticiani Carriel, conhecida como Tici, e sua trajetória de renascimento por meio da moda. Ao visitar diferentes lugares, ela revisita memórias que revelam as influências e referências que ajudaram a construir sua identidade.",
+    "coverImage": null,
+    "galleryImages": [],
+    "videos": [],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 5,
+    "translations": {
+      "en": {
+        "description": "This photographic project led to a documentary about Ticiani Carriel, known as Tici, and her journey of rebirth through fashion. As she visits different places, she revisits memories that reveal the influences and references that helped shape her identity."
+      },
+      "es": {
+        "description": "Este proyecto fotográfico dio lugar a un documental sobre Ticiani Carriel, conocida como Tici, y su viaje de renacimiento a través de la moda. Al visitar distintos lugares, recupera recuerdos que revelan las influencias y referencias que contribuyeron a formar su identidad."
+      },
+      "ca": {
+        "description": "Aquest projecte fotogràfic va donar lloc a un documental sobre Ticiani Carriel, coneguda com a Tici, i el seu recorregut de renaixement a través de la moda. En visitar diferents llocs, recupera records que revelen les influències i els referents que van ajudar a forjar la seva identitat."
+      }
+    }
+  },
+  {
+    "id": "personal-danilo-pride-2026",
+    "slug": "danilo-pride-2026",
+    "title": "Danilo — Pride 2026",
+    "category": "miniDocumentaries",
+    "description": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "videos": [],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 6,
+    "translations": {}
+  }
+]
