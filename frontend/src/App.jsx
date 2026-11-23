@@ -1,6 +1,6 @@
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, Navigate, Link, useLocation } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import BackToTop from "./components/BackToTop/BackToTop";
@@ -11,10 +11,22 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import { PersonalProjects, PersonalProject } from "./pages/PersonalProjects/PersonalProjects";
+import { publishedProjects, projectContent } from "./data/personalProjects";
+
+// Vite removes both imports and route elements from the production bundle.
+const AdminGate = import.meta.env.DEV ? lazy(() => import("./dev/AdminGate")) : null;
+const ProjectPreview = import.meta.env.DEV ? lazy(() => import("./dev/ProjectPreview")) : null;
+
+function NotFound() {
+  const { t } = useTranslation();
+  return <main id="top" className="projects-page projects-unavailable"><h1>{t("ui.notFound")}</h1><Link className="project-link" to="/">{t("ui.returnHome")}</Link></main>;
+}
 
 function App() {
   const location = useLocation();
   const { t, i18n } = useTranslation();
+  const isAdmin = import.meta.env.DEV && /^\/admin(?:\/|$)/.test(location.pathname);
 
   useEffect(() => {
     const titles = {
@@ -23,26 +35,46 @@ function App() {
       "/contact": t("contact.meta.title"),
       "/packages": `${t("gallery.title")} — Marina Rodrigues`,
     };
-    if (titles[location.pathname]) document.title = titles[location.pathname];
-    document.documentElement.lang = i18n.resolvedLanguage || i18n.language;
-  }, [location.pathname, t, i18n, i18n.resolvedLanguage]);
+    const project = publishedProjects().find(item => location.pathname === `/personal-projects/${item.slug}`);
+    const projectRoute = location.pathname.startsWith("/personal-projects/");
+    const known = Boolean(titles[location.pathname]) || location.pathname.startsWith("/portfolio") || location.pathname === "/personal-projects" || Boolean(project);
+    document.title = project ? `${projectContent(project, i18n.resolvedLanguage).title} — Marina Rodrigues` :
+      titles[location.pathname] || `${t(location.pathname === "/personal-projects" ? "nav.personalProjects" : projectRoute ? "projects.unavailable" : location.pathname.startsWith("/portfolio") ? "gallery.title" : "ui.notFound")} — Marina Rodrigues`;
+    const robots = document.createElement("meta");
+    robots.name = "robots";
+    robots.content = (projectRoute && !project) || !known ? "noindex, nofollow" : "index, follow";
+    document.head.appendChild(robots);
+    if (isAdmin) {
+      document.title = "Painel do estúdio — Marina Rodrigues";
+    } else if (import.meta.env.DEV && /^\/dev(?:\/|$)/.test(location.pathname)) {
+      document.title = "Project layout preview — Marina Rodrigues";
+    }
+    document.documentElement.lang = isAdmin ? "pt-BR" : i18n.resolvedLanguage || i18n.language;
+    return () => robots.remove();
+  }, [location.pathname, t, i18n, i18n.resolvedLanguage, isAdmin]);
 
   return (
     <>
       <ScrollToTop />
-      <Header />
+      {!isAdmin && <Header />}
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/packages" element={<Portfolio />} />
+        <Route path="/packages" element={<Navigate to="/portfolio" replace />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfolio/:type" element={<Portfolio />} />
+        <Route path="/personal-projects" element={<PersonalProjects />} />
+        <Route path="/personal-projects/:slug" element={<PersonalProject />} />
+        {import.meta.env.DEV && <>
+          <Route path="/admin/*" element={<Suspense fallback={<main className="projects-page">Carregando o painel…</main>}><AdminGate /></Suspense>} />
+          <Route path="/dev/personal-projects/:slug?" element={<Suspense fallback={<main className="projects-page">Loading preview…</main>}><ProjectPreview /></Suspense>} />
+        </>}
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
-      <BackToTop />
-      <Footer />
+      {!isAdmin && <><BackToTop /><Footer /></>}
     </>
   );
 }

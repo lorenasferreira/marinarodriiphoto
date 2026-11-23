@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Footer.css";
+import { whatsappUrl } from "../../data/contact";
 
 function Footer() {
   const { t } = useTranslation();
@@ -28,10 +29,13 @@ function Footer() {
             </div>
           </div>
         </div>
+        <nav className="footer-navigation" aria-label={t("ui.footerNavigation")}>
+          {[["/", "home"], ["/about", "about"], ["/portfolio", "portfolio"], ["/personal-projects", "personalProjects"], ["/contact", "contact"]].map(([path, key]) => <Link key={path} to={path}>{t(`nav.${key}`)}</Link>)}
+        </nav>
         <div className="footer-bottom">
           <div className="footer-socials">
             <a href="https://www.instagram.com/mrodriiphoto/" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://wa.me/34654926645" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href={whatsappUrl(t("gallery.whatsapp.message"))} target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
           <div className="footer-legal">
             <p className="footer-copy">© {currentYear} Marina Rodrigues. All rights reserved.</p>

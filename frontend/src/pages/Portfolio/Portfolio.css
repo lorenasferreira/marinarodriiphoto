@@ -17,6 +17,8 @@
 .portfolio-filters button { flex: 0 0 auto; padding: 10px 0; min-height: 44px; border: 0; border-bottom: 1px solid transparent; background: none; color: #625c55; font: 10px var(--font-ui); letter-spacing: .12em; text-transform: uppercase; cursor: pointer; }
 .portfolio-filters button[aria-pressed="true"] { color: var(--ink); border-bottom-color: currentColor; }
 .portfolio-page :is(button, a):focus-visible { outline: 2px solid var(--charcoal); outline-offset: 4px; }
+.portfolio-status { color: #625c55; font-size: 14px; min-height: 44px; }
+.portfolio-status button { min-height: 44px; cursor: pointer; background: transparent; color: inherit; border: 0; text-decoration: underline; }
 .portfolio-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: center; gap: clamp(28px, 4vw, 64px); }
 .portfolio-photo { grid-column: span 6; min-width: 0; }
 .portfolio-photo:nth-child(6n + 1) { grid-column: span 7; }
@@ -36,6 +38,9 @@
 .lightbox-close { position: absolute; right: 18px; top: 10px; }
 .lightbox-stage { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
 .lightbox-stage img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.lightbox-stage-titled { flex-direction: column; gap: 12px; }
+.lightbox-stage-titled img { min-height: 0; }
+.lightbox-title { flex: 0 0 auto; max-width: 100%; overflow-wrap: anywhere; text-align: center; font: 15px var(--font-ui); }
 .lightbox-controls { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 30px; white-space: nowrap; }
 .lightbox-controls span { font-size: 12px; font-variant-numeric: tabular-nums; }
 @media (max-width: 1024px) {

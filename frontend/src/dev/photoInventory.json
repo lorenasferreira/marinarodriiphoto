@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "publicity/publicity-01.webp",
+    "filename": "publicity-01.webp",
+    "category": "publicity",
+    "width": 3727,
+    "height": 5591,
+    "fileSize": 720076,
+    "src": "/assets/images/portfolio/publicity/publicity-01.webp",
+    "thumbnail": "/assets/images/portfolio-thumbnails/publicity/publicity-01.webp.jpg",
+    "usage": [
+      "Commercial portfolio: publicity"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "publicity/publicity-02.webp",
+    "filename": "publicity-02.webp",
+    "category": "publicity",
+    "width": 1800,
+    "height": 2700,
+    "fileSize": 287006,
+    "src": "/assets/images/portfolio/publicity/publicity-02.webp",
+    "thumbnail": "/assets/images/portfolio-thumbnails/publicity/publicity-02.webp.jpg",
+    "usage": [
+      "Commercial portfolio: publicity"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "publicity/publicity-03.webp",
+    "filename": "publicity-03.webp",
+    "category": "publicity",
+    "width": 1800,
+    "height": 2700,
+    "fileSize": 211570,
+    "src": "/assets/images/portfolio/publicity/publicity-03.webp",
+    "thumbnail": "/assets/images/portfolio-thumbnails/publicity/publicity-03.webp.jpg",
+    "usage": [
+      "Commercial portfolio: publicity"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "publicity/publicity-04.webp",
+    "filename": "publicity-04.webp",
+    "category": "publicity",
+    "width": 1800,
+    "height": 2700,
+    "fileSize": 726260,
+    "src": "/assets/images/portfolio/publicity/publicity-04.webp",
+    "thumbnail": "/assets/images/portfolio-thumbnails/publicity/publicity-04.webp.jpg",
+    "usage": [
+      "Commercial portfolio: publicity"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "publicity/publicity-05.webp",
+    "filename": "publicity-05.webp",
+    "category": "publicity",
+    "width": 1800,
+    "height": 2700,
+    "fileSize": 691536,
+    "src": "/assets/images/portfolio/publicity/publicity-05.webp",
+    "thumbnail": "/assets/images/portfolio-thumbnails/publicity/publicity-05.webp.jpg",
+    "usage": [
+      "Commercial portfolio: publicity"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "publicity/hero.webp",
+    "filename": "hero.webp",
+    "category": "publicity",
+    "width": 1800,
+    "height": 2700,
+    "fileSize": 331368,
+    "src": "/assets/images/portfolio/publicity/hero.webp",
+    "thumbnail": "/assets/images/portfolio-thumbnails/publicity/hero.webp.jpg",
+    "usage": [
+      "Commercial portfolio: publicity"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "events-bts/bts-01.jpg",
+    "filename": "bts-01.jpg",
+    "category": "events-bts",
+    "width": 1014,
+    "height": 676,
+    "fileSize": 491337,
+    "src": "/assets/images/portfolio/events-bts/bts-01.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/events-bts/bts-01.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: events-bts"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "events-bts/bts-02.jpg",
+    "filename": "bts-02.jpg",
+    "category": "events-bts",
+    "width": 1188,
+    "height": 792,
+    "fileSize": 779146,
+    "src": "/assets/images/portfolio/events-bts/bts-02.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/events-bts/bts-02.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: events-bts"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "events-bts/bts-03.jpg",
+    "filename": "bts-03.jpg",
+    "category": "events-bts",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 813694,
+    "src": "/assets/images/portfolio/events-bts/bts-03.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/events-bts/bts-03.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: events-bts"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "events-bts/bts-04.jpg",
+    "filename": "bts-04.jpg",
+    "category": "events-bts",
+    "width": 1188,
+    "height": 792,
+    "fileSize": 781169,
+    "src": "/assets/images/portfolio/events-bts/bts-04.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/events-bts/bts-04.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: events-bts"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "events-bts/bts-05.jpg",
+    "filename": "bts-05.jpg",
+    "category": "events-bts",
+    "width": 1188,
+    "height": 792,
+    "fileSize": 731504,
+    "src": "/assets/images/portfolio/events-bts/bts-05.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/events-bts/bts-05.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: events-bts"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "events-bts/hero.jpg",
+    "filename": "hero.jpg",
+    "category": "events-bts",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 634270,
+    "src": "/assets/images/portfolio/events-bts/hero.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/events-bts/hero.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: events-bts"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-01.jpg",
+    "filename": "editorial-01.jpg",
+    "category": "editorial-artistic",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 1122876,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-01.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-01.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-02.jpg",
+    "filename": "editorial-02.jpg",
+    "category": "editorial-artistic",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 1145965,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-02.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-02.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-03.jpg",
+    "filename": "editorial-03.jpg",
+    "category": "editorial-artistic",
+    "width": 704,
+    "height": 1056,
+    "fileSize": 898176,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-03.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-03.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-04.jpg",
+    "filename": "editorial-04.jpg",
+    "category": "editorial-artistic",
+    "width": 717,
+    "height": 1076,
+    "fileSize": 732629,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-04.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-04.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-05.jpg",
+    "filename": "editorial-05.jpg",
+    "category": "editorial-artistic",
+    "width": 1188,
+    "height": 792,
+    "fileSize": 1035394,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-05.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-05.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-06.jpg",
+    "filename": "editorial-06.jpg",
+    "category": "editorial-artistic",
+    "width": 683,
+    "height": 1025,
+    "fileSize": 679260,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-06.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-06.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-12.jpg",
+    "filename": "editorial-12.jpg",
+    "category": "editorial-artistic",
+    "width": 485,
+    "height": 727,
+    "fileSize": 361695,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-12.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-12.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-13.jpg",
+    "filename": "editorial-13.jpg",
+    "category": "editorial-artistic",
+    "width": 717,
+    "height": 1076,
+    "fileSize": 838187,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-13.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-13.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-15.jpg",
+    "filename": "editorial-15.jpg",
+    "category": "editorial-artistic",
+    "width": 685,
+    "height": 1027,
+    "fileSize": 749548,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-15.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-15.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-16.jpg",
+    "filename": "editorial-16.jpg",
+    "category": "editorial-artistic",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 1122876,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-16.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-16.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-17.jpg",
+    "filename": "editorial-17.jpg",
+    "category": "editorial-artistic",
+    "width": 731,
+    "height": 1096,
+    "fileSize": 519363,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-17.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-17.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-18.jpg",
+    "filename": "editorial-18.jpg",
+    "category": "editorial-artistic",
+    "width": 558,
+    "height": 837,
+    "fileSize": 483819,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-18.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-18.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-19.jpg",
+    "filename": "editorial-19.jpg",
+    "category": "editorial-artistic",
+    "width": 690,
+    "height": 1035,
+    "fileSize": 458341,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-19.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-19.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-23.jpg",
+    "filename": "editorial-23.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 13249756,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-23.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-23.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-24.jpg",
+    "filename": "editorial-24.jpg",
+    "category": "editorial-artistic",
+    "width": 4102,
+    "height": 6153,
+    "fileSize": 14652726,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-24.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-24.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-25.jpg",
+    "filename": "editorial-25.jpg",
+    "category": "editorial-artistic",
+    "width": 4505,
+    "height": 6757,
+    "fileSize": 26300455,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-25.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-25.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-26.jpg",
+    "filename": "editorial-26.jpg",
+    "category": "editorial-artistic",
+    "width": 3999,
+    "height": 5999,
+    "fileSize": 20197222,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-26.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-26.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-27.jpg",
+    "filename": "editorial-27.jpg",
+    "category": "editorial-artistic",
+    "width": 4486,
+    "height": 6729,
+    "fileSize": 24255461,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-27.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-27.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-28.jpg",
+    "filename": "editorial-28.jpg",
+    "category": "editorial-artistic",
+    "width": 3781,
+    "height": 5672,
+    "fileSize": 14178179,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-28.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-28.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-29.jpg",
+    "filename": "editorial-29.jpg",
+    "category": "editorial-artistic",
+    "width": 4160,
+    "height": 6240,
+    "fileSize": 18358048,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-29.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-29.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-30.jpg",
+    "filename": "editorial-30.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 28513786,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-30.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-30.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-31.jpg",
+    "filename": "editorial-31.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 32622844,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-31.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-31.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-32.jpg",
+    "filename": "editorial-32.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 29997963,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-32.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-32.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-33.jpg",
+    "filename": "editorial-33.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 31078658,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-33.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-33.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-34.jpg",
+    "filename": "editorial-34.jpg",
+    "category": "editorial-artistic",
+    "width": 3974,
+    "height": 5961,
+    "fileSize": 21591889,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-34.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-34.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-35.jpg",
+    "filename": "editorial-35.jpg",
+    "category": "editorial-artistic",
+    "width": 3807,
+    "height": 5710,
+    "fileSize": 18307073,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-35.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-35.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-36.jpg",
+    "filename": "editorial-36.jpg",
+    "category": "editorial-artistic",
+    "width": 3935,
+    "height": 5903,
+    "fileSize": 18512635,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-36.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-36.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-37.jpg",
+    "filename": "editorial-37.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 18406724,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-37.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-37.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-38.jpg",
+    "filename": "editorial-38.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 19976619,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-38.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-38.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-39.jpg",
+    "filename": "editorial-39.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 21127568,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-39.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-39.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-40.jpg",
+    "filename": "editorial-40.jpg",
+    "category": "editorial-artistic",
+    "width": 2934,
+    "height": 4401,
+    "fileSize": 8176946,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-40.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-40.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-41.jpg",
+    "filename": "editorial-41.jpg",
+    "category": "editorial-artistic",
+    "width": 3961,
+    "height": 5941,
+    "fileSize": 13143846,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-41.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-41.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-42.jpg",
+    "filename": "editorial-42.jpg",
+    "category": "editorial-artistic",
+    "width": 4191,
+    "height": 6287,
+    "fileSize": 15810109,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-42.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-42.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-43.jpg",
+    "filename": "editorial-43.jpg",
+    "category": "editorial-artistic",
+    "width": 4345,
+    "height": 6518,
+    "fileSize": 18330914,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-43.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-43.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-44.jpg",
+    "filename": "editorial-44.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 18922644,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-44.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-44.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-45.jpg",
+    "filename": "editorial-45.jpg",
+    "category": "editorial-artistic",
+    "width": 4136,
+    "height": 6204,
+    "fileSize": 12396327,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-45.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-45.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-46.jpg",
+    "filename": "editorial-46.jpg",
+    "category": "editorial-artistic",
+    "width": 3640,
+    "height": 5460,
+    "fileSize": 13300990,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-46.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-46.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-47.jpg",
+    "filename": "editorial-47.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 19219422,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-47.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-47.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-48.jpg",
+    "filename": "editorial-48.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 14228552,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-48.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-48.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-49.jpg",
+    "filename": "editorial-49.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 19161156,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-49.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-49.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-50.jpg",
+    "filename": "editorial-50.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 20044783,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-50.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-50.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-51.jpg",
+    "filename": "editorial-51.jpg",
+    "category": "editorial-artistic",
+    "width": 4127,
+    "height": 6191,
+    "fileSize": 12914275,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-51.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-51.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-52.jpg",
+    "filename": "editorial-52.jpg",
+    "category": "editorial-artistic",
+    "width": 3069,
+    "height": 4603,
+    "fileSize": 7090530,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-52.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-52.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-53.jpg",
+    "filename": "editorial-53.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 41527235,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-53.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-53.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-54.jpg",
+    "filename": "editorial-54.jpg",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 48725983,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-54.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-54.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-55.jpg",
+    "filename": "editorial-55.jpg",
+    "category": "editorial-artistic",
+    "width": 6960,
+    "height": 4640,
+    "fileSize": 8165555,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-55.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-55.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-56.jpg",
+    "filename": "editorial-56.jpg",
+    "category": "editorial-artistic",
+    "width": 6960,
+    "height": 4640,
+    "fileSize": 7805815,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-56.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-56.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-57.JPG",
+    "filename": "editorial-57.JPG",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 8985028,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-57.JPG",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-57.JPG.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-58.JPG",
+    "filename": "editorial-58.JPG",
+    "category": "editorial-artistic",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 8711865,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-58.JPG",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-58.JPG.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/editorial-59.JPG",
+    "filename": "editorial-59.JPG",
+    "category": "editorial-artistic",
+    "width": 2340,
+    "height": 3510,
+    "fileSize": 4159780,
+    "src": "/assets/images/portfolio/editorial-artistic/editorial-59.JPG",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/editorial-59.JPG.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "editorial-artistic/hero.jpg",
+    "filename": "hero.jpg",
+    "category": "editorial-artistic",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 906709,
+    "src": "/assets/images/portfolio/editorial-artistic/hero.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/editorial-artistic/hero.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: editorial-artistic"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-01.jpg",
+    "filename": "portrait-01.jpg",
+    "category": "portraits",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 562264,
+    "src": "/assets/images/portfolio/portraits/portrait-01.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-01.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-02.jpg",
+    "filename": "portrait-02.jpg",
+    "category": "portraits",
+    "width": 676,
+    "height": 1014,
+    "fileSize": 788708,
+    "src": "/assets/images/portfolio/portraits/portrait-02.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-02.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-03.jpg",
+    "filename": "portrait-03.jpg",
+    "category": "portraits",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 920744,
+    "src": "/assets/images/portfolio/portraits/portrait-03.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-03.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-04.jpg",
+    "filename": "portrait-04.jpg",
+    "category": "portraits",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 991939,
+    "src": "/assets/images/portfolio/portraits/portrait-04.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-04.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-05.jpg",
+    "filename": "portrait-05.jpg",
+    "category": "portraits",
+    "width": 783,
+    "height": 1175,
+    "fileSize": 829300,
+    "src": "/assets/images/portfolio/portraits/portrait-05.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-05.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-06.jpg",
+    "filename": "portrait-06.jpg",
+    "category": "portraits",
+    "width": 333,
+    "height": 512,
+    "fileSize": 157017,
+    "src": "/assets/images/portfolio/portraits/portrait-06.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-06.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-07.jpg",
+    "filename": "portrait-07.jpg",
+    "category": "portraits",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 712479,
+    "src": "/assets/images/portfolio/portraits/portrait-07.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-07.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-08.jpg",
+    "filename": "portrait-08.jpg",
+    "category": "portraits",
+    "width": 690,
+    "height": 1034,
+    "fileSize": 834147,
+    "src": "/assets/images/portfolio/portraits/portrait-08.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-08.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-09.jpg",
+    "filename": "portrait-09.jpg",
+    "category": "portraits",
+    "width": 341,
+    "height": 512,
+    "fileSize": 169358,
+    "src": "/assets/images/portfolio/portraits/portrait-09.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-09.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-11.jpg",
+    "filename": "portrait-11.jpg",
+    "category": "portraits",
+    "width": 613,
+    "height": 919,
+    "fileSize": 500086,
+    "src": "/assets/images/portfolio/portraits/portrait-11.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-11.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-12.jpg",
+    "filename": "portrait-12.jpg",
+    "category": "portraits",
+    "width": 715,
+    "height": 1073,
+    "fileSize": 967587,
+    "src": "/assets/images/portfolio/portraits/portrait-12.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-12.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-13.jpg",
+    "filename": "portrait-13.jpg",
+    "category": "portraits",
+    "width": 705,
+    "height": 1057,
+    "fileSize": 661618,
+    "src": "/assets/images/portfolio/portraits/portrait-13.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-13.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-14.jpg",
+    "filename": "portrait-14.jpg",
+    "category": "portraits",
+    "width": 723,
+    "height": 1084,
+    "fileSize": 1065857,
+    "src": "/assets/images/portfolio/portraits/portrait-14.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-14.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-15.jpg",
+    "filename": "portrait-15.jpg",
+    "category": "portraits",
+    "width": 753,
+    "height": 1130,
+    "fileSize": 857095,
+    "src": "/assets/images/portfolio/portraits/portrait-15.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-15.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-16.jpg",
+    "filename": "portrait-16.jpg",
+    "category": "portraits",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 17749576,
+    "src": "/assets/images/portfolio/portraits/portrait-16.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-16.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-17.jpg",
+    "filename": "portrait-17.jpg",
+    "category": "portraits",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 15681269,
+    "src": "/assets/images/portfolio/portraits/portrait-17.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-17.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-18.jpg",
+    "filename": "portrait-18.jpg",
+    "category": "portraits",
+    "width": 3794,
+    "height": 5691,
+    "fileSize": 21992143,
+    "src": "/assets/images/portfolio/portraits/portrait-18.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-18.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-19.jpg",
+    "filename": "portrait-19.jpg",
+    "category": "portraits",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 19364307,
+    "src": "/assets/images/portfolio/portraits/portrait-19.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-19.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-20.jpg",
+    "filename": "portrait-20.jpg",
+    "category": "portraits",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 10748889,
+    "src": "/assets/images/portfolio/portraits/portrait-20.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-20.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait-21.jpg",
+    "filename": "portrait-21.jpg",
+    "category": "portraits",
+    "width": 4640,
+    "height": 6960,
+    "fileSize": 11681830,
+    "src": "/assets/images/portfolio/portraits/portrait-21.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait-21.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait21.jpg",
+    "filename": "portrait21.jpg",
+    "category": "portraits",
+    "width": 742,
+    "height": 1113,
+    "fileSize": 840191,
+    "src": "/assets/images/portfolio/portraits/portrait21.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait21.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait22.jpg",
+    "filename": "portrait22.jpg",
+    "category": "portraits",
+    "width": 613,
+    "height": 919,
+    "fileSize": 414948,
+    "src": "/assets/images/portfolio/portraits/portrait22.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait22.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait23.jpg",
+    "filename": "portrait23.jpg",
+    "category": "portraits",
+    "width": 625,
+    "height": 937,
+    "fileSize": 468742,
+    "src": "/assets/images/portfolio/portraits/portrait23.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait23.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait24.jpg",
+    "filename": "portrait24.jpg",
+    "category": "portraits",
+    "width": 667,
+    "height": 1001,
+    "fileSize": 547539,
+    "src": "/assets/images/portfolio/portraits/portrait24.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait24.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/portrait25.jpg",
+    "filename": "portrait25.jpg",
+    "category": "portraits",
+    "width": 792,
+    "height": 1188,
+    "fileSize": 445912,
+    "src": "/assets/images/portfolio/portraits/portrait25.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/portrait25.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  },
+  {
+    "id": "portraits/hero.jpg",
+    "filename": "hero.jpg",
+    "category": "portraits",
+    "width": 739,
+    "height": 1109,
+    "fileSize": 1049788,
+    "src": "/assets/images/portfolio/portraits/hero.jpg",
+    "thumbnail": "/assets/images/portfolio-thumbnails/portraits/hero.jpg.jpg",
+    "usage": [
+      "Commercial portfolio: portraits"
+    ],
+    "hidden": false
+  }
+]
