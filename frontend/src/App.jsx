@@ -15,7 +15,7 @@ import { PersonalProjects, PersonalProject } from "./pages/PersonalProjects/Pers
 import { publishedProjects, projectContent } from "./data/personalProjects";
 
 // Vite removes both imports and route elements from the production bundle.
-const AdminPrototype = import.meta.env.DEV ? lazy(() => import("./dev/AdminPrototype")) : null;
+const AdminGate = import.meta.env.DEV ? lazy(() => import("./dev/AdminGate")) : null;
 const ProjectPreview = import.meta.env.DEV ? lazy(() => import("./dev/ProjectPreview")) : null;
 
 function NotFound() {
@@ -26,6 +26,7 @@ function NotFound() {
 function App() {
   const location = useLocation();
   const { t, i18n } = useTranslation();
+  const isAdmin = import.meta.env.DEV && /^\/admin(?:\/|$)/.test(location.pathname);
 
   useEffect(() => {
     const titles = {
@@ -43,14 +44,14 @@ function App() {
     robots.name = "robots";
     robots.content = (projectRoute && !project) || !known ? "noindex, nofollow" : "index, follow";
     document.head.appendChild(robots);
-    if (import.meta.env.DEV && /^\/(admin|dev)(?:\/|$)/.test(location.pathname)) {
-      document.title = `${location.pathname.startsWith("/admin") ? "Studio prototype" : "Project layout preview"} — Marina Rodrigues`;
+    if (isAdmin) {
+      document.title = "Painel do estúdio — Marina Rodrigues";
+    } else if (import.meta.env.DEV && /^\/dev(?:\/|$)/.test(location.pathname)) {
+      document.title = "Project layout preview — Marina Rodrigues";
     }
-    document.documentElement.lang = i18n.resolvedLanguage || i18n.language;
+    document.documentElement.lang = isAdmin ? "pt-BR" : i18n.resolvedLanguage || i18n.language;
     return () => robots.remove();
-  }, [location.pathname, t, i18n, i18n.resolvedLanguage]);
-
-  const isAdmin = import.meta.env.DEV && /^\/admin(?:\/|$)/.test(location.pathname);
+  }, [location.pathname, t, i18n, i18n.resolvedLanguage, isAdmin]);
 
   return (
     <>
@@ -67,7 +68,7 @@ function App() {
         <Route path="/personal-projects" element={<PersonalProjects />} />
         <Route path="/personal-projects/:slug" element={<PersonalProject />} />
         {import.meta.env.DEV && <>
-          <Route path="/admin/*" element={<Suspense fallback={<main className="projects-page">Loading prototype…</main>}><AdminPrototype /></Suspense>} />
+          <Route path="/admin/*" element={<Suspense fallback={<main className="projects-page">Carregando o painel…</main>}><AdminGate /></Suspense>} />
           <Route path="/dev/personal-projects/:slug?" element={<Suspense fallback={<main className="projects-page">Loading preview…</main>}><ProjectPreview /></Suspense>} />
         </>}
         <Route path="*" element={<NotFound />} />
