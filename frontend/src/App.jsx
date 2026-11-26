@@ -14,9 +14,10 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import { PersonalProjects, PersonalProject } from "./pages/PersonalProjects/PersonalProjects";
 import { publishedProjects, projectContent } from "./data/personalProjects";
 
-// Vite removes both imports and route elements from the production bundle.
+// The admin remains local. The artistic catalogue is also available on its designated branch preview.
 const AdminGate = import.meta.env.DEV ? lazy(() => import("./dev/AdminGate")) : null;
-const ProjectPreview = import.meta.env.DEV ? lazy(() => import("./dev/ProjectPreview")) : null;
+const artisticReview = import.meta.env.DEV || import.meta.env.ARTISTIC_BRANCH_PREVIEW;
+const ProjectPreview = artisticReview ? lazy(() => import("./dev/ProjectPreview")) : null;
 
 function NotFound() {
   const { t } = useTranslation();
@@ -27,8 +28,12 @@ function App() {
   const location = useLocation();
   const { t, i18n } = useTranslation();
   const isAdmin = import.meta.env.DEV && /^\/admin(?:\/|$)/.test(location.pathname);
+  const isArtisticReview = (artisticReview && /^\/personal-projects(?:\/[^/]+)?\/?$/.test(location.pathname)) ||
+    (import.meta.env.DEV && /^\/dev\/personal-projects(?:\/[^/]+)?\/?$/.test(location.pathname));
 
   useEffect(() => {
+    document.documentElement.lang = isAdmin ? "pt-BR" : i18n.resolvedLanguage || i18n.language;
+    if (isArtisticReview) return;
     const titles = {
       "/": "Marina Rodrigues Photography",
       "/about": t("about.meta.title"),
@@ -44,14 +49,19 @@ function App() {
     robots.name = "robots";
     robots.content = (projectRoute && !project) || !known ? "noindex, nofollow" : "index, follow";
     document.head.appendChild(robots);
+    const description = document.querySelector('meta[name="description"]');
+    const defaultDescription = description?.content;
+    if (description && (project || location.pathname === "/personal-projects")) {
+      description.content = project ? projectContent(project, i18n.resolvedLanguage).description?.split("\n\n")[0] || defaultDescription : t("projects.intro");
+    }
     if (isAdmin) {
       document.title = "Painel do estúdio — Marina Rodrigues";
-    } else if (import.meta.env.DEV && /^\/dev(?:\/|$)/.test(location.pathname)) {
-      document.title = "Project layout preview — Marina Rodrigues";
     }
-    document.documentElement.lang = isAdmin ? "pt-BR" : i18n.resolvedLanguage || i18n.language;
-    return () => robots.remove();
-  }, [location.pathname, t, i18n, i18n.resolvedLanguage, isAdmin]);
+    return () => {
+      robots.remove();
+      if (description) description.content = defaultDescription;
+    };
+  }, [location.pathname, t, i18n, i18n.resolvedLanguage, isAdmin, isArtisticReview]);
 
   return (
     <>
@@ -65,11 +75,15 @@ function App() {
         <Route path="/packages" element={<Navigate to="/portfolio" replace />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfolio/:type" element={<Portfolio />} />
-        <Route path="/personal-projects" element={<PersonalProjects />} />
-        <Route path="/personal-projects/:slug" element={<PersonalProject />} />
+        {artisticReview
+          ? <Route path="/personal-projects/:slug?" element={<Suspense><ProjectPreview /></Suspense>} />
+          : <>
+            <Route path="/personal-projects" element={<PersonalProjects />} />
+            <Route path="/personal-projects/:slug" element={<PersonalProject />} />
+          </>}
         {import.meta.env.DEV && <>
           <Route path="/admin/*" element={<Suspense fallback={<main className="projects-page">Carregando o painel…</main>}><AdminGate /></Suspense>} />
-          <Route path="/dev/personal-projects/:slug?" element={<Suspense fallback={<main className="projects-page">Loading preview…</main>}><ProjectPreview /></Suspense>} />
+          <Route path="/dev/personal-projects/:slug?" element={<Suspense><ProjectPreview basePath="/dev/personal-projects" /></Suspense>} />
         </>}
         <Route path="*" element={<NotFound />} />
       </Routes>

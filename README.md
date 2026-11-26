@@ -1,158 +1,102 @@
-<h1 align="center">
-  Marina Rodrii Photo | Cinematic Photography
-</h1>
+# Marina Rodrigues Photography
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" />
-  <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript" />
-  <img src="https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel" />
-</p>
+Official portfolio for Brazilian photographer and filmmaker Marina Rodrigues. The site brings together commercial photography, contact and booking information, and an editorial space for Marina’s independent work.
 
-Official website for photographer Marina Rodrigues, focused on cinematic photography, emotional storytelling, and a clean visual experience.
+[Visit the live website](https://marinarodriiphoto.com)
 
-This project was rebuilt from scratch using React to provide a faster, more modern, and scalable experience. The current version focuses on performance, responsiveness, and maintainable component-based architecture, while leaving room for future backend integration and content management features.
+## Overview
 
----
+The website gives clients a direct path from browsing Marina’s photography to starting a booking conversation. The Artistic Projects section gives her independent photography and films their own editorial space within the same visual identity.
 
-# Project Overview
+## Screenshots
 
-The website was designed to showcase Marina Rodrigues' portfolio through an elegant and immersive browsing experience.
+| Home | Commercial Portfolio |
+| --- | --- |
+| ![Desktop homepage with Marina’s photography](docs/screenshots/home-desktop.png) | ![Commercial Portfolio gallery](docs/screenshots/portfolio.png) |
 
-Main goals:
+[Mobile homepage](docs/screenshots/home-mobile.png) · [Contact page](docs/screenshots/contact.png)
 
-- Clean and minimalist design
-- Cinematic visual storytelling
-- Responsive experience across all devices
-- Component-based architecture
-- Easy future scalability
+## Features and release status
 
----
+| Area | Status |
+| --- | --- |
+| Public website | The commercial Portfolio, About and contact experience are available on the live site. The Portfolio supports gallery filters and a keyboard-operable image viewer. |
+| Artistic Projects | Six artistic projects and three accompanying films are available for local and branch preview review. The section also includes PhotoVogue, Vrse and Selin, the Brazilian Embassy competition honourable mention with the series *Mudar*, and the Palau Sessions and MONAD exhibitions. |
+| Languages and accessibility | Portuguese, English, Spanish and Catalan through i18next. Responsive images, localized alternative text, keyboard gallery controls and native video controls support the artistic section. |
+| Studio admin | Portfolio administration and the backend are implemented in the repository. Production admin integration and the hosted Portfolio import are still in progress. The hosted importer code and runbook are on the admin branch. |
 
-# Screenshots
+## Stack and architecture
 
-## Desktop — Home
+| Layer | Technology and responsibility |
+| --- | --- |
+| Frontend | React 19, React Router, Vite 8, JavaScript, CSS and i18next. Vercel hosts the public single-page app. |
+| Backend | Java 21, Spring Boot, Spring Security, MySQL and Flyway. Railway is the target for the hosted API and database. |
+| Media | The commercial Portfolio has a bundled image inventory. The development frontend can read Portfolio data from the public API for integration testing. The backend signs Cloudinary uploads and manages photo records. |
+| Admin security | Authenticated, role-restricted API operations use server-side sessions, CSRF protection and secure production cookies. Backend credentials stay in the server environment. |
 
-![Home Desktop](docs/screenshots/home-desktop.png)
+## Repository structure
 
-## Mobile — Home
-
-![Home Mobile](docs/screenshots/home-mobile.png)
-
-## Portfolio
-
-![Portfolio](docs/screenshots/portfolio.png)
-
-## Contact
-
-![Contact](docs/screenshots/contact.png)
-
----
-
-# Tech Stack
-
-## Frontend
-
-- React
-- Vite
-- JavaScript (ES6+)
-- CSS3
-
-## Deployment
-
-- Vercel
-
----
-
-# Application Architecture
-
-The project follows a component-based architecture to keep the code modular and easy to maintain.
-
-```
-src/
-│
-├── assets/
-├── components/
-├── sections/
-├── locales/
-├── hooks/
-├── utils/
-└── App.jsx
+```text
+frontend/
+  public/assets/     Static site media and local artistic preview derivatives
+  src/               Routes, components, translations and development previews
+  scripts/           Portfolio import planning
+  tests/             Node test suites
+backend/
+  src/main/          Spring Boot services, persistence, configuration and migrations
+  src/test/          Backend tests
+docs/
+  content/           Artistic draft catalogue
+  screenshots/       Public site previews
 ```
 
-The application also includes:
+## Local development
 
-- Reusable UI components
-- Multi-language support
-- Responsive layouts
-- Centralized styling
-- Clean folder organization
+Use a Node release supported by Vite 8 and npm. Run these commands from the repository root.
 
----
-
-# Features
-
-- Responsive design
-- Smooth scrolling navigation
-- Photography portfolio
-- WhatsApp contact integration
-- Multi-language support
-  - Portuguese
-  - English
-  - Spanish
-  - Catalan
-- Optimized image loading
-- Modern React architecture
-
----
-
-# Running the Project Locally
-
-```bash
-git clone https://github.com/lorenasferreira/marinarodriiphoto.git
-
-cd marinarodriiphoto
-
-npm install
-
+```sh
+cd frontend
+npm ci
 npm run dev
 ```
 
----
+Open [Artistic Projects locally](http://127.0.0.1:5173/personal-projects) during development. The catalogue and media also appear on the designated Vercel branch preview. Production builds exclude unpublished records and media. The frontend previews run without starting the backend.
 
-# Live Website
+To work on the API, use Java 21 and a local MySQL development database. From `backend/`, configure the documented variables and run `./mvnw spring-boot:run`. Vite proxies the local API requests to port 8080. See the [Portfolio upload guide](docs/PORTFOLIO_UPLOAD.md) for the local database and migration procedure.
 
-https://marinarodriiphoto.com
+### Environment variables
 
----
+Use placeholders in shared documentation. The development backend reads an optional ignored `backend/.env` file in Java properties format. Configure production values through the hosting services.
 
-# Future Improvements
+| Scope | Variables | Example or purpose |
+| --- | --- | --- |
+| Local database | `DEV_DB_URL`, `DEV_DB_USERNAME`, `DEV_DB_PASSWORD` | `jdbc:mysql://127.0.0.1:3306/<dev-database>`, `<dev-user>`, `<dev-password>` |
+| Production API | `SPRING_PROFILES_ACTIVE`, `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` | `production`, `jdbc:mysql://<mysql-host>:3306/<database>`, `<db-user>`, `<db-password>` |
+| Backend media | `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET` | `<cloud-name>`, `<api-key>`, `<api-secret>` |
+| Local Portfolio integration | `VITE_PUBLIC_PORTFOLIO_API` | Set to `true` in the frontend development environment to exercise the local Portfolio API. |
+| Local admin over HTTP | `ADMIN_SESSION_COOKIE_SECURE` | Set to `false` for local HTTP only. The production profile enforces secure cookies. |
 
-- Admin dashboard
-- Authentication system
-- Portfolio management panel
-- Cloudinary image uploads
-- Backend API
-- PostgreSQL database integration
-- SEO improvements
-- Image lazy loading optimizations
-- Analytics dashboard
+## Quality checks
 
----
+From `frontend/`:
 
-# Code Quality
+```sh
+node --test tests/*.test.js
+npm run lint
+npm run build
+npm run preview
+```
 
-- Reusable React components
-- Clean folder structure
-- Responsive-first development
-- Maintainable architecture
-- Scalable project organization
+From `backend/`, run `./mvnw test` when working on the API. Follow the documented development database procedure before running any database-backed checks.
 
----
+## Technical documentation
 
-# Author
+- [Artistic preview and release](docs/ARTISTIC_RELEASE.md)
+- [Design system](docs/DESIGN_SYSTEM.md) and [site structure](docs/SITE_STRUCTURE.md)
+- [Frontend implementation notes](docs/FRONTEND_COMPLETION.md)
+- [Admin requirements](docs/ADMIN_REQUIREMENTS.md) and [Portfolio upload and database workflow](docs/PORTFOLIO_UPLOAD.md)
+- [Hosted Portfolio importer runbook on the admin branch](https://github.com/lorenasferreira/marinarodriiphoto/blob/feature/marina-admin/docs/PORTFOLIO_PRODUCTION_IMPORT.md)
 
-Website designed and developed by **Lorena Ferreira**
+## Credits
 
-Portfolio:
-https://lorenaferreira.dev
+Designed and developed by **[Lorena Ferreira](https://lorenaferreira.dev)** for **Marina Rodrigues Photography**.

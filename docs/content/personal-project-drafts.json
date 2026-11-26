@@ -2,11 +2,131 @@
   {
     "id": "personal-rosalia",
     "slug": "rosalia",
-    "title": "Rosalía — A dor que empodera o amor",
+    "title": "Rosalía: A dor que empodera o amor",
     "category": "shortFilm",
     "description": "No primeiro ato, inspirado em “Berghain”, de Rosalía, uma estética sombria e intensa explora o fim de uma relação, a dor do coração partido e as emoções da separação.\n\nNo segundo ato, inspirado em “La Perla”, a atmosfera fica mais leve e luminosa. Essa passagem representa a liberdade, o reencontro consigo mesma, o amor-próprio e o empoderamento feminino.\n\nDois momentos, duas atmosferas e uma transformação: da dor à liberdade, de um fim a um novo começo.",
-    "coverImage": null,
-    "galleryImages": [],
+    "coverImage": {
+      "id": "rosalia-02",
+      "src": "/assets/artistic/rosalia/rosalia-02.jpg",
+      "small": "/assets/artistic/rosalia/rosalia-02-640.jpg",
+      "width": 1200,
+      "height": 1800,
+      "smallWidth": 427,
+      "alt": "Retrato de mulher sob luz vermelha",
+      "translations": {
+        "en": {
+          "alt": "Portrait of a woman under red light"
+        },
+        "es": {
+          "alt": "Retrato de una mujer bajo luz roja"
+        },
+        "ca": {
+          "alt": "Retrat d’una dona sota llum vermella"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "rosalia-02",
+        "src": "/assets/artistic/rosalia/rosalia-02.jpg",
+        "small": "/assets/artistic/rosalia/rosalia-02-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Retrato de mulher sob luz vermelha",
+        "translations": {
+          "en": {
+            "alt": "Portrait of a woman under red light"
+          },
+          "es": {
+            "alt": "Retrato de una mujer bajo luz roja"
+          },
+          "ca": {
+            "alt": "Retrat d’una dona sota llum vermella"
+          }
+        }
+      },
+      {
+        "id": "rosalia-05",
+        "src": "/assets/artistic/rosalia/rosalia-05.jpg",
+        "small": "/assets/artistic/rosalia/rosalia-05-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Rosto de mulher em close sob luz vermelha",
+        "translations": {
+          "en": {
+            "alt": "Close-up of a woman’s face in red light"
+          },
+          "es": {
+            "alt": "Primer plano de una mujer bajo luz roja"
+          },
+          "ca": {
+            "alt": "Primer pla d’una dona sota llum vermella"
+          }
+        }
+      },
+      {
+        "id": "rosalia-01",
+        "src": "/assets/artistic/rosalia/rosalia-01.jpg",
+        "small": "/assets/artistic/rosalia/rosalia-01-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher sentada com casaco preto, em preto e branco",
+        "translations": {
+          "en": {
+            "alt": "Woman seated in a black coat, in black and white"
+          },
+          "es": {
+            "alt": "Mujer sentada con abrigo negro, en blanco y negro"
+          },
+          "ca": {
+            "alt": "Dona asseguda amb abric negre, en blanc i negre"
+          }
+        }
+      },
+      {
+        "id": "rosalia-03",
+        "src": "/assets/artistic/rosalia/rosalia-03.jpg",
+        "small": "/assets/artistic/rosalia/rosalia-03-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher inclina a cabeça enquanto posa sentada, em preto e branco",
+        "translations": {
+          "en": {
+            "alt": "Woman tilting her head in a seated black-and-white portrait"
+          },
+          "es": {
+            "alt": "Mujer inclina la cabeza en un retrato sentada, en blanco y negro"
+          },
+          "ca": {
+            "alt": "Dona que inclina el cap en un retrat asseguda, en blanc i negre"
+          }
+        }
+      },
+      {
+        "id": "rosalia-04",
+        "src": "/assets/artistic/rosalia/rosalia-04.jpg",
+        "small": "/assets/artistic/rosalia/rosalia-04-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher de botas junto a um janelão, em preto e branco",
+        "translations": {
+          "en": {
+            "alt": "Woman in boots beside a large window, in black and white"
+          },
+          "es": {
+            "alt": "Mujer con botas junto a un ventanal, en blanco y negro"
+          },
+          "ca": {
+            "alt": "Dona amb botes vora un finestral, en blanc i negre"
+          }
+        }
+      }
+    ],
     "videos": [],
     "status": "draft",
     "releaseAuthorized": false,
@@ -21,29 +141,246 @@
       "ca": {
         "description": "El primer acte, inspirat en «Berghain» de Rosalía, utilitza una estètica fosca i intensa per explorar el final d’una relació, el desamor i les emocions de la separació.\n\nEl segon acte, inspirat en «La Perla», dona pas a una atmosfera més lleugera i lluminosa que representa la llibertat, el retrobament amb una mateixa, l’amor propi i l’empoderament femení.\n\nDos moments, dues atmosferes i una transformació: del dolor a la llibertat, d’un final a un nou començament."
       }
-    }
+    },
+    "imageGroups": [
+      {
+        "titleKey": "projects.rosalia.actOne",
+        "ids": [
+          "rosalia-02",
+          "rosalia-05"
+        ]
+      },
+      {
+        "titleKey": "projects.rosalia.actTwo",
+        "ids": [
+          "rosalia-01",
+          "rosalia-03",
+          "rosalia-04"
+        ]
+      }
+    ]
   },
   {
     "id": "personal-melanina",
     "slug": "melanina",
     "title": "Melanina: Mirrors of the Soul",
     "category": "documentary",
-    "description": "Neste documentário, nove mulheres negras compartilham suas experiências, seus desafios e suas histórias pessoais. O projeto aborda identidade, autoestima, beleza, racismo, discriminação, autoaceitação, ancestralidade e orgulho de suas raízes. O filme destaca tanto as experiências em comum quanto a trajetória singular de cada participante.",
-    "coverImage": null,
-    "galleryImages": [],
+    "description": "O documentário Melanina: Mirrors of the Soul apresenta as histórias de nove mulheres negras, que partilham as suas vivências, experiências e desafios ao longo da vida.\n\nOs seus testemunhos mostram diferentes realidades de ser mulher e negra na sociedade e abordam identidade, autoestima, beleza, racismo, discriminação e aceitação pessoal.\n\nAs histórias revelam como estas mulheres enfrentaram preconceitos, julgamentos e dificuldades por causa da cor da pele e da sua origem. Mostram também a importância de reconhecer a própria identidade, valorizar as raízes e sentir orgulho da sua ancestralidade.\n\nO filme dá espaço às emoções, às memórias e às experiências pessoais de cada mulher. Apesar da experiência partilhada de serem mulheres negras, cada uma tem uma história única.",
+    "coverImage": {
+      "id": "melanina-04",
+      "src": "/assets/artistic/melanina/melanina-04.jpg",
+      "small": "/assets/artistic/melanina/melanina-04-640.jpg",
+      "width": 1800,
+      "height": 1014,
+      "smallWidth": 640,
+      "alt": "Mulher com cabelo cacheado enquadra o rosto com as mãos",
+      "translations": {
+        "en": {
+          "alt": "Woman with curly hair framing her face with her hands"
+        },
+        "es": {
+          "alt": "Mujer de pelo rizado que enmarca su cara con las manos"
+        },
+        "ca": {
+          "alt": "Dona de cabells arrissats que emmarca el rostre amb les mans"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "melanina-01",
+        "src": "/assets/artistic/melanina/melanina-01.jpg",
+        "small": "/assets/artistic/melanina/melanina-01-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher com cabelo afro estende a mão à câmera",
+        "translations": {
+          "en": {
+            "alt": "Woman with an Afro reaching toward the camera"
+          },
+          "es": {
+            "alt": "Mujer con pelo afro que tiende la mano a la cámara"
+          },
+          "ca": {
+            "alt": "Dona amb cabells afro que allarga la mà cap a la càmera"
+          }
+        }
+      },
+      {
+        "id": "melanina-02",
+        "src": "/assets/artistic/melanina/melanina-02.jpg",
+        "small": "/assets/artistic/melanina/melanina-02-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher com top branco e casaco sobre os ombros",
+        "translations": {
+          "en": {
+            "alt": "Woman in a white top with a jacket draped over her shoulders"
+          },
+          "es": {
+            "alt": "Mujer con top blanco y chaqueta sobre los hombros"
+          },
+          "ca": {
+            "alt": "Dona amb top blanc i jaqueta sobre les espatlles"
+          }
+        }
+      },
+      {
+        "id": "melanina-03",
+        "src": "/assets/artistic/melanina/melanina-03.jpg",
+        "small": "/assets/artistic/melanina/melanina-03-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Retrato de perfil com colar de pérolas e blazer",
+        "translations": {
+          "en": {
+            "alt": "Profile portrait with a pearl necklace and blazer"
+          },
+          "es": {
+            "alt": "Retrato de perfil con collar de perlas y americana"
+          },
+          "ca": {
+            "alt": "Retrat de perfil amb collaret de perles i americana"
+          }
+        }
+      },
+      {
+        "id": "melanina-04",
+        "src": "/assets/artistic/melanina/melanina-04.jpg",
+        "small": "/assets/artistic/melanina/melanina-04-640.jpg",
+        "width": 1800,
+        "height": 1014,
+        "smallWidth": 640,
+        "alt": "Mulher com cabelo cacheado enquadra o rosto com as mãos",
+        "translations": {
+          "en": {
+            "alt": "Woman with curly hair framing her face with her hands"
+          },
+          "es": {
+            "alt": "Mujer de pelo rizado que enmarca su cara con las manos"
+          },
+          "ca": {
+            "alt": "Dona de cabells arrissats que emmarca el rostre amb les mans"
+          }
+        }
+      },
+      {
+        "id": "melanina-05",
+        "src": "/assets/artistic/melanina/melanina-05.jpg",
+        "small": "/assets/artistic/melanina/melanina-05-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Retrato de costas com turbante e acessórios dourados",
+        "translations": {
+          "en": {
+            "alt": "Portrait from behind with a headwrap and gold accessories"
+          },
+          "es": {
+            "alt": "Retrato de espaldas con turbante y accesorios dorados"
+          },
+          "ca": {
+            "alt": "Retrat d’esquena amb turbant i accessoris daurats"
+          }
+        }
+      },
+      {
+        "id": "melanina-06",
+        "src": "/assets/artistic/melanina/melanina-06.jpg",
+        "small": "/assets/artistic/melanina/melanina-06-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Mulher de tranças longas posa com casaco marrom",
+        "translations": {
+          "en": {
+            "alt": "Woman with long braids posing in a brown jacket"
+          },
+          "es": {
+            "alt": "Mujer con trenzas largas y chaqueta marrón"
+          },
+          "ca": {
+            "alt": "Dona amb trenes llargues i jaqueta marró"
+          }
+        }
+      },
+      {
+        "id": "melanina-07",
+        "src": "/assets/artistic/melanina/melanina-07.jpg",
+        "small": "/assets/artistic/melanina/melanina-07-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher com tranças longas se inclina em direção à câmera",
+        "translations": {
+          "en": {
+            "alt": "Woman with long braids leaning toward the camera"
+          },
+          "es": {
+            "alt": "Mujer con trenzas largas que se inclina hacia la cámara"
+          },
+          "ca": {
+            "alt": "Dona amb trenes llargues que s’inclina cap a la càmera"
+          }
+        }
+      },
+      {
+        "id": "melanina-08",
+        "src": "/assets/artistic/melanina/melanina-08.jpg",
+        "small": "/assets/artistic/melanina/melanina-08-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Retrato de mulher com cachos dourados",
+        "translations": {
+          "en": {
+            "alt": "Portrait of a woman with golden curls"
+          },
+          "es": {
+            "alt": "Retrato de una mujer con rizos dorados"
+          },
+          "ca": {
+            "alt": "Retrat d’una dona amb rínxols daurats"
+          }
+        }
+      },
+      {
+        "id": "melanina-09",
+        "src": "/assets/artistic/melanina/melanina-09.jpg",
+        "small": "/assets/artistic/melanina/melanina-09-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mulher de blazer escuro e calça estampada segura o cabelo",
+        "translations": {
+          "en": {
+            "alt": "Woman in a dark blazer and patterned trousers holding her hair"
+          },
+          "es": {
+            "alt": "Mujer con americana oscura y pantalones estampados que se sujeta el pelo"
+          },
+          "ca": {
+            "alt": "Dona amb americana fosca i pantalons estampats que s’aguanta els cabells"
+          }
+        }
+      }
+    ],
     "videos": [],
     "status": "draft",
     "releaseAuthorized": false,
-    "displayOrder": 2,
+    "displayOrder": 6,
     "translations": {
       "en": {
-        "description": "In this documentary, nine Black women share their experiences, challenges and personal stories. The project explores identity, self-esteem, beauty, racism, discrimination, self-acceptance, ancestry and pride in one’s roots. It highlights both shared experiences and each participant’s individual journey."
+        "description": "The documentary Melanina: Mirrors of the Soul tells the stories of nine Black women who share their experiences and the challenges they have faced throughout their lives.\n\nTheir accounts show different realities of being a Black woman in society, exploring identity, self-esteem, beauty, racism, discrimination and self-acceptance.\n\nThey recount facing prejudice, judgment and hardship because of their skin colour and origins. Their stories also speak to the importance of recognising one's identity, valuing one's roots and taking pride in one's ancestry.\n\nThe film gives each woman space for her emotions, memories and personal experiences. They share the experience of being Black women, and each has a story of her own."
       },
       "es": {
-        "description": "En este documental, nueve mujeres negras comparten sus experiencias, retos e historias personales. El proyecto aborda la identidad, la autoestima, la belleza, el racismo, la discriminación, la autoaceptación, la ancestralidad y el orgullo por las propias raíces. La película destaca tanto las experiencias compartidas como la trayectoria singular de cada participante."
+        "description": "El documental Melanina: Mirrors of the Soul presenta las historias de nueve mujeres negras que comparten sus vivencias y los desafíos que han afrontado a lo largo de su vida.\n\nSus testimonios muestran distintas realidades de ser mujer y negra en la sociedad y abordan la identidad, la autoestima, la belleza, el racismo, la discriminación y la autoaceptación.\n\nLas historias revelan cómo se enfrentaron a prejuicios, juicios y dificultades por el color de su piel y su origen. También muestran la importancia de reconocer la propia identidad, valorar las raíces y sentir orgullo por la ascendencia.\n\nLa película da espacio a las emociones, los recuerdos y las experiencias personales de cada mujer. Comparten la experiencia de ser mujeres negras y cada una tiene una historia propia."
       },
       "ca": {
-        "description": "En aquest documental, nou dones negres comparteixen les seves experiències, els reptes i les històries personals. El projecte aborda la identitat, l’autoestima, la bellesa, el racisme, la discriminació, l’autoacceptació, l’ancestralitat i l’orgull per les pròpies arrels. La pel·lícula posa en relleu tant les experiències compartides com el recorregut singular de cada participant."
+        "description": "El documental Melanina: Mirrors of the Soul presenta les històries de nou dones negres que comparteixen les seves vivències i els reptes que han afrontat al llarg de la vida.\n\nEls seus testimonis mostren diferents realitats de ser dona i negra en la societat i aborden la identitat, l’autoestima, la bellesa, el racisme, la discriminació i l’autoacceptació.\n\nLes històries revelen com van afrontar prejudicis, judicis i dificultats pel color de la pell i el seu origen. També mostren la importància de reconèixer la pròpia identitat, valorar les arrels i sentir orgull de l’ascendència.\n\nLa pel·lícula dona espai a les emocions, els records i les experiències personals de cada dona. Comparteixen l’experiència de ser dones negres i cadascuna té una història pròpia."
       }
     }
   },
@@ -52,41 +389,611 @@
     "slug": "pure-colours",
     "title": "Pure Colours",
     "category": "fashion",
-    "description": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "videos": [],
-    "status": "draft",
-    "releaseAuthorized": false,
-    "displayOrder": 3,
-    "translations": {}
-  },
-  {
-    "id": "personal-whats-your-story",
-    "slug": "whats-your-story",
-    "title": "What's Your Story",
-    "category": "miniDocumentaries",
-    "description": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "videos": [],
-    "status": "draft",
-    "releaseAuthorized": false,
-    "displayOrder": 4,
-    "translations": {}
-  },
-  {
-    "id": "personal-ticiani",
-    "slug": "ticiani",
-    "title": "Ticiani — The Renaissance of a Pop Star",
-    "category": "miniDocumentaries",
-    "description": "Este projeto fotográfico deu origem a um documentário sobre Ticiani Carriel, conhecida como Tici, e sua trajetória de renascimento por meio da moda. Ao visitar diferentes lugares, ela revisita memórias que revelam as influências e referências que ajudaram a construir sua identidade.",
-    "coverImage": null,
-    "galleryImages": [],
+    "description": "Pure Colours é um projeto fotográfico que explora a intensidade das cores para celebrar e enaltecer a beleza da pele negra. Nasceu da vontade de questionar a ideia de que pessoas negras precisam estar associadas a determinadas paletas ou estéticas e de mostrar que é possível ser negro, colorido, vibrante e expressivo.\n\nInspirado no trabalho do fotógrafo brasileiro Rafael Pavarotti, o projeto combina uma estética editorial com cores intensas em composições divertidas, ousadas e cheias de personalidade. Uma celebração da diversidade, da identidade e da liberdade de expressão através da fotografia.",
+    "coverImage": {
+      "id": "pure-colours-04",
+      "src": "/assets/artistic/pure-colours/pure-colours-04.jpg",
+      "small": "/assets/artistic/pure-colours/pure-colours-04-640.jpg",
+      "width": 1800,
+      "height": 1200,
+      "smallWidth": 640,
+      "alt": "Modelo ergue uma bolsa verde e segura uma trança",
+      "translations": {
+        "en": {
+          "alt": "Model holding up a green handbag and a braid"
+        },
+        "es": {
+          "alt": "Modelo que levanta un bolso verde y sostiene una trenza"
+        },
+        "ca": {
+          "alt": "Model que aixeca una bossa verda i sosté una trena"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "pure-colours-01",
+        "src": "/assets/artistic/pure-colours/pure-colours-01.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-01-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Modelo de tranças com blusa estampada em roxo e azul",
+        "translations": {
+          "en": {
+            "alt": "Braided model in a purple and blue patterned top"
+          },
+          "es": {
+            "alt": "Modelo con trenzas y blusa estampada en morado y azul"
+          },
+          "ca": {
+            "alt": "Model amb trenes i brusa estampada en lila i blau"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-02",
+        "src": "/assets/artistic/pure-colours/pure-colours-02.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-02-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Retrato frontal da modelo contra fundo claro",
+        "translations": {
+          "en": {
+            "alt": "Front-facing portrait of the model against a pale backdrop"
+          },
+          "es": {
+            "alt": "Retrato frontal de la modelo ante un fondo claro"
+          },
+          "ca": {
+            "alt": "Retrat frontal de la model davant d’un fons clar"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-03",
+        "src": "/assets/artistic/pure-colours/pure-colours-03.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-03-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Modelo segura as tranças com as duas mãos",
+        "translations": {
+          "en": {
+            "alt": "Model holding her braids in both hands"
+          },
+          "es": {
+            "alt": "Modelo que sostiene las trenzas con ambas manos"
+          },
+          "ca": {
+            "alt": "Model que sosté les trenes amb totes dues mans"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-04",
+        "src": "/assets/artistic/pure-colours/pure-colours-04.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-04-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Modelo ergue uma bolsa verde e segura uma trança",
+        "translations": {
+          "en": {
+            "alt": "Model holding up a green handbag and a braid"
+          },
+          "es": {
+            "alt": "Modelo que levanta un bolso verde y sostiene una trenza"
+          },
+          "ca": {
+            "alt": "Model que aixeca una bossa verda i sosté una trena"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-05",
+        "src": "/assets/artistic/pure-colours/pure-colours-05.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-05-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Close de perfil entre mangas de estampa colorida",
+        "translations": {
+          "en": {
+            "alt": "Profile close-up framed by brightly patterned sleeves"
+          },
+          "es": {
+            "alt": "Primer plano de perfil entre mangas estampadas de colores"
+          },
+          "ca": {
+            "alt": "Primer pla de perfil entre mànigues estampades de colors"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-06",
+        "src": "/assets/artistic/pure-colours/pure-colours-06.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-06-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Saia azul e botas vermelhas diante de fundo estampado",
+        "translations": {
+          "en": {
+            "alt": "Blue skirt and red boots against a patterned backdrop"
+          },
+          "es": {
+            "alt": "Falda azul y botas rojas ante un fondo estampado"
+          },
+          "ca": {
+            "alt": "Faldilla blava i botes vermelles davant d’un fons estampat"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-07",
+        "src": "/assets/artistic/pure-colours/pure-colours-07.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-07-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Modelo de azul apoia o queixo na mão",
+        "translations": {
+          "en": {
+            "alt": "Model in blue resting her chin on her hand"
+          },
+          "es": {
+            "alt": "Modelo vestida de azul que apoya la barbilla en la mano"
+          },
+          "ca": {
+            "alt": "Model vestida de blau que repenja la barbeta a la mà"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-08",
+        "src": "/assets/artistic/pure-colours/pure-colours-08.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-08-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Modelo agachada com roupas azuis e botas vermelhas",
+        "translations": {
+          "en": {
+            "alt": "Model crouching in blue clothing and red boots"
+          },
+          "es": {
+            "alt": "Modelo en cuclillas con ropa azul y botas rojas"
+          },
+          "ca": {
+            "alt": "Model a la gatzoneta amb roba blava i botes vermelles"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-09",
+        "src": "/assets/artistic/pure-colours/pure-colours-09.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-09-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Modelo de azul ergue um copo aos lábios",
+        "translations": {
+          "en": {
+            "alt": "Model in blue raising a glass to her lips"
+          },
+          "es": {
+            "alt": "Modelo vestida de azul que se lleva un vaso a los labios"
+          },
+          "ca": {
+            "alt": "Model vestida de blau que s’acosta un got als llavis"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-10",
+        "src": "/assets/artistic/pure-colours/pure-colours-10.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-10-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Modelo sentada com leque escuro diante de fundo estampado",
+        "translations": {
+          "en": {
+            "alt": "Seated model with a dark fan against a patterned backdrop"
+          },
+          "es": {
+            "alt": "Modelo sentada con abanico oscuro ante un fondo estampado"
+          },
+          "ca": {
+            "alt": "Model asseguda amb ventall fosc davant d’un fons estampat"
+          }
+        }
+      },
+      {
+        "id": "pure-colours-11",
+        "src": "/assets/artistic/pure-colours/pure-colours-11.jpg",
+        "small": "/assets/artistic/pure-colours/pure-colours-11-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Modelo de azul se inclina para a câmera",
+        "translations": {
+          "en": {
+            "alt": "Model in blue leaning toward the camera"
+          },
+          "es": {
+            "alt": "Modelo vestida de azul que se inclina hacia la cámara"
+          },
+          "ca": {
+            "alt": "Model vestida de blau que s’inclina cap a la càmera"
+          }
+        }
+      }
+    ],
     "videos": [],
     "status": "draft",
     "releaseAuthorized": false,
     "displayOrder": 5,
+    "translations": {
+      "en": {
+        "description": "Pure Colours uses the intensity of colour to celebrate the beauty of Black skin. The project grew from a desire to challenge the idea that Black people belong within certain palettes or aesthetics and to show how colourful, vibrant and expressive Black identity can be.\n\nInspired by Brazilian photographer Rafael Pavarotti, the project combines an editorial aesthetic with intense colours in playful, bold compositions full of personality. It celebrates diversity, identity and freedom of expression through photography."
+      },
+      "es": {
+        "description": "Pure Colours explora la intensidad del color para celebrar y realzar la belleza de la piel negra. Nació del deseo de cuestionar la idea de que las personas negras deben asociarse con determinadas paletas o estéticas y de mostrar que la identidad negra puede ser colorida, vibrante y expresiva.\n\nInspirado en el fotógrafo brasileño Rafael Pavarotti, el proyecto combina una estética editorial con colores intensos en composiciones divertidas, atrevidas y llenas de personalidad. Celebra la diversidad, la identidad y la libertad de expresión a través de la fotografía."
+      },
+      "ca": {
+        "description": "Pure Colours explora la intensitat del color per celebrar i realçar la bellesa de la pell negra. Va néixer del desig de qüestionar la idea que les persones negres s’han d’associar amb determinades paletes o estètiques i de mostrar que la identitat negra pot ser acolorida, vibrant i expressiva.\n\nInspirat en el fotògraf brasiler Rafael Pavarotti, el projecte combina una estètica editorial amb colors intensos en composicions divertides, atrevides i plenes de personalitat. Celebra la diversitat, la identitat i la llibertat d’expressió a través de la fotografia."
+      }
+    }
+  },
+  {
+    "id": "personal-whats-your-story",
+    "slug": "whats-your-story",
+    "title": "What's Your Story?",
+    "category": "miniDocumentaries",
+    "description": "Dirigido e filmado por Marina Silva Rodrigues, artista e fotógrafa brasileira que conheceu o projeto What's Your Story? em um de seus eventos e nunca mais se afastou.\n\nEste documentário de 60 segundos é sua resposta artística ao que testemunhou: pessoas desconhecidas que pararam, pegaram um pincel e pintaram suas próprias histórias, sem perceber que, através da arte, também completavam as histórias umas das outras.\n\nUm filme sobre What's Your Story?, projeto de Amanda Araújo e Prëo, dois artistas brasileiros que levam a arte para diferentes partes do mundo.",
+    "coverImage": {
+      "id": "whats-your-story-03",
+      "src": "/assets/artistic/whats-your-story/whats-your-story-03.jpg",
+      "small": "/assets/artistic/whats-your-story/whats-your-story-03-640.jpg",
+      "width": 1200,
+      "height": 1800,
+      "smallWidth": 427,
+      "alt": "Duas pessoas se inclinam sobre uma superfície pintada",
+      "translations": {
+        "en": {
+          "alt": "Two people leaning over a painted surface"
+        },
+        "es": {
+          "alt": "Dos personas se inclinan sobre una superficie pintada"
+        },
+        "ca": {
+          "alt": "Dues persones s’inclinen sobre una superfície pintada"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "whats-your-story-01",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-01.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-01-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Duas pessoas em meio a paredes e chão cobertos de pintura",
+        "translations": {
+          "en": {
+            "alt": "Two people amid painted walls and flooring"
+          },
+          "es": {
+            "alt": "Dos personas entre paredes y suelos cubiertos de pintura"
+          },
+          "ca": {
+            "alt": "Dues persones entre parets i terra coberts de pintura"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-02",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-02.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-02-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Uma pessoa sentada e outra em pé em um espaço coberto de pintura",
+        "translations": {
+          "en": {
+            "alt": "One person seated and another standing in a painted space"
+          },
+          "es": {
+            "alt": "Una persona sentada y otra de pie en un espacio cubierto de pintura"
+          },
+          "ca": {
+            "alt": "Una persona asseguda i una altra dreta en un espai cobert de pintura"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-03",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-03.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-03-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Duas pessoas se inclinam sobre uma superfície pintada",
+        "translations": {
+          "en": {
+            "alt": "Two people leaning over a painted surface"
+          },
+          "es": {
+            "alt": "Dos personas se inclinan sobre una superficie pintada"
+          },
+          "ca": {
+            "alt": "Dues persones s’inclinen sobre una superfície pintada"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-04",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-04.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-04-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Duas pessoas junto a uma composição de pinceladas coloridas",
+        "translations": {
+          "en": {
+            "alt": "Two people beside a composition of colourful brushstrokes"
+          },
+          "es": {
+            "alt": "Dos personas junto a una composición de pinceladas de colores"
+          },
+          "ca": {
+            "alt": "Dues persones vora una composició de pinzellades de colors"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-05",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-05.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-05-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Pessoa com vestido claro junto a uma porta em um espaço pintado",
+        "translations": {
+          "en": {
+            "alt": "Person in a light dress beside a doorway in a painted space"
+          },
+          "es": {
+            "alt": "Persona con vestido claro junto a una puerta en un espacio pintado"
+          },
+          "ca": {
+            "alt": "Persona amb vestit clar vora una porta en un espai pintat"
+          }
+        }
+      }
+    ],
+    "videos": [
+      {
+        "src": "/assets/artistic/whats-your-story/whats-your-story-film.m4v",
+        "poster": "/assets/artistic/whats-your-story/whats-your-story-03.jpg"
+      }
+    ],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 2,
+    "translations": {
+      "en": {
+        "description": "Directed and filmed by Marina Silva Rodrigues, a Brazilian artist and photographer who first encountered What's Your Story? at one of its events and has stayed close to the project ever since.\n\nThis 60-second documentary is her artistic response to what she witnessed: strangers stopped, picked up a brush and painted their own stories, unaware that through art they were also completing one another’s stories.\n\nA film about What's Your Story?, a project by Amanda Araújo and Prëo, two Brazilian artists who bring art to different parts of the world."
+      },
+      "es": {
+        "description": "Dirigido y filmado por Marina Silva Rodrigues, artista y fotógrafa brasileña que conoció What's Your Story? en uno de sus eventos y desde entonces ha seguido vinculada al proyecto.\n\nEste documental de 60 segundos es su respuesta artística a lo que presenció: personas desconocidas que se detuvieron, tomaron un pincel y pintaron sus propias historias, sin darse cuenta de que a través del arte también completaban las historias de las demás.\n\nUna película sobre What's Your Story?, un proyecto de Amanda Araújo y Prëo, dos artistas brasileños que llevan el arte a distintas partes del mundo."
+      },
+      "ca": {
+        "description": "Dirigit i filmat per Marina Silva Rodrigues, artista i fotògrafa brasilera que va conèixer What's Your Story? en un dels seus esdeveniments i des d’aleshores s’ha mantingut a prop del projecte.\n\nAquest documental de 60 segons és la seva resposta artística al que va presenciar: persones desconegudes que es van aturar, van agafar un pinzell i van pintar les seves pròpies històries, sense adonar-se que a través de l’art també completaven les històries de les altres.\n\nUna pel·lícula sobre What's Your Story?, un projecte d’Amanda Araújo i Prëo, dos artistes brasilers que porten l’art a diferents parts del món."
+      }
+    }
+  },
+  {
+    "id": "personal-ticiani",
+    "slug": "ticiani",
+    "title": "Ticiani: The Renaissance of a Pop Star",
+    "category": "documentary",
+    "description": "Este projeto fotográfico deu origem a um documentário sobre Ticiani Carriel, conhecida como Tici, e sua trajetória de renascimento por meio da moda. Ao visitar diferentes lugares, ela revisita memórias que revelam as influências e referências que ajudaram a construir sua identidade.",
+    "coverImage": {
+      "id": "ticiani-06",
+      "src": "/assets/artistic/ticiani/ticiani-06.jpg",
+      "small": "/assets/artistic/ticiani/ticiani-06-640.jpg",
+      "width": 1200,
+      "height": 1800,
+      "smallWidth": 427,
+      "alt": "Ticiani sentada sobre uma mureta diante de murais coloridos",
+      "translations": {
+        "en": {
+          "alt": "Ticiani seated on a low wall in front of colourful murals"
+        },
+        "es": {
+          "alt": "Ticiani sentada en un murete ante murales de colores"
+        },
+        "ca": {
+          "alt": "Ticiani asseguda en un mur baix davant de murals de colors"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "ticiani-01",
+        "src": "/assets/artistic/ticiani/ticiani-01.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-01-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Murais com rostos pintados em uma parede",
+        "translations": {
+          "en": {
+            "alt": "Large painted faces on a mural wall"
+          },
+          "es": {
+            "alt": "Rostros pintados en una pared de murales"
+          },
+          "ca": {
+            "alt": "Rostres pintats en una paret de murals"
+          }
+        }
+      },
+      {
+        "id": "ticiani-02",
+        "src": "/assets/artistic/ticiani/ticiani-02.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-02-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani de amarelo diante de um mural com óculos escuros",
+        "translations": {
+          "en": {
+            "alt": "Ticiani in yellow before a mural of a face in sunglasses"
+          },
+          "es": {
+            "alt": "Ticiani de amarillo ante un mural con un rostro con gafas de sol"
+          },
+          "ca": {
+            "alt": "Ticiani de groc davant d’un mural amb un rostre amb ulleres de sol"
+          }
+        }
+      },
+      {
+        "id": "ticiani-03",
+        "src": "/assets/artistic/ticiani/ticiani-03.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-03-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani em pé entre obras no ateliê",
+        "translations": {
+          "en": {
+            "alt": "Ticiani standing among artworks in a studio"
+          },
+          "es": {
+            "alt": "Ticiani de pie entre obras en un taller"
+          },
+          "ca": {
+            "alt": "Ticiani dreta entre obres en un taller"
+          }
+        }
+      },
+      {
+        "id": "ticiani-04",
+        "src": "/assets/artistic/ticiani/ticiani-04.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-04-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani sentada no ateliê diante de uma figura azul",
+        "translations": {
+          "en": {
+            "alt": "Ticiani seated in a studio beneath a blue figure"
+          },
+          "es": {
+            "alt": "Ticiani sentada en un taller ante una figura azul"
+          },
+          "ca": {
+            "alt": "Ticiani asseguda en un taller davant d’una figura blava"
+          }
+        }
+      },
+      {
+        "id": "ticiani-05",
+        "src": "/assets/artistic/ticiani/ticiani-05.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-05-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Detalhe de sapatos e acessórios vermelhos contra parede rosa",
+        "translations": {
+          "en": {
+            "alt": "Detail of red shoes and accessories against a pink wall"
+          },
+          "es": {
+            "alt": "Detalle de zapatos y accesorios rojos sobre una pared rosa"
+          },
+          "ca": {
+            "alt": "Detall de sabates i accessoris vermells davant d’una paret rosa"
+          }
+        }
+      },
+      {
+        "id": "ticiani-06",
+        "src": "/assets/artistic/ticiani/ticiani-06.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-06-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani sentada sobre uma mureta diante de murais coloridos",
+        "translations": {
+          "en": {
+            "alt": "Ticiani seated on a low wall in front of colourful murals"
+          },
+          "es": {
+            "alt": "Ticiani sentada en un murete ante murales de colores"
+          },
+          "ca": {
+            "alt": "Ticiani asseguda en un mur baix davant de murals de colors"
+          }
+        }
+      },
+      {
+        "id": "ticiani-07",
+        "src": "/assets/artistic/ticiani/ticiani-07.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-07-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani ao lado de uma banca de frutas",
+        "translations": {
+          "en": {
+            "alt": "Ticiani beside a fruit stall"
+          },
+          "es": {
+            "alt": "Ticiani junto a un puesto de fruta"
+          },
+          "ca": {
+            "alt": "Ticiani al costat d’una parada de fruita"
+          }
+        }
+      },
+      {
+        "id": "ticiani-08",
+        "src": "/assets/artistic/ticiani/ticiani-08.jpg",
+        "small": "/assets/artistic/ticiani/ticiani-08-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani em uma rua arborizada",
+        "translations": {
+          "en": {
+            "alt": "Ticiani on a tree-lined street"
+          },
+          "es": {
+            "alt": "Ticiani en una calle arbolada"
+          },
+          "ca": {
+            "alt": "Ticiani en un carrer arbrat"
+          }
+        }
+      }
+    ],
+    "videos": [
+      {
+        "src": "/assets/artistic/ticiani/ticiani-film.m4v",
+        "poster": "/assets/artistic/ticiani/ticiani-06.jpg"
+      }
+    ],
+    "status": "draft",
+    "releaseAuthorized": false,
+    "displayOrder": 3,
     "translations": {
       "en": {
         "description": "This photographic project led to a documentary about Ticiani Carriel, known as Tici, and her journey of rebirth through fashion. As she visits different places, she revisits memories that reveal the influences and references that helped shape her identity."
@@ -102,15 +1009,1300 @@
   {
     "id": "personal-danilo-pride-2026",
     "slug": "danilo-pride-2026",
-    "title": "Danilo — Pride 2026",
+    "title": "Danilo: Pride 2026",
     "category": "miniDocumentaries",
-    "description": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "videos": [],
+    "description": "Projeto fotográfico e minidocumentário desenvolvido especialmente para o Mês do Orgulho, tendo como protagonista Danilo, meu melhor amigo.\n\nAtravés da fotografia e da linguagem documental, o projeto retrata sua trajetória pessoal, explorando suas vivências como homem gay e a relação com a arte drag, presente em diferentes momentos de sua história e na construção de sua identidade.\n\nUma narrativa visual e intimista sobre identidade, expressão artística, liberdade e representatividade, que dá espaço à sua história e celebra a diversidade através da arte.",
+    "coverImage": {
+      "id": "danilo-04",
+      "src": "/assets/artistic/danilo/danilo-04.jpg",
+      "small": "/assets/artistic/danilo/danilo-04-640.jpg",
+      "width": 1200,
+      "height": 1800,
+      "smallWidth": 427,
+      "alt": "Danilo em drag com roupa amarela, de braços abertos na rua",
+      "translations": {
+        "en": {
+          "alt": "Danilo in drag in a yellow outfit, arms outstretched on the street"
+        },
+        "es": {
+          "alt": "Danilo en drag con un conjunto amarillo y los brazos abiertos en la calle"
+        },
+        "ca": {
+          "alt": "Danilo en drag amb un conjunt groc i els braços oberts al carrer"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "danilo-01",
+        "src": "/assets/artistic/danilo/danilo-01.jpg",
+        "small": "/assets/artistic/danilo/danilo-01-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Danilo posa com uma perna levantada diante de um mural",
+        "translations": {
+          "en": {
+            "alt": "Danilo posing with one leg raised in front of a mural"
+          },
+          "es": {
+            "alt": "Danilo posa con una pierna levantada ante un mural"
+          },
+          "ca": {
+            "alt": "Danilo posa amb una cama aixecada davant d’un mural"
+          }
+        }
+      },
+      {
+        "id": "danilo-02",
+        "src": "/assets/artistic/danilo/danilo-02.jpg",
+        "small": "/assets/artistic/danilo/danilo-02-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Danilo de camiseta branca sorri diante de um mural colorido",
+        "translations": {
+          "en": {
+            "alt": "Danilo smiling in a white T-shirt in front of a colourful mural"
+          },
+          "es": {
+            "alt": "Danilo sonríe con camiseta blanca ante un mural de colores"
+          },
+          "ca": {
+            "alt": "Danilo somriu amb samarreta blanca davant d’un mural de colors"
+          }
+        }
+      },
+      {
+        "id": "danilo-03",
+        "src": "/assets/artistic/danilo/danilo-03.jpg",
+        "small": "/assets/artistic/danilo/danilo-03-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Danilo junto a uma parede de pedra com janelas em arco",
+        "translations": {
+          "en": {
+            "alt": "Danilo beside a stone wall with arched windows"
+          },
+          "es": {
+            "alt": "Danilo junto a un muro de piedra con ventanas de arco"
+          },
+          "ca": {
+            "alt": "Danilo vora una paret de pedra amb finestres d’arc"
+          }
+        }
+      },
+      {
+        "id": "danilo-04",
+        "src": "/assets/artistic/danilo/danilo-04.jpg",
+        "small": "/assets/artistic/danilo/danilo-04-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Danilo em drag com roupa amarela, de braços abertos na rua",
+        "translations": {
+          "en": {
+            "alt": "Danilo in drag in a yellow outfit, arms outstretched on the street"
+          },
+          "es": {
+            "alt": "Danilo en drag con un conjunto amarillo y los brazos abiertos en la calle"
+          },
+          "ca": {
+            "alt": "Danilo en drag amb un conjunt groc i els braços oberts al carrer"
+          }
+        }
+      },
+      {
+        "id": "danilo-05",
+        "src": "/assets/artistic/danilo/danilo-05.jpg",
+        "small": "/assets/artistic/danilo/danilo-05-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Danilo em drag olha por cima do ombro em um retrato ao ar livre",
+        "translations": {
+          "en": {
+            "alt": "Danilo in drag looking over one shoulder in an outdoor portrait"
+          },
+          "es": {
+            "alt": "Danilo en drag mira por encima del hombro en un retrato al aire libre"
+          },
+          "ca": {
+            "alt": "Danilo en drag mira per sobre de l’espatlla en un retrat a l’aire lliure"
+          }
+        }
+      },
+      {
+        "id": "danilo-06",
+        "src": "/assets/artistic/danilo/danilo-06.jpg",
+        "small": "/assets/artistic/danilo/danilo-06-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Bandeira do arco-íris em um painel de rua",
+        "translations": {
+          "en": {
+            "alt": "Rainbow flag on a street display"
+          },
+          "es": {
+            "alt": "Bandera arcoíris en un panel de la calle"
+          },
+          "ca": {
+            "alt": "Bandera de l’arc de Sant Martí en un plafó al carrer"
+          }
+        }
+      }
+    ],
+    "videos": [
+      {
+        "src": "/assets/artistic/danilo/danilo-film.m4v",
+        "poster": "/assets/artistic/danilo/danilo-04.jpg"
+      }
+    ],
     "status": "draft",
     "releaseAuthorized": false,
-    "displayOrder": 6,
-    "translations": {}
+    "displayOrder": 4,
+    "translations": {
+      "en": {
+        "description": "A photography project and mini-documentary created for Pride Month, featuring my best friend, Danilo.\n\nThrough photography and documentary film, the project follows his personal journey, exploring his experiences as a gay man and his relationship with drag, an art form that has been part of his life at different times and helped shape his identity.\n\nAn intimate visual narrative about identity, artistic expression, freedom and representation that gives his story space and celebrates diversity through art."
+      },
+      "es": {
+        "description": "Proyecto fotográfico y minidocumental creado para el Mes del Orgullo, protagonizado por mi mejor amigo, Danilo.\n\nA través de la fotografía y el lenguaje documental, el proyecto recorre su trayectoria personal, sus vivencias como hombre gay y su relación con el arte drag, presente en distintos momentos de su historia y en la construcción de su identidad.\n\nUna narrativa visual e íntima sobre identidad, expresión artística, libertad y representación que da espacio a su historia y celebra la diversidad a través del arte."
+      },
+      "ca": {
+        "description": "Projecte fotogràfic i minidocumental creat per al Mes de l’Orgull, protagonitzat pel meu millor amic, en Danilo.\n\nA través de la fotografia i el llenguatge documental, el projecte recorre la seva trajectòria personal, les vivències com a home gai i la relació amb l’art drag, present en diferents moments de la seva història i en la construcció de la seva identitat.\n\nUna narrativa visual i íntima sobre identitat, expressió artística, llibertat i representació que dona espai a la seva història i celebra la diversitat a través de l’art."
+      }
+    }
+  },
+  {
+    "id": "editorial-vrse",
+    "slug": "vrse",
+    "title": "The Renaissance of a Popstar",
+    "section": "magazines",
+    "displayOrder": 2,
+    "status": "draft",
+    "releaseAuthorized": false,
+    "description": "Revista espanhola de moda.",
+    "translations": {
+      "en": {
+        "description": "Spanish fashion magazine.",
+        "subtitle": "VRSE — Spanish fashion magazine"
+      },
+      "es": {
+        "description": "Revista española de moda.",
+        "subtitle": "VRSE — Revista española de moda"
+      },
+      "ca": {
+        "description": "Revista espanyola de moda.",
+        "subtitle": "VRSE — Revista espanyola de moda"
+      }
+    },
+    "coverImage": {
+      "id": "vrse-01",
+      "src": "/assets/artistic/vrse/vrse-01.jpg",
+      "small": "/assets/artistic/vrse/vrse-01-640.jpg",
+      "width": 1080,
+      "height": 1350,
+      "smallWidth": 512,
+      "alt": "Página de abertura da Vrse com Ticiani segurando uma câmera",
+      "translations": {
+        "en": {
+          "alt": "Vrse opening page with Ticiani holding a camera"
+        },
+        "es": {
+          "alt": "Página de apertura de Vrse con Ticiani sosteniendo una cámara"
+        },
+        "ca": {
+          "alt": "Pàgina d’obertura de Vrse amb Ticiani sostenint una càmera"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "vrse-01",
+        "src": "/assets/artistic/vrse/vrse-01.jpg",
+        "small": "/assets/artistic/vrse/vrse-01-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Página de abertura da Vrse com Ticiani segurando uma câmera",
+        "translations": {
+          "en": {
+            "alt": "Vrse opening page with Ticiani holding a camera"
+          },
+          "es": {
+            "alt": "Página de apertura de Vrse con Ticiani sosteniendo una cámara"
+          },
+          "ca": {
+            "alt": "Pàgina d’obertura de Vrse amb Ticiani sostenint una càmera"
+          }
+        }
+      },
+      {
+        "id": "vrse-02",
+        "src": "/assets/artistic/vrse/vrse-02.jpg",
+        "small": "/assets/artistic/vrse/vrse-02-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Página com texto e um retrato em preto e branco",
+        "translations": {
+          "en": {
+            "alt": "Page with text and a black-and-white portrait"
+          },
+          "es": {
+            "alt": "Página con texto y un retrato en blanco y negro"
+          },
+          "ca": {
+            "alt": "Pàgina amb text i un retrat en blanc i negre"
+          }
+        }
+      },
+      {
+        "id": "vrse-03",
+        "src": "/assets/artistic/vrse/vrse-03.jpg",
+        "small": "/assets/artistic/vrse/vrse-03-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Página com retrato de Ticiani em amarelo ao lado de texto",
+        "translations": {
+          "en": {
+            "alt": "Page with a portrait of Ticiani in yellow beside text"
+          },
+          "es": {
+            "alt": "Página con un retrato de Ticiani de amarillo junto a texto"
+          },
+          "ca": {
+            "alt": "Pàgina amb un retrat de Ticiani de groc al costat de text"
+          }
+        }
+      },
+      {
+        "id": "vrse-04",
+        "src": "/assets/artistic/vrse/vrse-04.jpg",
+        "small": "/assets/artistic/vrse/vrse-04-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Ticiani sentada com roupas amarelas e sapatos vermelhos",
+        "translations": {
+          "en": {
+            "alt": "Ticiani seated in yellow clothes and red shoes"
+          },
+          "es": {
+            "alt": "Ticiani sentada con ropa amarilla y zapatos rojos"
+          },
+          "ca": {
+            "alt": "Ticiani asseguda amb roba groga i sabates vermelles"
+          }
+        }
+      },
+      {
+        "id": "vrse-05",
+        "src": "/assets/artistic/vrse/vrse-05.jpg",
+        "small": "/assets/artistic/vrse/vrse-05-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Ticiani de amarelo diante de um mural de rosto com óculos escuros",
+        "translations": {
+          "en": {
+            "alt": "Ticiani in yellow before a mural of a face in sunglasses"
+          },
+          "es": {
+            "alt": "Ticiani de amarillo ante un mural de un rostro con gafas de sol"
+          },
+          "ca": {
+            "alt": "Ticiani de groc davant d’un mural d’un rostre amb ulleres de sol"
+          }
+        }
+      },
+      {
+        "id": "vrse-06",
+        "src": "/assets/artistic/vrse/vrse-06.jpg",
+        "small": "/assets/artistic/vrse/vrse-06-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Texto da revista ao lado de Ticiani sentada diante de um mural",
+        "translations": {
+          "en": {
+            "alt": "Magazine text beside Ticiani seated in front of a mural"
+          },
+          "es": {
+            "alt": "Texto de la revista junto a Ticiani sentada ante un mural"
+          },
+          "ca": {
+            "alt": "Text de la revista al costat de Ticiani asseguda davant d’un mural"
+          }
+        }
+      },
+      {
+        "id": "vrse-07",
+        "src": "/assets/artistic/vrse/vrse-07.jpg",
+        "small": "/assets/artistic/vrse/vrse-07-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Ticiani de amarelo em frente a uma pintura vermelha e preta",
+        "translations": {
+          "en": {
+            "alt": "Ticiani in yellow in front of a red and black painting"
+          },
+          "es": {
+            "alt": "Ticiani de amarillo ante un cuadro rojo y negro"
+          },
+          "ca": {
+            "alt": "Ticiani de groc davant d’un quadre vermell i negre"
+          }
+        }
+      },
+      {
+        "id": "vrse-08",
+        "src": "/assets/artistic/vrse/vrse-08.jpg",
+        "small": "/assets/artistic/vrse/vrse-08-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Ticiani de saia rosa junto a uma porta verde",
+        "translations": {
+          "en": {
+            "alt": "Ticiani in a pink skirt beside a green door"
+          },
+          "es": {
+            "alt": "Ticiani con falda rosa junto a una puerta verde"
+          },
+          "ca": {
+            "alt": "Ticiani amb faldilla rosa al costat d’una porta verda"
+          }
+        }
+      },
+      {
+        "id": "vrse-09",
+        "src": "/assets/artistic/vrse/vrse-09.jpg",
+        "small": "/assets/artistic/vrse/vrse-09-640.jpg",
+        "width": 1080,
+        "height": 1350,
+        "smallWidth": 512,
+        "alt": "Página com Ticiani em um ateliê e texto abaixo da imagem",
+        "translations": {
+          "en": {
+            "alt": "Page with Ticiani in a studio and text below the image"
+          },
+          "es": {
+            "alt": "Página con Ticiani en un taller y texto bajo la imagen"
+          },
+          "ca": {
+            "alt": "Pàgina amb Ticiani en un taller i text sota la imatge"
+          }
+        }
+      }
+    ],
+    "subtitle": "VRSE — Revista espanhola de moda"
+  },
+  {
+    "id": "editorial-selin",
+    "slug": "selin",
+    "title": "Selin",
+    "section": "magazines",
+    "displayOrder": 3,
+    "status": "draft",
+    "releaseAuthorized": false,
+    "description": "Revista editorial neerlandesa.",
+    "translations": {
+      "en": {
+        "description": "Dutch editorial magazine.",
+        "subtitle": "Dutch editorial magazine"
+      },
+      "es": {
+        "description": "Revista editorial neerlandesa.",
+        "subtitle": "Revista editorial neerlandesa"
+      },
+      "ca": {
+        "description": "Revista editorial neerlandesa.",
+        "subtitle": "Revista editorial neerlandesa"
+      }
+    },
+    "coverImage": {
+      "id": "selin-01",
+      "src": "/assets/artistic/selin/selin-01.jpg",
+      "small": "/assets/artistic/selin/selin-01-640.jpg",
+      "width": 786,
+      "height": 1024,
+      "smallWidth": 491,
+      "alt": "Capa da Selin com as participantes de Melanina reunidas",
+      "translations": {
+        "en": {
+          "alt": "Selin cover with the Melanina participants together"
+        },
+        "es": {
+          "alt": "Portada de Selin con las participantes de Melanina reunidas"
+        },
+        "ca": {
+          "alt": "Portada de Selin amb les participants de Melanina reunides"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "selin-01",
+        "src": "/assets/artistic/selin/selin-01.jpg",
+        "small": "/assets/artistic/selin/selin-01-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Capa da Selin com as participantes de Melanina reunidas",
+        "translations": {
+          "en": {
+            "alt": "Selin cover with the Melanina participants together"
+          },
+          "es": {
+            "alt": "Portada de Selin con las participantes de Melanina reunidas"
+          },
+          "ca": {
+            "alt": "Portada de Selin amb les participants de Melanina reunides"
+          }
+        }
+      },
+      {
+        "id": "selin-02",
+        "src": "/assets/artistic/selin/selin-02.jpg",
+        "small": "/assets/artistic/selin/selin-02-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Retrato de mulher com cabelo afro que estende a mão à câmera, com a marca Selin",
+        "translations": {
+          "en": {
+            "alt": "Portrait of a woman with an Afro reaching toward the camera, with the Selin masthead"
+          },
+          "es": {
+            "alt": "Retrato de una mujer con pelo afro que tiende la mano a la cámara, con la marca Selin"
+          },
+          "ca": {
+            "alt": "Retrat d’una dona amb cabells afro que allarga la mà cap a la càmera, amb la marca Selin"
+          }
+        }
+      },
+      {
+        "id": "selin-03",
+        "src": "/assets/artistic/selin/selin-03.jpg",
+        "small": "/assets/artistic/selin/selin-03-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Apresentação da Selin em texto branco sobre fundo preto",
+        "translations": {
+          "en": {
+            "alt": "Selin’s introduction in white text on a black background"
+          },
+          "es": {
+            "alt": "Presentación de Selin en texto blanco sobre fondo negro"
+          },
+          "ca": {
+            "alt": "Presentació de Selin en text blanc sobre fons negre"
+          }
+        }
+      },
+      {
+        "id": "selin-04",
+        "src": "/assets/artistic/selin/selin-04.jpg",
+        "small": "/assets/artistic/selin/selin-04-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Retrato de costas com turbante e acessórios dourados, com a marca Selin",
+        "translations": {
+          "en": {
+            "alt": "Portrait from behind with a headwrap and gold accessories, with the Selin masthead"
+          },
+          "es": {
+            "alt": "Retrato de espaldas con turbante y accesorios dorados, con la marca Selin"
+          },
+          "ca": {
+            "alt": "Retrat d’esquena amb turbant i accessoris daurats, amb la marca Selin"
+          }
+        }
+      },
+      {
+        "id": "selin-05",
+        "src": "/assets/artistic/selin/selin-05.jpg",
+        "small": "/assets/artistic/selin/selin-05-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Página de créditos em texto branco sobre fundo preto",
+        "translations": {
+          "en": {
+            "alt": "Credits page in white text on a black background"
+          },
+          "es": {
+            "alt": "Página de créditos en texto blanco sobre fondo negro"
+          },
+          "ca": {
+            "alt": "Pàgina de crèdits en text blanc sobre fons negre"
+          }
+        }
+      },
+      {
+        "id": "selin-06",
+        "src": "/assets/artistic/selin/selin-06.jpg",
+        "small": "/assets/artistic/selin/selin-06-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Mulher de tranças se inclina em direção à câmera, com a marca Selin",
+        "translations": {
+          "en": {
+            "alt": "Woman with braids leaning toward the camera, with the Selin masthead"
+          },
+          "es": {
+            "alt": "Mujer con trenzas que se inclina hacia la cámara, con la marca Selin"
+          },
+          "ca": {
+            "alt": "Dona amb trenes que s’inclina cap a la càmera, amb la marca Selin"
+          }
+        }
+      },
+      {
+        "id": "selin-07",
+        "src": "/assets/artistic/selin/selin-07.jpg",
+        "small": "/assets/artistic/selin/selin-07-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Retrato de grupo das participantes de Melanina, com a marca Selin",
+        "translations": {
+          "en": {
+            "alt": "Group portrait of the Melanina participants, with the Selin masthead"
+          },
+          "es": {
+            "alt": "Retrato de grupo de las participantes de Melanina, con la marca Selin"
+          },
+          "ca": {
+            "alt": "Retrat de grup de les participants de Melanina, amb la marca Selin"
+          }
+        }
+      },
+      {
+        "id": "selin-08",
+        "src": "/assets/artistic/selin/selin-08.jpg",
+        "small": "/assets/artistic/selin/selin-08-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Detalhe de cabelo cacheado, com a marca Selin",
+        "translations": {
+          "en": {
+            "alt": "Detail of curly hair, with the Selin masthead"
+          },
+          "es": {
+            "alt": "Detalle de pelo rizado, con la marca Selin"
+          },
+          "ca": {
+            "alt": "Detall de cabells arrissats, amb la marca Selin"
+          }
+        }
+      },
+      {
+        "id": "selin-09",
+        "src": "/assets/artistic/selin/selin-09.jpg",
+        "small": "/assets/artistic/selin/selin-09-640.jpg",
+        "width": 786,
+        "height": 1024,
+        "smallWidth": 491,
+        "alt": "Retrato de mulher de perfil com cabelo cacheado, com a marca Selin",
+        "translations": {
+          "en": {
+            "alt": "Profile portrait of a woman with curly hair, with the Selin masthead"
+          },
+          "es": {
+            "alt": "Retrato de perfil de una mujer con pelo rizado, con la marca Selin"
+          },
+          "ca": {
+            "alt": "Retrat de perfil d’una dona amb cabells arrissats, amb la marca Selin"
+          }
+        }
+      }
+    ],
+    "subtitle": "Revista editorial neerlandesa"
+  },
+  {
+    "id": "editorial-vogue",
+    "slug": "vogue",
+    "title": "PhotoVogue",
+    "section": "magazines",
+    "displayOrder": 1,
+    "status": "draft",
+    "releaseAuthorized": false,
+    "description": "A equipe editorial do PhotoVogue selecionou “The Renaissance of a Popstar”, fotografia de Marina Rodrigues do ensaio com Ticiani. A imagem integra o acervo do PhotoVogue na Vogue.com e está disponível no perfil público da fotógrafa.\n\nO PhotoVogue é a plataforma de fotografia da Vogue. Fotógrafos de todo o mundo podem enviar trabalhos autorais para avaliação editorial. As imagens aprovadas passam a integrar o portfólio público de cada autor na plataforma.\n\nNatural de Santos, São Paulo, Marina é fotógrafa e artista visual. Seu trabalho conecta a cultura urbana e a moda de rua a uma linguagem cinematográfica inspirada pelo rap e pelo hip-hop.",
+    "translations": {
+      "en": {
+        "description": "PhotoVogue’s editors selected “The Renaissance of a Popstar”, a photograph by Marina Rodrigues from her shoot with Ticiani. The image is part of the PhotoVogue archive on Vogue.com and appears in her public profile.\n\nPhotoVogue is Vogue’s photography platform. Photographers around the world can submit their original work for editorial review. Approved images appear in each photographer’s public portfolio on the platform.\n\nBorn in Santos, São Paulo, Marina is a photographer and visual artist. Her work connects urban culture and street fashion with a cinematic style inspired by rap and hip-hop.",
+        "subtitle": "Photograph selected for the Vogue.com archive"
+      },
+      "es": {
+        "description": "El equipo editorial de PhotoVogue seleccionó «The Renaissance of a Popstar», una fotografía de Marina Rodrigues de su sesión con Ticiani. La imagen forma parte del archivo de PhotoVogue en Vogue.com y se puede ver en el perfil público de la fotógrafa.\n\nPhotoVogue es la plataforma de fotografía de Vogue. Fotógrafos de todo el mundo pueden enviar sus obras originales para que el equipo editorial las valore. Las imágenes aprobadas se incorporan al porfolio público de cada autor en la plataforma.\n\nMarina nació en Santos, São Paulo, y es fotógrafa y artista visual. Su trabajo conecta la cultura urbana y la moda de calle con un lenguaje cinematográfico inspirado en el rap y el hiphop.",
+        "subtitle": "Fotografía seleccionada para el archivo de Vogue.com"
+      },
+      "ca": {
+        "description": "L’equip editorial de PhotoVogue va seleccionar «The Renaissance of a Popstar», una fotografia de Marina Rodrigues de la seva sessió amb Ticiani. La imatge forma part de l’arxiu de PhotoVogue a Vogue.com i es pot veure al perfil públic de la fotògrafa.\n\nPhotoVogue és la plataforma de fotografia de Vogue. Fotògrafs d’arreu del món hi poden enviar obra pròpia perquè l’equip editorial la valori. Les imatges aprovades s’incorporen al portafolis públic de cada autor a la plataforma.\n\nNascuda a Santos, São Paulo, Marina és fotògrafa i artista visual. La seva obra connecta la cultura urbana i la moda de carrer amb un llenguatge cinematogràfic inspirat en el rap i el hip-hop.",
+        "subtitle": "Fotografia seleccionada per a l’arxiu de Vogue.com"
+      }
+    },
+    "coverImage": {
+      "id": "vogue-01",
+      "src": "/assets/artistic/vogue/vogue-01.jpg",
+      "small": "/assets/artistic/vogue/vogue-01-640.jpg",
+      "width": 984,
+      "height": 1800,
+      "smallWidth": 350,
+      "alt": "Captura do PhotoVogue com fotografia de Ticiani de amarelo diante de um mural, creditada a Marina Rodrigues",
+      "translations": {
+        "en": {
+          "alt": "PhotoVogue screenshot of Ticiani in yellow in front of a mural, credited to Marina Rodrigues"
+        },
+        "es": {
+          "alt": "Captura de PhotoVogue con Ticiani de amarillo ante un mural, acreditada a Marina Rodrigues"
+        },
+        "ca": {
+          "alt": "Captura de PhotoVogue amb Ticiani de groc davant d’un mural, acreditada a Marina Rodrigues"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "vogue-02",
+        "src": "/assets/artistic/vogue/vogue-02.jpg",
+        "small": "/assets/artistic/vogue/vogue-02-640.jpg",
+        "width": 1202,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Ticiani veste amarelo diante de um mural colorido, em fotografia de Marina Rodrigues publicada no PhotoVogue.",
+        "translations": {
+          "en": {
+            "alt": "Ticiani wears yellow in front of a colourful mural in Marina Rodrigues’s photograph published on PhotoVogue."
+          },
+          "es": {
+            "alt": "Ticiani viste de amarillo ante un mural colorido en la fotografía de Marina Rodrigues publicada en PhotoVogue."
+          },
+          "ca": {
+            "alt": "Ticiani va de groc davant d’un mural ple de color en la fotografia de Marina Rodrigues publicada a PhotoVogue."
+          }
+        }
+      },
+      {
+        "id": "vogue-01",
+        "src": "/assets/artistic/vogue/vogue-01.jpg",
+        "small": "/assets/artistic/vogue/vogue-01-640.jpg",
+        "width": 984,
+        "height": 1800,
+        "smallWidth": 350,
+        "alt": "Captura do PhotoVogue com fotografia de Ticiani de amarelo diante de um mural, creditada a Marina Rodrigues",
+        "translations": {
+          "en": {
+            "alt": "PhotoVogue screenshot of Ticiani in yellow in front of a mural, credited to Marina Rodrigues"
+          },
+          "es": {
+            "alt": "Captura de PhotoVogue con Ticiani de amarillo ante un mural, acreditada a Marina Rodrigues"
+          },
+          "ca": {
+            "alt": "Captura de PhotoVogue amb Ticiani de groc davant d’un mural, acreditada a Marina Rodrigues"
+          }
+        }
+      }
+    ],
+    "subtitle": "Fotografia selecionada para o acervo da Vogue.com"
+  },
+  {
+    "id": "editorial-mudar",
+    "slug": "mudar",
+    "title": "Mudar: Entre o Ato e a Decisão",
+    "section": "honorableMention",
+    "displayOrder": 1,
+    "status": "draft",
+    "releaseAuthorized": false,
+    "description": "A série retrata a rotina de uma mulher brasileira disposta a ir além. Lorena, nascida no Rio de Janeiro, encontra em Barcelona a oportunidade de florescer em uma nova carreira profissional. Ao atravessar as diversas fases da experiência de uma mulher imigrante, decide enfrentar a decisão de mudar.\n\nUm ato de coragem, silêncio e luta diária, onde mudar deixa de ser escolha e se afirma como decisão.",
+    "translations": {
+      "en": {
+        "description": "The series follows the daily life of a Brazilian woman determined to go further. Born in Rio de Janeiro, Lorena finds an opportunity to build a new career in Barcelona. As she goes through the different stages of life as an immigrant woman, she faces the decision to change.\n\nAn act of courage, silence and daily struggle, where change becomes a deliberate decision.",
+        "awardDetails": "The project was selected for the photography competition organised by the Brazilian Embassy in Madrid, where it received an honourable mention.\n\nThis recognition marks my first entry in a photography competition, during my first year working full-time in the audiovisual field. It reinforces my commitment to photography as an artistic and narrative language and marks an important step in developing my personal work.",
+        "awardTitle": "Honourable Mention — Brazilian Embassy Photography Competition",
+        "subtitle": "Honourable mention in the Brazilian Embassy’s photography competition in Madrid."
+      },
+      "es": {
+        "description": "La serie retrata la rutina de una mujer brasileña dispuesta a ir más allá. Lorena, nacida en Río de Janeiro, encuentra en Barcelona la oportunidad de crecer en una nueva carrera profesional. Al atravesar las distintas etapas de su experiencia como mujer inmigrante, se enfrenta a la decisión de cambiar.\n\nUn acto de valentía, silencio y lucha diaria, en el que cambiar se afirma como una decisión.",
+        "awardDetails": "El proyecto fue seleccionado para el concurso de fotografía organizado por la Embajada de Brasil en Madrid, donde recibió una mención honorífica.\n\nEste reconocimiento marca mi primera participación en un concurso de fotografía, durante mi primer año de dedicación a tiempo completo al sector audiovisual. Refuerza mi compromiso con la fotografía como lenguaje artístico y narrativo y supone un paso importante en el desarrollo de mi obra de autor.",
+        "awardTitle": "Mención honorífica en el Concurso de Fotografía de la Embajada de Brasil",
+        "subtitle": "Mención honorífica en el concurso de fotografía de la Embajada de Brasil en Madrid."
+      },
+      "ca": {
+        "description": "La sèrie retrata el dia a dia d’una dona brasilera disposada a anar més enllà. La Lorena, nascuda a Rio de Janeiro, troba a Barcelona l’oportunitat de créixer en una nova carrera professional. En passar per les diferents etapes de la seva experiència com a dona immigrant, afronta la decisió de canviar.\n\nUn acte de coratge, silenci i lluita diària, en què canviar esdevé una decisió.",
+        "awardDetails": "El projecte va ser seleccionat per al concurs de fotografia organitzat per l’Ambaixada del Brasil a Madrid, on va rebre una menció honorífica.\n\nAquest reconeixement marca la meva primera participació en un concurs de fotografia, durant el meu primer any de dedicació a temps complet al sector audiovisual. Reforça el meu compromís amb la fotografia com a llenguatge artístic i narratiu i representa un pas important en el desenvolupament de la meva obra d’autora.",
+        "awardTitle": "Menció honorífica al Concurs de Fotografia de l’Ambaixada del Brasil",
+        "subtitle": "Menció honorífica en el concurs de fotografia de l’Ambaixada del Brasil a Madrid."
+      }
+    },
+    "coverImage": {
+      "id": "mudar-02",
+      "src": "/assets/artistic/mudar/mudar-02.jpg",
+      "small": "/assets/artistic/mudar/mudar-02-640.jpg",
+      "width": 1800,
+      "height": 1200,
+      "smallWidth": 640,
+      "alt": "Perfil de Lorena ao lado de seu reflexo no vidro",
+      "translations": {
+        "en": {
+          "alt": "Lorena in profile beside her reflection in glass"
+        },
+        "es": {
+          "alt": "Lorena de perfil junto a su reflejo en un cristal"
+        },
+        "ca": {
+          "alt": "La Lorena de perfil al costat del seu reflex al vidre"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "mudar-01",
+        "src": "/assets/artistic/mudar/mudar-01.jpg",
+        "small": "/assets/artistic/mudar/mudar-01-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Lorena sorri diante de uma tela em fotografia em preto e branco",
+        "translations": {
+          "en": {
+            "alt": "Lorena smiling at a screen in a black-and-white photograph"
+          },
+          "es": {
+            "alt": "Lorena sonríe ante una pantalla en una fotografía en blanco y negro"
+          },
+          "ca": {
+            "alt": "La Lorena somriu davant d’una pantalla en una fotografia en blanc i negre"
+          }
+        }
+      },
+      {
+        "id": "mudar-02",
+        "src": "/assets/artistic/mudar/mudar-02.jpg",
+        "small": "/assets/artistic/mudar/mudar-02-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Perfil de Lorena ao lado de seu reflexo no vidro",
+        "translations": {
+          "en": {
+            "alt": "Lorena in profile beside her reflection in glass"
+          },
+          "es": {
+            "alt": "Lorena de perfil junto a su reflejo en un cristal"
+          },
+          "ca": {
+            "alt": "La Lorena de perfil al costat del seu reflex al vidre"
+          }
+        }
+      },
+      {
+        "id": "mudar-03",
+        "src": "/assets/artistic/mudar/mudar-03.jpg",
+        "small": "/assets/artistic/mudar/mudar-03-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Lorena em uma escada rolante, em preto e branco",
+        "translations": {
+          "en": {
+            "alt": "Lorena on an escalator in black and white"
+          },
+          "es": {
+            "alt": "Lorena en una escalera mecánica, en blanco y negro"
+          },
+          "ca": {
+            "alt": "La Lorena en una escala mecànica, en blanc i negre"
+          }
+        }
+      },
+      {
+        "id": "mudar-04",
+        "src": "/assets/artistic/mudar/mudar-04.jpg",
+        "small": "/assets/artistic/mudar/mudar-04-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Lorena caminha em um espaço público de calça clara",
+        "translations": {
+          "en": {
+            "alt": "Lorena walking through a public space in light trousers"
+          },
+          "es": {
+            "alt": "Lorena camina por un espacio público con pantalones claros"
+          },
+          "ca": {
+            "alt": "La Lorena camina per un espai públic amb pantalons clars"
+          }
+        }
+      },
+      {
+        "id": "mudar-05",
+        "src": "/assets/artistic/mudar/mudar-05.jpg",
+        "small": "/assets/artistic/mudar/mudar-05-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Lorena de perfil entre pilares e reflexos",
+        "translations": {
+          "en": {
+            "alt": "Lorena in profile amid pillars and reflections"
+          },
+          "es": {
+            "alt": "Lorena de perfil entre pilares y reflejos"
+          },
+          "ca": {
+            "alt": "La Lorena de perfil entre pilars i reflexos"
+          }
+        }
+      },
+      {
+        "id": "mudar-06",
+        "src": "/assets/artistic/mudar/mudar-06.jpg",
+        "small": "/assets/artistic/mudar/mudar-06-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 427,
+        "alt": "Mãos digitando ao lado de uma xícara",
+        "translations": {
+          "en": {
+            "alt": "Hands typing beside a cup"
+          },
+          "es": {
+            "alt": "Manos tecleando junto a una taza"
+          },
+          "ca": {
+            "alt": "Mans que teclegen al costat d’una tassa"
+          }
+        }
+      },
+      {
+        "id": "recognition-02",
+        "src": "/assets/artistic/recognition/recognition-02.jpg",
+        "small": "/assets/artistic/recognition/recognition-02-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Marina diante da série emoldurada no local da exposição",
+        "translations": {
+          "en": {
+            "alt": "Marina in front of the framed series at the exhibition venue"
+          },
+          "es": {
+            "alt": "Marina ante la serie enmarcada en el espacio expositivo"
+          },
+          "ca": {
+            "alt": "Marina davant de la sèrie emmarcada a l’espai expositiu"
+          }
+        }
+      },
+      {
+        "id": "recognition-03",
+        "src": "/assets/artistic/recognition/recognition-03.jpg",
+        "small": "/assets/artistic/recognition/recognition-03-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Série emoldurada sobre um cavalete perto de uma janela",
+        "translations": {
+          "en": {
+            "alt": "Framed series on an easel by a window"
+          },
+          "es": {
+            "alt": "Serie enmarcada sobre un caballete junto a una ventana"
+          },
+          "ca": {
+            "alt": "Sèrie emmarcada sobre un cavallet vora una finestra"
+          }
+        }
+      }
+    ],
+    "awardDetails": "O projeto foi selecionado para o concurso de fotografia organizado pela Embaixada do Brasil em Madrid, onde recebeu uma menção honrosa.\n\nO reconhecimento marca minha primeira participação em uma competição de fotografia, no meu primeiro ano de dedicação integral ao setor audiovisual. Reforça meu compromisso com a fotografia como linguagem artística e narrativa e representa um passo importante no desenvolvimento do meu trabalho autoral.",
+    "awardTitle": "Menção honrosa — Concurso de Fotografia da Embaixada do Brasil",
+    "imageGroups": [
+      {
+        "titleKey": "projects.editorial.series",
+        "ids": [
+          "mudar-01",
+          "mudar-02",
+          "mudar-03",
+          "mudar-04",
+          "mudar-05",
+          "mudar-06"
+        ]
+      },
+      {
+        "titleKey": "projects.editorial.documentation",
+        "ids": [
+          "recognition-02",
+          "recognition-03"
+        ]
+      }
+    ],
+    "subtitle": "Menção honrosa no concurso de fotografia da Embaixada Brasileira em Madrid."
+  },
+  {
+    "id": "editorial-palau",
+    "slug": "palau",
+    "title": "Palau Sessions",
+    "section": "exhibitions",
+    "displayOrder": 1,
+    "status": "draft",
+    "releaseAuthorized": false,
+    "description": "Participei da exposição coletiva do Palau Sessions, no histórico Palau Dalmases, em Barcelona. O evento reuniu artistas de diferentes linguagens e conectou arte contemporânea, música, performances ao vivo e expressão visual.\n\nTransformado em galeria, o espaço aproximou artistas e público e valorizou a produção artística independente. Foi uma oportunidade de apresentar meu trabalho autoral em um contexto internacional e integrar uma comunidade criativa em Barcelona.",
+    "translations": {
+      "en": {
+        "description": "I took part in the Palau Sessions group exhibition at the historic Palau Dalmases in Barcelona. It brought together artists from different disciplines and connected contemporary art, music, live performance and visual expression.\n\nThe venue became a gallery, bringing artists and audiences together and supporting independent artistic work. It was an opportunity to present my personal work in an international context and join a creative community in Barcelona.",
+        "subtitle": "Contemporary art group exhibition at Palau Dalmases in Barcelona"
+      },
+      "es": {
+        "description": "Participé en la exposición colectiva de Palau Sessions en el histórico Palau Dalmases, en Barcelona. El evento reunió a artistas de distintas disciplinas y conectó arte contemporáneo, música, actuaciones en directo y expresión visual.\n\nConvertido en galería, el espacio acercó a artistas y público y dio visibilidad a la creación independiente. Fue una oportunidad de presentar mi obra de autor en un contexto internacional e integrarme en una comunidad creativa en Barcelona.",
+        "subtitle": "Exposición colectiva de arte contemporáneo en el Palau Dalmases de Barcelona"
+      },
+      "ca": {
+        "description": "Vaig participar en l’exposició col·lectiva de Palau Sessions a l’històric Palau Dalmases, a Barcelona. L’esdeveniment va reunir artistes de disciplines diverses i va enllaçar art contemporani, música, actuacions en directe i expressió visual.\n\nConvertit en galeria, l’espai va apropar artistes i públic i va donar visibilitat a la creació independent. Va ser una oportunitat per presentar la meva obra d’autora en un context internacional i formar part d’una comunitat creativa a Barcelona.",
+        "subtitle": "Exposició col·lectiva d’art contemporani al Palau Dalmases de Barcelona"
+      }
+    },
+    "coverImage": {
+      "id": "palau-01",
+      "src": "/assets/artistic/palau/palau-01.jpg",
+      "small": "/assets/artistic/palau/palau-01-640.jpg",
+      "width": 1012,
+      "height": 1800,
+      "smallWidth": 360,
+      "alt": "Obras emolduradas dispostas em uma parede de pedra",
+      "translations": {
+        "en": {
+          "alt": "Framed artworks arranged on a stone wall"
+        },
+        "es": {
+          "alt": "Obras enmarcadas en una pared de piedra"
+        },
+        "ca": {
+          "alt": "Obres emmarcades en una paret de pedra"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "palau-01",
+        "src": "/assets/artistic/palau/palau-01.jpg",
+        "small": "/assets/artistic/palau/palau-01-640.jpg",
+        "width": 1012,
+        "height": 1800,
+        "smallWidth": 360,
+        "alt": "Obras emolduradas dispostas em uma parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Framed artworks arranged on a stone wall"
+          },
+          "es": {
+            "alt": "Obras enmarcadas en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Obres emmarcades en una paret de pedra"
+          }
+        }
+      },
+      {
+        "id": "palau-02",
+        "src": "/assets/artistic/palau/palau-02.jpg",
+        "small": "/assets/artistic/palau/palau-02-640.jpg",
+        "width": 1012,
+        "height": 1800,
+        "smallWidth": 360,
+        "alt": "Fotografias em molduras claras e ficha de exposição em uma parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Photographs in light frames and an exhibition label on a stone wall"
+          },
+          "es": {
+            "alt": "Fotografías en marcos claros y ficha de exposición en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Fotografies en marcs clars i cartel·la d’exposició en una paret de pedra"
+          }
+        }
+      },
+      {
+        "id": "palau-03",
+        "src": "/assets/artistic/palau/palau-03.jpg",
+        "small": "/assets/artistic/palau/palau-03-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Marina ao lado de fotografias expostas em uma parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Marina beside photographs displayed on a stone wall"
+          },
+          "es": {
+            "alt": "Marina junto a fotografías expuestas en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Marina vora fotografies exposades en una paret de pedra"
+          }
+        }
+      },
+      {
+        "id": "palau-04",
+        "src": "/assets/artistic/palau/palau-04.jpg",
+        "small": "/assets/artistic/palau/palau-04-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Ficha de exposição com retrato e texto sobre Marina Rodrigues",
+        "translations": {
+          "en": {
+            "alt": "Exhibition label with a portrait and text about Marina Rodrigues"
+          },
+          "es": {
+            "alt": "Ficha de exposición con retrato y texto sobre Marina Rodrigues"
+          },
+          "ca": {
+            "alt": "Cartel·la d’exposició amb retrat i text sobre Marina Rodrigues"
+          }
+        }
+      },
+      {
+        "id": "palau-05",
+        "src": "/assets/artistic/palau/palau-05.jpg",
+        "small": "/assets/artistic/palau/palau-05-640.jpg",
+        "width": 1012,
+        "height": 1800,
+        "smallWidth": 360,
+        "alt": "Ficha branca fixada junto a uma obra",
+        "translations": {
+          "en": {
+            "alt": "White exhibition label fixed beside an artwork"
+          },
+          "es": {
+            "alt": "Ficha blanca colocada junto a una obra"
+          },
+          "ca": {
+            "alt": "Cartel·la blanca fixada al costat d’una obra"
+          }
+        }
+      },
+      {
+        "id": "palau-06",
+        "src": "/assets/artistic/palau/palau-06.jpg",
+        "small": "/assets/artistic/palau/palau-06-640.jpg",
+        "width": 1012,
+        "height": 1800,
+        "smallWidth": 360,
+        "alt": "Peça pintada montada em uma parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Painted piece mounted on a stone wall"
+          },
+          "es": {
+            "alt": "Pieza pintada instalada en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Peça pintada instal·lada en una paret de pedra"
+          }
+        }
+      },
+      {
+        "id": "palau-07",
+        "src": "/assets/artistic/palau/palau-07.jpg",
+        "small": "/assets/artistic/palau/palau-07-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Pessoa de roxo diante de obras coloridas na exposição",
+        "translations": {
+          "en": {
+            "alt": "Person in purple in front of colourful works at the exhibition"
+          },
+          "es": {
+            "alt": "Persona de morado ante obras de colores en la exposición"
+          },
+          "ca": {
+            "alt": "Persona de lila davant d’obres de colors a l’exposició"
+          }
+        }
+      },
+      {
+        "id": "palau-08",
+        "src": "/assets/artistic/palau/palau-08.jpg",
+        "small": "/assets/artistic/palau/palau-08-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Pessoa de roxo com as mãos junto ao peito diante de obra amarela",
+        "translations": {
+          "en": {
+            "alt": "Person in purple with hands at their chest before a yellow artwork"
+          },
+          "es": {
+            "alt": "Persona de morado con las manos junto al pecho ante una obra amarilla"
+          },
+          "ca": {
+            "alt": "Persona de lila amb les mans al pit davant d’una obra groga"
+          }
+        }
+      },
+      {
+        "id": "palau-09",
+        "src": "/assets/artistic/palau/palau-09.jpg",
+        "small": "/assets/artistic/palau/palau-09-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Cadeira pintada ao lado de obra amarela e azul",
+        "translations": {
+          "en": {
+            "alt": "Painted chair beside a yellow and blue artwork"
+          },
+          "es": {
+            "alt": "Silla pintada junto a una obra amarilla y azul"
+          },
+          "ca": {
+            "alt": "Cadira pintada al costat d’una obra groga i blava"
+          }
+        }
+      }
+    ],
+    "subtitle": "Exposição coletiva de arte contemporânea no Palau Dalmases, em Barcelona"
+  },
+  {
+    "id": "editorial-monad",
+    "slug": "monad",
+    "title": "MONAD",
+    "section": "exhibitions",
+    "displayOrder": 2,
+    "status": "draft",
+    "releaseAuthorized": false,
+    "description": "A MONAD, plataforma artística sediada em Nova York, promove exposições internacionais que conectam artistas de diferentes origens e linguagens visuais.\n\nParticipei de duas edições em Barcelona, com duas obras fotográficas selecionadas para as mostras. A experiência permitiu apresentar meu trabalho autoral em um contexto internacional e ampliar minha presença no circuito independente de arte e fotografia.",
+    "translations": {
+      "en": {
+        "description": "MONAD, an arts platform based in New York, organises international exhibitions that bring together artists from different backgrounds and visual disciplines.\n\nI took part in two editions in Barcelona, with two photographic works selected for the exhibitions. The experience allowed me to present my personal work in an international context and extend my presence in independent art and photography.",
+        "subtitle": "Two photographs selected for MONAD exhibitions in Barcelona"
+      },
+      "es": {
+        "description": "MONAD, una plataforma artística con sede en Nueva York, organiza exposiciones internacionales que conectan a artistas de distintos orígenes y lenguajes visuales.\n\nParticipé en dos ediciones en Barcelona, con dos obras fotográficas seleccionadas para las muestras. La experiencia me permitió presentar mi obra de autor en un contexto internacional y ampliar mi presencia en el circuito independiente del arte y la fotografía.",
+        "subtitle": "Dos obras fotográficas seleccionadas para exposiciones de MONAD en Barcelona"
+      },
+      "ca": {
+        "description": "MONAD, una plataforma artística amb seu a Nova York, organitza exposicions internacionals que connecten artistes de diferents procedències i llenguatges visuals.\n\nVaig participar en dues edicions a Barcelona, amb dues obres fotogràfiques seleccionades per a les mostres. L’experiència em va permetre presentar la meva obra d’autora en un context internacional i ampliar la meva presència en el circuit independent de l’art i la fotografia.",
+        "subtitle": "Dues obres fotogràfiques seleccionades per a exposicions de MONAD a Barcelona"
+      }
+    },
+    "coverImage": {
+      "id": "monad-01",
+      "src": "/assets/artistic/monad/monad-01.jpg",
+      "small": "/assets/artistic/monad/monad-01-640.jpg",
+      "width": 1350,
+      "height": 1800,
+      "smallWidth": 480,
+      "alt": "Pessoa de blazer claro diante de obras emolduradas na parede de pedra",
+      "translations": {
+        "en": {
+          "alt": "Person in a light blazer in front of framed works on a stone wall"
+        },
+        "es": {
+          "alt": "Persona con americana clara ante obras enmarcadas en una pared de piedra"
+        },
+        "ca": {
+          "alt": "Persona amb americana clara davant d’obres emmarcades en una paret de pedra"
+        }
+      }
+    },
+    "galleryImages": [
+      {
+        "id": "monad-01",
+        "src": "/assets/artistic/monad/monad-01.jpg",
+        "small": "/assets/artistic/monad/monad-01-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Pessoa de blazer claro diante de obras emolduradas na parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Person in a light blazer in front of framed works on a stone wall"
+          },
+          "es": {
+            "alt": "Persona con americana clara ante obras enmarcadas en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Persona amb americana clara davant d’obres emmarcades en una paret de pedra"
+          }
+        }
+      },
+      {
+        "id": "monad-02",
+        "src": "/assets/artistic/monad/monad-02.jpg",
+        "small": "/assets/artistic/monad/monad-02-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Pessoa posa junto a obras coloridas sobre uma parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Person posing with colourful works against a stone wall"
+          },
+          "es": {
+            "alt": "Persona posa junto a obras de colores en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Persona posa al costat d’obres de colors en una paret de pedra"
+          }
+        }
+      },
+      {
+        "id": "monad-03",
+        "src": "/assets/artistic/monad/monad-03.jpg",
+        "small": "/assets/artistic/monad/monad-03-640.jpg",
+        "width": 1012,
+        "height": 1800,
+        "smallWidth": 360,
+        "alt": "Pessoa de roupa estampada junto a fotografias em uma parede branca",
+        "translations": {
+          "en": {
+            "alt": "Person in patterned clothing beside photographs on a white wall"
+          },
+          "es": {
+            "alt": "Persona con ropa estampada junto a fotografías en una pared blanca"
+          },
+          "ca": {
+            "alt": "Persona amb roba estampada vora fotografies en una paret blanca"
+          }
+        }
+      },
+      {
+        "id": "monad-04",
+        "src": "/assets/artistic/monad/monad-04.jpg",
+        "small": "/assets/artistic/monad/monad-04-640.jpg",
+        "width": 1350,
+        "height": 1800,
+        "smallWidth": 480,
+        "alt": "Obras em molduras escuras em uma parede de galeria",
+        "translations": {
+          "en": {
+            "alt": "Dark-framed works on a gallery wall"
+          },
+          "es": {
+            "alt": "Obras en marcos oscuros en una pared de galería"
+          },
+          "ca": {
+            "alt": "Obres en marcs foscos en una paret de galeria"
+          }
+        }
+      }
+    ],
+    "subtitle": "Duas obras fotográficas selecionadas para exposições da MONAD em Barcelona"
   }
 ]
