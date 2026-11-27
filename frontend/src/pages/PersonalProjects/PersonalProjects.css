@@ -16,6 +16,7 @@
 .project-statement { max-width: 640px; margin: 64px auto; font-size: 15px; white-space: pre-line; }
 .project-statement p + p, .project-statement section { margin-top: 24px; }
 .project-statement h2 { font: 400 28px var(--font-display); margin-bottom: 16px; }
+.project-external-links { display: flex; flex-wrap: wrap; column-gap: 24px; }
 .project-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: clamp(24px, 5vw, 72px); }
 .project-gallery .landscape { grid-column: 1 / -1; }
 .project-gallery button { width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; }
@@ -25,8 +26,10 @@
 .project-lightbox button { background: none; color: inherit; border: 0; min-height: 48px; min-width: 48px; font-size: 28px; cursor: pointer; }
 .project-lightbox button:focus-visible { outline: 2px solid var(--fog); }
 .project-close { position: absolute; top: 8px; right: 16px; }
-.project-stage { display: flex; align-items: center; justify-content: center; height: 100%; }
-.project-stage img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+.project-zoom { position: absolute; top: 8px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; }
+.project-zoom button[aria-disabled="true"] { opacity: .45; cursor: default; }
+.project-stage { display: grid; grid: minmax(0, 1fr) / minmax(0, 1fr); place-items: safe center; height: 100%; overflow: auto; container-type: size; }
+.project-stage img { width: calc(min(100cqw, 100cqh * var(--photo-ratio), var(--photo-width)) * var(--zoom)); max-width: none; height: auto; }
 .project-controls { display: flex; align-items: center; gap: 28px; position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 12px; }
 @media (max-width: 768px) { .projects-page { padding-top: 112px; } .project-list, .project-gallery { grid-template-columns: minmax(0, 1fr); gap: 40px; } .project-preview:nth-child(even) { margin-top: 0; } .project-statement { margin: 40px auto; } }
 

@@ -24,8 +24,20 @@ function ProjectCover({ image, language, ...props }) {
 function ProjectLightbox({ images, initialIndex, onClose, returnFocus }) {
   const { t, i18n } = useTranslation();
   const [index, setIndex] = useState(initialIndex);
+  const [zoom, setZoom] = useState(1);
   const dialog = useRef(null);
-  const move = step => setIndex(value => (value + step + images.length) % images.length);
+  const stage = useRef(null);
+  const image = images[index];
+  const move = step => {
+    setIndex(value => (value + step + images.length) % images.length);
+    setZoom(1);
+  };
+  const changeZoom = step => setZoom(value => Math.max(1, Math.min(3, value + step)));
+  useEffect(() => {
+    const viewport = stage.current;
+    viewport.scrollLeft = (viewport.scrollWidth - viewport.clientWidth) / 2;
+    viewport.scrollTop = (viewport.scrollHeight - viewport.clientHeight) / 2;
+  }, [zoom, index]);
   useEffect(() => {
     const trigger = returnFocus;
     const overflow = document.body.style.overflow;
@@ -44,7 +56,14 @@ function ProjectLightbox({ images, initialIndex, onClose, returnFocus }) {
     }
   }}>
     <button className="project-close" onClick={onClose} aria-label={t("gallery.close")} autoFocus>×</button>
-    <div className="project-stage"><Photograph image={images[index]} language={i18n.resolvedLanguage} /></div>
+    <div className="project-zoom">
+      <button onClick={() => changeZoom(-0.5)} aria-disabled={zoom === 1} aria-label={t("gallery.zoomOut")}>−</button>
+      <button onClick={() => changeZoom(0.5)} aria-disabled={zoom === 3} aria-label={t("gallery.zoomIn")}>+</button>
+    </div>
+    <div className="project-stage" ref={stage} tabIndex={zoom > 1 ? 0 : undefined}>
+      <Photograph image={image} language={i18n.resolvedLanguage}
+        style={{ "--zoom": zoom, "--photo-ratio": image.width / image.height, "--photo-width": `${image.width}px` }} />
+    </div>
     <div className="project-controls">
       <button onClick={() => move(-1)} aria-label={t("gallery.previous")}>←</button>
       <span aria-live="polite" aria-atomic="true">{t("gallery.position", { current: index + 1, total: images.length })}</span>
@@ -133,13 +152,18 @@ export function ProjectDetail({ project, basePath = "/personal-projects", previo
       {content.subtitle && <p>{content.subtitle}</p>}
     </header>
     <ProjectCover image={project.coverImage} language={language} sizes="87vw" fetchPriority="high" />
-    {(content.description || content.awardDetails || content.credits?.length > 0) && <div className="project-statement">
+    {(content.description || content.awardDetails || content.credits?.length > 0 || content.externalLinks?.length > 0) && <div className="project-statement">
       {paragraphs(content.description)}
       {content.awardDetails && <section>
         <h2>{content.awardTitle}</h2>
         {paragraphs(content.awardDetails)}
       </section>}
       {content.credits?.length > 0 && <section><h2>{t("projects.credits")}</h2>{content.credits.map(credit => <p key={credit}>{credit}</p>)}</section>}
+      {content.externalLinks?.length > 0 && <div className="project-external-links">
+        {content.externalLinks.map(({ labelKey, url }) => <a className="project-link" key={url} href={url}>
+          {t(labelKey)} <span aria-hidden="true">↗</span>
+        </a>)}
+      </div>}
     </div>}
     {project.videos?.map((video, index) => <video
       className="project-video"

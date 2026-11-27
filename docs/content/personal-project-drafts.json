@@ -147,12 +147,7 @@
         "titleKey": "projects.rosalia.actOne",
         "ids": [
           "rosalia-02",
-          "rosalia-05"
-        ]
-      },
-      {
-        "titleKey": "projects.rosalia.actTwo",
-        "ids": [
+          "rosalia-05",
           "rosalia-01",
           "rosalia-03",
           "rosalia-04"
@@ -164,7 +159,7 @@
     "id": "personal-melanina",
     "slug": "melanina",
     "title": "Melanina: Mirrors of the Soul",
-    "category": "documentary",
+    "category": "photography",
     "description": "O documentário Melanina: Mirrors of the Soul apresenta as histórias de nove mulheres negras, que partilham as suas vivências, experiências e desafios ao longo da vida.\n\nOs seus testemunhos mostram diferentes realidades de ser mulher e negra na sociedade e abordam identidade, autoestima, beleza, racismo, discriminação e aceitação pessoal.\n\nAs histórias revelam como estas mulheres enfrentaram preconceitos, julgamentos e dificuldades por causa da cor da pele e da sua origem. Mostram também a importância de reconhecer a própria identidade, valorizar as raízes e sentir orgulho da sua ancestralidade.\n\nO filme dá espaço às emoções, às memórias e às experiências pessoais de cada mulher. Apesar da experiência partilhada de serem mulheres negras, cada uma tem uma história única.",
     "coverImage": {
       "id": "melanina-04",
@@ -391,22 +386,22 @@
     "category": "fashion",
     "description": "Pure Colours é um projeto fotográfico que explora a intensidade das cores para celebrar e enaltecer a beleza da pele negra. Nasceu da vontade de questionar a ideia de que pessoas negras precisam estar associadas a determinadas paletas ou estéticas e de mostrar que é possível ser negro, colorido, vibrante e expressivo.\n\nInspirado no trabalho do fotógrafo brasileiro Rafael Pavarotti, o projeto combina uma estética editorial com cores intensas em composições divertidas, ousadas e cheias de personalidade. Uma celebração da diversidade, da identidade e da liberdade de expressão através da fotografia.",
     "coverImage": {
-      "id": "pure-colours-04",
-      "src": "/assets/artistic/pure-colours/pure-colours-04.jpg",
-      "small": "/assets/artistic/pure-colours/pure-colours-04-640.jpg",
-      "width": 1800,
-      "height": 1200,
-      "smallWidth": 640,
-      "alt": "Modelo ergue uma bolsa verde e segura uma trança",
+      "id": "pure-colours-05",
+      "src": "/assets/artistic/pure-colours/pure-colours-05.jpg",
+      "small": "/assets/artistic/pure-colours/pure-colours-05-640.jpg",
+      "width": 1200,
+      "height": 1800,
+      "smallWidth": 427,
+      "alt": "Close de perfil entre mangas de estampa colorida",
       "translations": {
         "en": {
-          "alt": "Model holding up a green handbag and a braid"
+          "alt": "Profile close-up framed by brightly patterned sleeves"
         },
         "es": {
-          "alt": "Modelo que levanta un bolso verde y sostiene una trenza"
+          "alt": "Primer plano de perfil entre mangas estampadas de colores"
         },
         "ca": {
-          "alt": "Model que aixeca una bossa verda i sosté una trena"
+          "alt": "Primer pla de perfil entre mànigues estampades de colors"
         }
       }
     },
@@ -774,6 +769,126 @@
             "alt": "Persona amb vestit clar vora una porta en un espai pintat"
           }
         }
+      },
+      {
+        "id": "whats-your-story-06",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-06.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-06-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 426,
+        "alt": "Pessoa com casaco laranja inclinada sobre uma pintura",
+        "translations": {
+          "en": {
+            "alt": "Person in an orange jacket leaning over a painting"
+          },
+          "es": {
+            "alt": "Persona con chaqueta naranja inclinada sobre una pintura"
+          },
+          "ca": {
+            "alt": "Persona amb jaqueta taronja inclinada sobre una pintura"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-07",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-07.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-07-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Mãos sobre uma pintura colorida, ao lado de uma manga laranja",
+        "translations": {
+          "en": {
+            "alt": "Hands over a colourful painting beside an orange sleeve"
+          },
+          "es": {
+            "alt": "Manos sobre una pintura de colores junto a una manga naranja"
+          },
+          "ca": {
+            "alt": "Mans sobre una pintura de colors al costat d’una màniga taronja"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-08",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-08.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-08-640.jpg",
+        "width": 1800,
+        "height": 1200,
+        "smallWidth": 640,
+        "alt": "Pessoa agachada ao lado de um círculo pintado à beira-mar",
+        "translations": {
+          "en": {
+            "alt": "Person crouching beside a painted circle by the sea"
+          },
+          "es": {
+            "alt": "Persona agachada junto a un círculo pintado frente al mar"
+          },
+          "ca": {
+            "alt": "Persona ajupida al costat d’un cercle pintat vora el mar"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-09",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-09.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-09-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 426,
+        "alt": "Pessoa pintando anéis amarelos e vermelhos",
+        "translations": {
+          "en": {
+            "alt": "Person painting yellow and red rings"
+          },
+          "es": {
+            "alt": "Persona pintando anillos amarillos y rojos"
+          },
+          "ca": {
+            "alt": "Persona pintant anells grocs i vermells"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-10",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-10.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-10-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 426,
+        "alt": "Pintura colorida estendida ao longo de um passeio à beira-mar",
+        "translations": {
+          "en": {
+            "alt": "Colourful painting laid out along a seaside walkway"
+          },
+          "es": {
+            "alt": "Pintura de colores extendida a lo largo de un paseo marítimo"
+          },
+          "ca": {
+            "alt": "Pintura de colors estesa al llarg d’un passeig marítim"
+          }
+        }
+      },
+      {
+        "id": "whats-your-story-11",
+        "src": "/assets/artistic/whats-your-story/whats-your-story-11.jpg",
+        "small": "/assets/artistic/whats-your-story/whats-your-story-11-640.jpg",
+        "width": 1200,
+        "height": 1800,
+        "smallWidth": 426,
+        "alt": "Duas pessoas junto a uma pintura comprida à beira-mar",
+        "translations": {
+          "en": {
+            "alt": "Two people beside a long painting by the sea"
+          },
+          "es": {
+            "alt": "Dos personas junto a una pintura alargada frente al mar"
+          },
+          "ca": {
+            "alt": "Dues persones al costat d’una pintura allargada vora el mar"
+          }
+        }
       }
     ],
     "videos": [
@@ -800,26 +915,26 @@
   {
     "id": "personal-ticiani",
     "slug": "ticiani",
-    "title": "Ticiani: The Renaissance of a Pop Star",
-    "category": "documentary",
+    "title": "Ticiani: The Renaissance of Popstar",
+    "category": "miniDocumentary",
     "description": "Este projeto fotográfico deu origem a um documentário sobre Ticiani Carriel, conhecida como Tici, e sua trajetória de renascimento por meio da moda. Ao visitar diferentes lugares, ela revisita memórias que revelam as influências e referências que ajudaram a construir sua identidade.",
     "coverImage": {
-      "id": "ticiani-06",
-      "src": "/assets/artistic/ticiani/ticiani-06.jpg",
-      "small": "/assets/artistic/ticiani/ticiani-06-640.jpg",
+      "id": "ticiani-03",
+      "src": "/assets/artistic/ticiani/ticiani-03.jpg",
+      "small": "/assets/artistic/ticiani/ticiani-03-640.jpg",
       "width": 1200,
       "height": 1800,
       "smallWidth": 427,
-      "alt": "Ticiani sentada sobre uma mureta diante de murais coloridos",
+      "alt": "Ticiani em pé entre obras no ateliê",
       "translations": {
         "en": {
-          "alt": "Ticiani seated on a low wall in front of colourful murals"
+          "alt": "Ticiani standing among artworks in a studio"
         },
         "es": {
-          "alt": "Ticiani sentada en un murete ante murales de colores"
+          "alt": "Ticiani de pie entre obras en un taller"
         },
         "ca": {
-          "alt": "Ticiani asseguda en un mur baix davant de murals de colors"
+          "alt": "Ticiani dreta entre obres en un taller"
         }
       }
     },
@@ -1627,7 +1742,17 @@
         }
       }
     ],
-    "subtitle": "Revista editorial neerlandesa"
+    "subtitle": "Revista editorial neerlandesa",
+    "externalLinks": [
+      {
+        "labelKey": "projects.external.selinIssue",
+        "url": "https://www.magcloud.com/browse/issue/3436917?__r=3435483"
+      },
+      {
+        "labelKey": "projects.external.selinInstagram",
+        "url": "https://www.instagram.com/selin.magazine/"
+      }
+    ]
   },
   {
     "id": "editorial-vogue",
@@ -1714,7 +1839,13 @@
         }
       }
     ],
-    "subtitle": "Fotografia selecionada para o acervo da Vogue.com"
+    "subtitle": "Fotografia selecionada para o acervo da Vogue.com",
+    "externalLinks": [
+      {
+        "labelKey": "projects.external.photoVogue",
+        "url": "https://www.vogue.com/photovogue/photographers/417719/gallery#5711979"
+      }
+    ]
   },
   {
     "id": "editorial-mudar",
@@ -1746,22 +1877,22 @@
       }
     },
     "coverImage": {
-      "id": "mudar-02",
-      "src": "/assets/artistic/mudar/mudar-02.jpg",
-      "small": "/assets/artistic/mudar/mudar-02-640.jpg",
+      "id": "mudar-05",
+      "src": "/assets/artistic/mudar/mudar-05.jpg",
+      "small": "/assets/artistic/mudar/mudar-05-640.jpg",
       "width": 1800,
       "height": 1200,
       "smallWidth": 640,
-      "alt": "Perfil de Lorena ao lado de seu reflexo no vidro",
+      "alt": "Lorena de perfil entre pilares e reflexos",
       "translations": {
         "en": {
-          "alt": "Lorena in profile beside her reflection in glass"
+          "alt": "Lorena in profile amid pillars and reflections"
         },
         "es": {
-          "alt": "Lorena de perfil junto a su reflejo en un cristal"
+          "alt": "Lorena de perfil entre pilares y reflejos"
         },
         "ca": {
-          "alt": "La Lorena de perfil al costat del seu reflex al vidre"
+          "alt": "La Lorena de perfil entre pilars i reflexos"
         }
       }
     },
@@ -1975,46 +2106,26 @@
       }
     },
     "coverImage": {
-      "id": "palau-01",
-      "src": "/assets/artistic/palau/palau-01.jpg",
-      "small": "/assets/artistic/palau/palau-01-640.jpg",
-      "width": 1012,
+      "id": "palau-09",
+      "src": "/assets/artistic/palau/palau-09.jpg",
+      "small": "/assets/artistic/palau/palau-09-640.jpg",
+      "width": 1350,
       "height": 1800,
-      "smallWidth": 360,
-      "alt": "Obras emolduradas dispostas em uma parede de pedra",
+      "smallWidth": 480,
+      "alt": "Cadeira pintada ao lado de obra amarela e azul",
       "translations": {
         "en": {
-          "alt": "Framed artworks arranged on a stone wall"
+          "alt": "Painted chair beside a yellow and blue artwork"
         },
         "es": {
-          "alt": "Obras enmarcadas en una pared de piedra"
+          "alt": "Silla pintada junto a una obra amarilla y azul"
         },
         "ca": {
-          "alt": "Obres emmarcades en una paret de pedra"
+          "alt": "Cadira pintada al costat d’una obra groga i blava"
         }
       }
     },
     "galleryImages": [
-      {
-        "id": "palau-01",
-        "src": "/assets/artistic/palau/palau-01.jpg",
-        "small": "/assets/artistic/palau/palau-01-640.jpg",
-        "width": 1012,
-        "height": 1800,
-        "smallWidth": 360,
-        "alt": "Obras emolduradas dispostas em uma parede de pedra",
-        "translations": {
-          "en": {
-            "alt": "Framed artworks arranged on a stone wall"
-          },
-          "es": {
-            "alt": "Obras enmarcadas en una pared de piedra"
-          },
-          "ca": {
-            "alt": "Obres emmarcades en una paret de pedra"
-          }
-        }
-      },
       {
         "id": "palau-02",
         "src": "/assets/artistic/palau/palau-02.jpg",
@@ -2299,6 +2410,26 @@
           },
           "ca": {
             "alt": "Obres en marcs foscos en una paret de galeria"
+          }
+        }
+      },
+      {
+        "id": "monad-05",
+        "src": "/assets/artistic/monad/monad-05.jpg",
+        "small": "/assets/artistic/monad/monad-05-640.jpg",
+        "width": 1012,
+        "height": 1800,
+        "smallWidth": 360,
+        "alt": "Obras emolduradas dispostas em uma parede de pedra",
+        "translations": {
+          "en": {
+            "alt": "Framed artworks arranged on a stone wall"
+          },
+          "es": {
+            "alt": "Obras enmarcadas en una pared de piedra"
+          },
+          "ca": {
+            "alt": "Obres emmarcades en una paret de pedra"
           }
         }
       }

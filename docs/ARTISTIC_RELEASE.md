@@ -20,9 +20,21 @@ A regular `npm run build` produces the production-safe output. The three optimiz
 ## Approval
 
 - Review the four translations, gallery sequencing, publication captions and representation of the participants with Marina.
-- Confirm the spelling of *Pure Colours*, the preferred Ticiani title and the provisional association of the red-lit and monochrome Rosalía photographs with the two acts. The PhotoVogue entry records the different wording shown on the supplied screenshot.
-- Confirm the final cuts, embedded subtitles, music and publication rights for the three supplied films. Request the Rosalía short film and Melanina documentary if Marina wants them included.
-- Confirm whether the separately filed `Concurso` images under the What's Your Story? source folder belong in its gallery. The *Mudar* series uses the clearly identified embassy competition set and two supporting images from the honourable mention folder.
+- Marina confirmed *Pure Colours* and *Ticiani: The Renaissance of Popstar*. Editorial entries retain their published titles.
+- Both the red-lit and monochrome Rosalía photographs belong to Berghain. Marina will supply the La Perla photographs, official names for both acts and missing video materials.
+- Melanina is a photography-only delivery. Adding the documentary or a YouTube link after official release is a separate contracted service.
+- What's Your Story? includes six photographs from its own `Concurso` folder. The separately supplied embassy competition series belongs to *Mudar*.
+- Confirm the final cuts, embedded subtitles, music and publication rights for the three supplied films.
+
+## Video posters
+
+Each film uses its own `videos[].poster` path in [the review catalogue](content/personal-project-drafts.json). The project cover uses the separate `coverImage` field. The current poster paths under `frontend/public/` are:
+
+- What's Your Story? — `assets/artistic/whats-your-story/whats-your-story-03.jpg`
+- Ticiani — `assets/artistic/ticiani/ticiani-06.jpg`
+- Danilo: Pride 2026 — `assets/artistic/danilo/danilo-04.jpg`
+
+Once Marina selects replacements, add the optimized images and update the corresponding poster paths. Playback continues to load on demand.
 
 ## Promote approved records
 

@@ -21,7 +21,7 @@ The website gives clients a direct path from browsing Marina’s photography to 
 | Area | Status |
 | --- | --- |
 | Public website | The commercial Portfolio, About and contact experience are available on the live site. The Portfolio supports gallery filters and a keyboard-operable image viewer. |
-| Artistic Projects | Six artistic projects and three accompanying films are available for local and branch preview review. The section also includes PhotoVogue, Vrse and Selin, the Brazilian Embassy competition honourable mention with the series *Mudar*, and the Palau Sessions and MONAD exhibitions. |
+| Artistic Projects | Six artistic projects and three accompanying films are available for local and branch preview review. Melanina is presented as a photography gallery. Editorial entries include PhotoVogue, Vrse and SELiN Magazine. See the [artistic release guide](docs/ARTISTIC_RELEASE.md#video-posters) for video poster settings. |
 | Languages and accessibility | Portuguese, English, Spanish and Catalan through i18next. Responsive images, localized alternative text, keyboard gallery controls and native video controls support the artistic section. |
 | Studio admin | Portfolio administration and the backend are implemented in the repository. Production admin integration and the hosted Portfolio import are still in progress. The hosted importer code and runbook are on the admin branch. |
 
