@@ -14,6 +14,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.web.servlet.util.matcher.PathPatternRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
+import org.springframework.security.web.util.matcher.OrRequestMatcher;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 final class LoginRateLimitFilter extends OncePerRequestFilter {
@@ -23,13 +24,15 @@ final class LoginRateLimitFilter extends OncePerRequestFilter {
     private static final Duration WINDOW = Duration.ofMinutes(1);
     private final RequestMatcher login = PathPatternRequestMatcher.withDefaults()
             .matcher(HttpMethod.POST, AdminSecurityConfiguration.LOGIN);
+    private final RequestMatcher passwordAttempts = new OrRequestMatcher(login, PathPatternRequestMatcher.withDefaults()
+            .matcher(HttpMethod.POST, AdminSecurityConfiguration.BASE + "/password"));
     private final Map<String, Integer> attempts = new HashMap<>();
     private long windowStarted = System.nanoTime();
     private int serverAttempts;
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) {
-        return !login.matches(request);
+        return !passwordAttempts.matches(request);
     }
 
     @Override
@@ -41,7 +44,7 @@ final class LoginRateLimitFilter extends OncePerRequestFilter {
             response.setStatus(429);
             return;
         }
-        String password = request.getParameter("password");
+        String password = login.matches(request) ? request.getParameter("password") : null;
         if (password != null && password.getBytes(StandardCharsets.UTF_8).length > 72) {
             response.setStatus(401);
             return;

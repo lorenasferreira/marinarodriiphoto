@@ -79,6 +79,8 @@
 .admin-login-panel { padding: clamp(24px, 5vw, 40px); border: 1px solid #d9d1c5; background: #faf8f3; }
 .admin-login-panel > * + *, .admin-login-panel form > * + * { margin-top: 18px; }
 .admin-login-panel > a { display: inline-block; text-decoration: underline; }
+.admin-password-form { max-width: 420px; margin-top: 18px; }
+.admin-password-form > * + * { margin-top: 18px; }
 .admin-session-bar { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 12px; margin-bottom: 16px; overflow-wrap: anywhere; }
 .admin-photo-editor { display: grid; gap: 12px; margin-top: 16px; }
 .admin-photo-editor > button { justify-self: start; }

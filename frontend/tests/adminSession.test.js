@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { currentSession, signIn, signOut } from "../src/dev/adminSession.js";
+import { changePassword, currentSession, signIn, signOut } from "../src/dev/adminSession.js";
 
 function stubRequests(t, steps) {
   let index = 0;
@@ -18,7 +18,7 @@ function stubRequests(t, steps) {
 }
 
 const csrf = token => ({ headerName: "X-CSRF-TOKEN", token });
-const session = { email: "admin@example.test" };
+const session = { email: "admin@example.test", passwordChangeRequired: false };
 
 test("sign-in sends a session-bound CSRF token and verifies the server session", async t => {
   stubRequests(t, [
@@ -76,4 +76,30 @@ test("sign-out requests a fresh CSRF token and posts it without credentials in t
   ]);
   await signOut();
   assert.equal(await currentSession(), null);
+});
+
+test("restores a restricted session and submits a password change with fresh CSRF", async t => {
+  const pending = { ...session, passwordChangeRequired: true };
+  stubRequests(t, [
+    ["session", 200, pending],
+    ["csrf", 200, csrf("password-token")],
+    ["password", 204, undefined, ({ method, headers, body }) => {
+      assert.equal(method, "POST");
+      assert.equal(headers["X-CSRF-TOKEN"], "password-token");
+      assert.equal(headers["Content-Type"], "application/json");
+      assert.deepEqual(JSON.parse(body), {
+        currentPassword: "test-temporary-password",
+        newPassword: "test-replacement-password",
+      });
+    }],
+    ["session", 401],
+  ]);
+  assert.deepEqual(await currentSession(), pending);
+  await changePassword("test-temporary-password", "test-replacement-password");
+  assert.equal(await currentSession(), null);
+});
+
+test("fails closed when a session response omits password-change status", async t => {
+  stubRequests(t, [["session", 200, { email: session.email }]]);
+  await assert.rejects(currentSession(), /dados incompletos/);
 });
