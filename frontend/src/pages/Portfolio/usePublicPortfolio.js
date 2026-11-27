@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { bundledPhotos, fetchPublicPortfolio } from "./portfolioSource.js";
 
-const useApi = import.meta.env.DEV && import.meta.env.VITE_PUBLIC_PORTFOLIO_API === "true";
+const useApi = import.meta.env.VITE_PUBLIC_PORTFOLIO_API === "true";
 
 export default function usePublicPortfolio(onPhotos) {
   const [result, setResult] = useState(() => useApi

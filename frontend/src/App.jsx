@@ -14,8 +14,8 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import { PersonalProjects, PersonalProject } from "./pages/PersonalProjects/PersonalProjects";
 import { publishedProjects, projectContent } from "./data/personalProjects";
 
-// Vite removes both imports and route elements from the production bundle.
-const AdminGate = import.meta.env.DEV ? lazy(() => import("./dev/AdminGate")) : null;
+const adminEnabled = import.meta.env.DEV || import.meta.env.VITE_ADMIN_ENABLED === "true";
+const AdminGate = adminEnabled ? lazy(() => import("./dev/AdminGate")) : null;
 const ProjectPreview = import.meta.env.DEV ? lazy(() => import("./dev/ProjectPreview")) : null;
 
 function NotFound() {
@@ -26,7 +26,7 @@ function NotFound() {
 function App() {
   const location = useLocation();
   const { t, i18n } = useTranslation();
-  const isAdmin = import.meta.env.DEV && /^\/admin(?:\/|$)/.test(location.pathname);
+  const isAdmin = adminEnabled && /^\/admin(?:\/|$)/.test(location.pathname);
 
   useEffect(() => {
     const titles = {
@@ -67,10 +67,8 @@ function App() {
         <Route path="/portfolio/:type" element={<Portfolio />} />
         <Route path="/personal-projects" element={<PersonalProjects />} />
         <Route path="/personal-projects/:slug" element={<PersonalProject />} />
-        {import.meta.env.DEV && <>
-          <Route path="/admin/*" element={<Suspense fallback={<main className="projects-page">Carregando o painel…</main>}><AdminGate /></Suspense>} />
-          <Route path="/dev/personal-projects/:slug?" element={<Suspense fallback={<main className="projects-page">Loading preview…</main>}><ProjectPreview /></Suspense>} />
-        </>}
+        {adminEnabled && <Route path="/admin/*" element={<Suspense fallback={<main className="projects-page">Carregando o painel…</main>}><AdminGate /></Suspense>} />}
+        {import.meta.env.DEV && <Route path="/dev/personal-projects/:slug?" element={<Suspense fallback={<main className="projects-page">Loading preview…</main>}><ProjectPreview /></Suspense>} />}
         <Route path="*" element={<NotFound />} />
       </Routes>
 

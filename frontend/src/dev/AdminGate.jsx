@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import AdminPrototype from "./AdminPrototype";
+import AdminPasswordForm from "./AdminPasswordForm";
 import { currentSession, signIn, signOut } from "./adminSession";
 
 const sessionUnavailable = "Não foi possível verificar sua sessão. Confira se o servidor está funcionando e tente novamente.";
@@ -13,6 +14,10 @@ export default function AdminGate() {
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
   const signedInEmail = session?.email;
+  const passwordChanged = () => {
+    setSession(null);
+    setMessage("Senha alterada. Entre novamente com a nova senha.");
+  };
   const endSession = useCallback(() => {
     setSession(null);
     setMessage("Sua sessão terminou. Entre novamente para continuar.");
@@ -87,9 +92,19 @@ export default function AdminGate() {
     }
   }
 
+  if (session?.passwordChangeRequired) {
+    return <main className="admin-shell admin-login">
+      <section className="admin-login-panel">
+        <AdminPasswordForm required onChanged={passwordChanged} onExpired={endSession} />
+        {message && <p role="alert">{message}</p>}
+        <button type="button" onClick={handleLogout} disabled={busy}>Sair</button>
+      </section>
+    </main>;
+  }
+
   if (session) {
     return <AdminPrototype key={session.email} session={session} onLogout={handleLogout} signingOut={busy}
-      sessionMessage={message} onSessionExpired={endSession} />;
+      sessionMessage={message} onSessionExpired={endSession} onPasswordChanged={passwordChanged} />;
   }
 
   return (

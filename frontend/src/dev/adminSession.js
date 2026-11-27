@@ -26,7 +26,9 @@ export async function currentSession(signal) {
   try {
     const response = await request("session", { signal });
     const session = await response.json();
-    if (typeof session.email !== "string" || !session.email) throw new Error("O servidor retornou dados incompletos da sessão.");
+    if (typeof session.email !== "string" || !session.email || typeof session.passwordChangeRequired !== "boolean") {
+      throw new Error("O servidor retornou dados incompletos da sessão.");
+    }
     return session;
   } catch (error) {
     if (error.status === 401) return null;
@@ -62,4 +64,11 @@ export async function signIn(email, password) {
 
 export function signOut() {
   return writeWithCsrf("logout", "POST");
+}
+
+export function changePassword(currentPassword, newPassword) {
+  return writeWithCsrf("password", "POST", {
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ currentPassword, newPassword }),
+  });
 }

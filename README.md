@@ -60,7 +60,7 @@ Main goals:
 
 ## Deployment
 
-- Vercel
+- Vercel ([production admin and commercial portfolio rollout](docs/PRODUCTION_ADMIN.md))
 
 ---
 

@@ -65,7 +65,7 @@ test("expired sessions are recognized on reads and when expiry rejects CSRF", as
 });
 
 test("CSRF rejection on a valid session remains forbidden", async t => {
-  requests(t, [token, ["photos/1", 403], ["session", 200, { email: "admin@example.test" }]]);
+  requests(t, [token, ["photos/1", 403], ["session", 200, { email: "admin@example.test", passwordChangeRequired: false }]]);
   await assert.rejects(updatePortfolioPhoto(1, {}), { status: 403 });
 });
 

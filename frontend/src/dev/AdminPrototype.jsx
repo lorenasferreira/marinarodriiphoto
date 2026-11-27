@@ -1,41 +1,21 @@
-import { useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { Link, NavLink, Route, Routes } from "react-router-dom";
 import { portfolioTypes as categories } from "../pages/Category/portfolioData";
 import { categoryLabels } from "./adminCopy";
-import { demoProjects } from "./demoProjects";
 import PortfolioPhotoManager from "./PortfolioPhotoManager";
 import usePortfolioPhotos from "./usePortfolioPhotos";
+import AdminPasswordForm from "./AdminPasswordForm";
 import "./prototype.css";
 
-const sampleLabels = {
-  "honorable-mention": "Menção honrosa",
-  "painting-collaboration": "Colaboração com pintura",
-  rosalia: "Rosalía",
-  melanina: "Melanina",
-};
-
-function ProjectSamples() {
-  return <>
-    <div className="admin-section-heading">
-      <div><p className="prototype-eyebrow">Recurso futuro</p><h1>Projetos pessoais</h1></div>
-    </div>
-    <p className="admin-note">Prévia com exemplos fictícios, disponível apenas para visualização.</p>
-    <ul className="admin-project-list">
-      {demoProjects.map(project => <li className="admin-project-row" key={project.id}>
-        <span aria-hidden="true" className="admin-project-sample">Prévia</span>
-        <strong>{sampleLabels[project.slug]}</strong>
-        <span className="admin-badge">Exemplo</span>
-      </li>)}
-    </ul>
-  </>;
-}
+const ProjectSamples = import.meta.env.DEV
+  ? lazy(() => import("./AdminProjectSamples").then(module => ({ default: module.ProjectSamples }))) : null;
+const ProjectSampleStatistics = import.meta.env.DEV
+  ? lazy(() => import("./AdminProjectSamples").then(module => ({ default: module.ProjectSampleStatistics }))) : null;
 
 function Overview({ photos, status, changes }) {
   const counts = [
     [status === "ready" ? photos.length : "—", "Fotografias", "Portfólio comercial"],
     [categories.length, "Categorias", "Coleções do portfólio"],
-    [demoProjects.length, "Exemplos de projetos", "Prévia de um recurso futuro"],
-    [demoProjects.filter(project => project.status === "draft").length, "Exemplos em rascunho", "Projetos pessoais"],
   ];
   return <>
     <div className="admin-section-heading">
@@ -47,6 +27,7 @@ function Overview({ photos, status, changes }) {
       {counts.map(([value, label, note]) => <article key={label}>
         <strong>{value}</strong><h2>{label}</h2><p>{note}</p>
       </article>)}
+      {import.meta.env.DEV && <Suspense fallback={null}><ProjectSampleStatistics /></Suspense>}
     </div>
     <div className="admin-overview-columns">
       <section>
@@ -67,7 +48,7 @@ function Overview({ photos, status, changes }) {
   </>;
 }
 
-export default function AdminPrototype({ session, onLogout, signingOut, sessionMessage, onSessionExpired }) {
+export default function AdminPrototype({ session, onLogout, signingOut, sessionMessage, onSessionExpired, onPasswordChanged }) {
   const library = usePortfolioPhotos(onSessionExpired);
   const { photos, status } = library;
   const [changes, setChanges] = useState([]);
@@ -86,11 +67,12 @@ export default function AdminPrototype({ session, onLogout, signingOut, sessionM
       <nav aria-label="Administração">
         <NavLink end to="/admin">Visão geral</NavLink>
         <NavLink to="/admin/photos">Fotografias</NavLink>
-        <NavLink to="/admin/projects">Projetos pessoais · Prévia</NavLink>
+        <NavLink to="/admin/password">Alterar senha</NavLink>
+        {import.meta.env.DEV && <NavLink to="/admin/projects">Projetos pessoais · Prévia</NavLink>}
       </nav>
       <div className="admin-sidebar-bottom">
         <Link to="/">Ver site público ↗</Link>
-        <span>Ambiente local</span>
+        {import.meta.env.DEV && <span>Ambiente local</span>}
       </div>
     </aside>
     <main className="admin-main">
@@ -99,11 +81,12 @@ export default function AdminPrototype({ session, onLogout, signingOut, sessionM
         <button type="button" onClick={onLogout} disabled={signingOut}>{signingOut ? "Saindo…" : "Sair"}</button>
       </div>
       {sessionMessage && <p role="alert">{sessionMessage}</p>}
-      <aside className="demo-notice"><strong>Portfólio comercial</strong><p>As alterações nas fotos são salvas no banco de dados. A versão publicada do site ainda usa a galeria fixa.</p></aside>
+      {import.meta.env.VITE_PUBLIC_PORTFOLIO_API !== "true" && <aside className="demo-notice"><strong>Portfólio comercial</strong><p>As alterações nas fotos são salvas no banco de dados. A versão publicada do site ainda usa a galeria fixa.</p></aside>}
       <Routes>
         <Route index element={<Overview photos={photos} status={status} changes={changes} />} />
         <Route path="photos" element={<PortfolioPhotoManager library={library} record={record} />} />
-        <Route path="projects" element={<ProjectSamples />} />
+        <Route path="password" element={<AdminPasswordForm onChanged={onPasswordChanged} onExpired={onSessionExpired} />} />
+        {import.meta.env.DEV && <Route path="projects" element={<Suspense fallback={null}><ProjectSamples /></Suspense>} />}
         <Route path="*" element={<><h1>Página do painel não encontrada</h1><Link to="/admin">Voltar à visão geral</Link></>} />
       </Routes>
     </main>
