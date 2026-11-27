@@ -2,7 +2,15 @@ import { env } from "node:process";
 import { URL } from "node:url";
 
 const rawOrigin = env.RAILWAY_BACKEND_ORIGIN;
-const backend = rawOrigin ? new URL(rawOrigin) : null;
+const railwayHostname = /^[a-z0-9][a-z0-9-]*\.up\.railway\.app$/i;
+let backend = null;
+if (rawOrigin) {
+  try {
+    backend = new URL(railwayHostname.test(rawOrigin) ? `https://${rawOrigin}` : rawOrigin);
+  } catch {
+    throw new Error("RAILWAY_BACKEND_ORIGIN must be a bare HTTPS origin or a Railway public hostname.");
+  }
+}
 if (backend && (backend.protocol !== "https:" || backend.username || backend.password
     || backend.pathname !== "/" || backend.search || backend.hash || backend.port)) {
   throw new Error("RAILWAY_BACKEND_ORIGIN must be a bare HTTPS origin.");

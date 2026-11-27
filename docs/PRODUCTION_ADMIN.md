@@ -2,7 +2,7 @@
 
 ## Configuration and rollout
 
-1. Use Railway's `backend/` root. Keep MySQL on private networking and verify the `production` profile, `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` and the backend-only `CLOUDINARY_*` variables. Railway currently lists no public domain for the backend. With separate approval, assign an HTTPS domain to the **backend service**. Use its bare origin as `RAILWAY_BACKEND_ORIGIN` in Vercel. The current site redirects the apex to `https://www.marinarodriiphoto.com`; verify cookies and links at the final serving origin.
+1. Use Railway's `backend/` root. Keep MySQL on private networking and verify the `production` profile, `DB_URL`, `DB_USERNAME`, `DB_PASSWORD` and the backend-only `CLOUDINARY_*` variables. Set `RAILWAY_BACKEND_ORIGIN` in each Vercel environment that needs the proxy. The production backend is `https://marinarodriiphoto-production.up.railway.app`. The project configuration also accepts its Railway hostname without a scheme and adds HTTPS. The site redirects the apex to `https://www.marinarodriiphoto.com`; verify cookies and links at the final serving origin.
 2. Before starting the new backend, apply Flyway V4 through the approved release migration step. The current deployment has no configured pre-deploy command. Use the new release JAR, the verified private database and production profile, and scope Flyway to this one non-web process:
 
    ```sh

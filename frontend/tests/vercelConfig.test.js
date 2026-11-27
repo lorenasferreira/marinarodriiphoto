@@ -37,3 +37,11 @@ test("rejects missing proxy origins when either production feature is enabled an
   assert.throws(() => loadConfig({ RAILWAY_BACKEND_ORIGIN: "http://backend.example.test" }), /bare HTTPS origin/);
   assert.throws(() => loadConfig({ RAILWAY_BACKEND_ORIGIN: "https://backend.example.test/api" }), /bare HTTPS origin/);
 });
+
+test("uses HTTPS when Vercel supplies a Railway public hostname without a scheme", () => {
+  const host = "marinarodriiphoto-production.up.railway.app";
+  assert.deepEqual(loadConfig({ RAILWAY_BACKEND_ORIGIN: host }), loadConfig({
+    RAILWAY_BACKEND_ORIGIN: `https://${host}`,
+  }));
+  assert.throws(() => loadConfig({ RAILWAY_BACKEND_ORIGIN: "backend.example.test" }), /bare HTTPS origin/);
+});
